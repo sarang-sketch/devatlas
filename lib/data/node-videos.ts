@@ -399,4 +399,198 @@ export const NODE_VIDEOS: Record<string, VideoResource[]> = {
     { id: "bdce-v2", title: "Layer 2 Solutions Explained", channel: "Fireship", url: "https://www.youtube.com/watch?v=7pWxCklcNsU", duration: "7:14" },
     { id: "bdce-v3", title: "How to Become a Web3 Developer", channel: "Fireship", url: "https://www.youtube.com/watch?v=EYAwj6g8Dbg", duration: "9:38" },
   ],
+
+  /* -----------------------------------------------------------------------
+   * Computer Science
+   * --------------------------------------------------------------------- */
+  "cs-programming-fundamentals": [
+    { id: "cs-pf-v1", title: "Programming Fundamentals – Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=zOjov-2OZ0E", duration: "3:46:19" },
+    { id: "cs-pf-v2", title: "Object Oriented Programming in Java", channel: "Programming with Mosh", url: "https://www.youtube.com/watch?v=pTB0EiLXUC8", duration: "1:12:26" },
+    { id: "cs-pf-v3", title: "Python Full Course for Beginners", channel: "Programming with Mosh", url: "https://www.youtube.com/watch?v=_uQrJ0TkZlc", duration: "6:14:07" },
+    { id: "cs-pf-v4", title: "Object Oriented Programming Explained", channel: "Fireship", url: "https://www.youtube.com/watch?v=m_MQYyJpIjg", duration: "5:31" },
+  ],
+
+  "cs-dsa": [
+    { id: "cs-dsa-v1", title: "Data Structures and Algorithms Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=8hly31xKli0", duration: "2:59:59" },
+    { id: "cs-dsa-v2", title: "Data Structures Easy to Advanced – Full Tutorial", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=RBSGKlAvoiM", duration: "8:03:16" },
+    { id: "cs-dsa-v3", title: "Big-O Notation in 100 Seconds", channel: "Fireship", url: "https://www.youtube.com/watch?v=g2o22C3CRfU", duration: "2:16" },
+    { id: "cs-dsa-v4", title: "Algorithms and Data Structures Tutorial", channel: "CS Dojo", url: "https://www.youtube.com/watch?v=bum_19loj9A", duration: "25:47" },
+  ],
+  "cs-operating-systems": [
+    { id: "cs-os-v1", title: "Operating Systems – Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=yK1uBHPdp30", duration: "5:23:24" },
+    { id: "cs-os-v2", title: "How Do Operating Systems Work?", channel: "Fireship", url: "https://www.youtube.com/watch?v=pVzRTmdd9j0", duration: "5:58" },
+    { id: "cs-os-v3", title: "Process vs Thread", channel: "Web Dev Simplified", url: "https://www.youtube.com/watch?v=4rLW7zg21gI", duration: "8:24" },
+  ],
+  "cs-databases": [
+    { id: "cs-db-v1", title: "SQL Tutorial – Full Database Course for Beginners", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=HXV3zeQKqGY", duration: "4:20:37" },
+    { id: "cs-db-v2", title: "7 Database Paradigms", channel: "Fireship", url: "https://www.youtube.com/watch?v=W2Z7fbCLSTw", duration: "10:21" },
+    { id: "cs-db-v3", title: "Database Indexing Explained", channel: "Web Dev Simplified", url: "https://www.youtube.com/watch?v=fsG1XaZEa78", duration: "9:32" },
+    { id: "cs-db-v4", title: "Database Design Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=ztHopE5Wnpc", duration: "8:13:10" },
+  ],
+  "cs-networking": [
+    { id: "cs-net-v1", title: "Computer Networking Full Course – OSI Model", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=qiQR5rTSshw", duration: "1:58:38" },
+    { id: "cs-net-v2", title: "TCP/IP Model Explained", channel: "NetworkChuck", url: "https://www.youtube.com/watch?v=CRdL1PVSHGk", duration: "22:08" },
+    { id: "cs-net-v3", title: "DNS in 100 Seconds", channel: "Fireship", url: "https://www.youtube.com/watch?v=UVR9lhUGAyU", duration: "3:07" },
+    { id: "cs-net-v4", title: "HTTP Crash Course & Exploration", channel: "Traversy Media", url: "https://www.youtube.com/watch?v=iYM2zFP3Zn0", duration: "38:42" },
+  ],
+  "cs-system-design": [
+    { id: "cs-sd-v1", title: "System Design for Beginners", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=F2FmTdLtb_4", duration: "1:33:56" },
+    { id: "cs-sd-v2", title: "System Design 101", channel: "Fireship", url: "https://www.youtube.com/watch?v=lX4CjIFCQ0s", duration: "8:12" },
+    { id: "cs-sd-v3", title: "Microservices Explained in 5 Minutes", channel: "TechWorld with Nana", url: "https://www.youtube.com/watch?v=lL_j7ilQbME", duration: "5:38" },
+    { id: "cs-sd-v4", title: "Load Balancing in 100 Seconds", channel: "Fireship", url: "https://www.youtube.com/watch?v=galcDRNd5Ow", duration: "2:44" },
+  ],
+
+  /* -----------------------------------------------------------------------
+   * Data Analytics
+   * --------------------------------------------------------------------- */
+  "da-spreadsheets-sql": [
+    { id: "da-ss-v1", title: "Excel Tutorial for Beginners – Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=Vl0H-qTclOg", duration: "2:45:33" },
+    { id: "da-ss-v2", title: "SQL for Data Analysis – Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=HXV3zeQKqGY", duration: "4:20:37" },
+    { id: "da-ss-v3", title: "Google Sheets Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=N2opj8XzYBY", duration: "4:07:46" },
+  ],
+  "da-python-analytics": [
+    { id: "da-pa-v1", title: "Pandas Tutorial – Data Analysis with Python", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=vmEHCJofslg", duration: "4:47:35" },
+    { id: "da-pa-v2", title: "NumPy Tutorial for Beginners", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=QUT1VHiLmmI", duration: "58:41" },
+    { id: "da-pa-v3", title: "Python for Data Analysis – Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=r-uOLxNrNk8", duration: "5:44:37" },
+    { id: "da-pa-v4", title: "Python Pandas in 100 Seconds", channel: "Fireship", url: "https://www.youtube.com/watch?v=PcvsOaixUh8", duration: "2:41" },
+  ],
+  "da-statistics": [
+    { id: "da-st-v1", title: "Statistics – Full University Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=xxpc-HPKN28", duration: "8:15:05" },
+    { id: "da-st-v2", title: "Statistics Fundamentals – StatQuest", channel: "StatQuest", url: "https://www.youtube.com/watch?v=qBigTkBLU6g", duration: "20:45" },
+    { id: "da-st-v3", title: "Probability Explained – Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=uzkc-qNVoOk", duration: "4:33:25" },
+  ],
+  "da-visualization": [
+    { id: "da-viz-v1", title: "Tableau Full Course for Beginners", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=aHaOIvR00So", duration: "6:04:33" },
+    { id: "da-viz-v2", title: "Power BI Full Course for Beginners", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=3u7MQz1EyPY", duration: "3:58:12" },
+    { id: "da-viz-v3", title: "Matplotlib Crash Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=3Xc3CA655Y4", duration: "1:38:43" },
+    { id: "da-viz-v4", title: "Data Visualization Best Practices", channel: "Fireship", url: "https://www.youtube.com/watch?v=5Zg-C8AAIGg", duration: "7:12" },
+  ],
+  "da-storytelling": [
+    { id: "da-ds-v1", title: "Data Storytelling – How to Present Data", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=r5_34YnCmMY", duration: "1:22:15" },
+    { id: "da-ds-v2", title: "Data Presentation Tips for Analysts", channel: "Alex The Analyst", url: "https://www.youtube.com/watch?v=cInTLB5xDQ0", duration: "14:37" },
+    { id: "da-ds-v3", title: "How to Communicate Data Effectively", channel: "Storytelling with Data", url: "https://www.youtube.com/watch?v=8EMW7io4rSI", duration: "22:18" },
+  ],
+
+  /* -----------------------------------------------------------------------
+   * Digital Marketing
+   * --------------------------------------------------------------------- */
+  "dm-foundations": [
+    { id: "dm-f-v1", title: "Digital Marketing Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=nU-IIXBWlS4", duration: "3:02:47" },
+    { id: "dm-f-v2", title: "Digital Marketing for Beginners – Full Course", channel: "Ahrefs", url: "https://www.youtube.com/watch?v=hiTs0rNKIhY", duration: "2:17:33" },
+    { id: "dm-f-v3", title: "Marketing Fundamentals", channel: "HubSpot Marketing", url: "https://www.youtube.com/watch?v=4ajmfzj9G3g", duration: "38:22" },
+  ],
+  "dm-seo": [
+    { id: "dm-seo-v1", title: "SEO Full Course for Beginners", channel: "Ahrefs", url: "https://www.youtube.com/watch?v=xsVTqzratPs", duration: "2:12:41" },
+    { id: "dm-seo-v2", title: "Complete SEO Course for Beginners", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=ISjaxEi7My0", duration: "1:34:56" },
+    { id: "dm-seo-v3", title: "Keyword Research Tutorial", channel: "Ahrefs", url: "https://www.youtube.com/watch?v=OMJQPqG2Uas", duration: "18:29" },
+    { id: "dm-seo-v4", title: "On-Page SEO Checklist", channel: "Ahrefs", url: "https://www.youtube.com/watch?v=jl7LZFJJMfA", duration: "12:16" },
+  ],
+  "dm-analytics": [
+    { id: "dm-an-v1", title: "Google Analytics 4 Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=u_ECkoYX64w", duration: "3:37:43" },
+    { id: "dm-an-v2", title: "Google Analytics for Beginners", channel: "Google Analytics", url: "https://www.youtube.com/watch?v=gBhBMPSROaE", duration: "42:15" },
+    { id: "dm-an-v3", title: "Web Analytics Fundamentals", channel: "HubSpot Marketing", url: "https://www.youtube.com/watch?v=i4v3T87hJEI", duration: "28:34" },
+  ],
+  "dm-social-media": [
+    { id: "dm-sm-v1", title: "Social Media Marketing Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=GjNq4P-yL3Y", duration: "5:13:47" },
+    { id: "dm-sm-v2", title: "Social Media Marketing Strategy", channel: "HubSpot Marketing", url: "https://www.youtube.com/watch?v=1lDkGZlMgN4", duration: "33:21" },
+    { id: "dm-sm-v3", title: "Content Marketing for Beginners", channel: "Ahrefs", url: "https://www.youtube.com/watch?v=LCtyU_Vf2Ns", duration: "19:44" },
+  ],
+  "dm-email-ads": [
+    { id: "dm-ea-v1", title: "Email Marketing Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=VJR0M1bCQQE", duration: "2:38:12" },
+    { id: "dm-ea-v2", title: "Google Ads Tutorial for Beginners", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=oQw8pn-xgZY", duration: "3:25:18" },
+    { id: "dm-ea-v3", title: "Facebook Ads Tutorial", channel: "HubSpot Marketing", url: "https://www.youtube.com/watch?v=s_uAU8bDMZ8", duration: "42:57" },
+    { id: "dm-ea-v4", title: "Email Marketing Tips & Strategy", channel: "Ahrefs", url: "https://www.youtube.com/watch?v=_aGI3XJOEYY", duration: "14:23" },
+  ],
+
+  /* -----------------------------------------------------------------------
+   * Embedded Systems
+   * --------------------------------------------------------------------- */
+  "emb-c-cpp": [
+    { id: "emb-cc-v1", title: "C Programming Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=KJgsSFOSQv0", duration: "3:46:13" },
+    { id: "emb-cc-v2", title: "C++ Tutorial for Beginners – Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=vLnPwxZdW4Y", duration: "4:01:19" },
+    { id: "emb-cc-v3", title: "Pointers in C / C++ – Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=zuegQmMdy8M", duration: "3:37:35" },
+    { id: "emb-cc-v4", title: "C in 100 Seconds", channel: "Fireship", url: "https://www.youtube.com/watch?v=U3aXWizDbQ4", duration: "2:38" },
+  ],
+  "emb-electronics": [
+    { id: "emb-el-v1", title: "Electronics Fundamentals – Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=lbyBRwBKlic", duration: "4:22:18" },
+    { id: "emb-el-v2", title: "Arduino Tutorial for Beginners", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=zJ-LqeX_fLU", duration: "4:00:08" },
+    { id: "emb-el-v3", title: "How Microcontrollers Work", channel: "Fireship", url: "https://www.youtube.com/watch?v=Y3Gn5pGqjKg", duration: "5:42" },
+  ],
+  "emb-rtos": [
+    { id: "emb-rt-v1", title: "RTOS Explained – Real Time Operating Systems", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=F321087yYy4", duration: "2:14:33" },
+    { id: "emb-rt-v2", title: "FreeRTOS Tutorial for Beginners", channel: "Digi-Key", url: "https://www.youtube.com/watch?v=JIr7Xm_riRs", duration: "1:18:42" },
+    { id: "emb-rt-v3", title: "RTOS vs Bare Metal – Embedded Programming", channel: "Fastbit Embedded", url: "https://www.youtube.com/watch?v=IrGjI53gR2U", duration: "22:35" },
+  ],
+  "emb-iot-protocols": [
+    { id: "emb-iot-v1", title: "IoT Full Course – Internet of Things", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=h0gWfVCSGQQ", duration: "6:02:12" },
+    { id: "emb-iot-v2", title: "MQTT Explained – IoT Protocol", channel: "Fireship", url: "https://www.youtube.com/watch?v=jTeJxQFD8Ak", duration: "4:23" },
+    { id: "emb-iot-v3", title: "BLE (Bluetooth Low Energy) Tutorial", channel: "Digi-Key", url: "https://www.youtube.com/watch?v=BeOCXjmD3cA", duration: "18:46" },
+  ],
+  "emb-embedded-linux": [
+    { id: "emb-el2-v1", title: "Embedded Linux Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=9vsu67uMcko", duration: "5:45:28" },
+    { id: "emb-el2-v2", title: "Raspberry Pi Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=eJZL8yvCbfY", duration: "2:22:41" },
+    { id: "emb-el2-v3", title: "Linux Device Drivers – Introduction", channel: "Fastbit Embedded", url: "https://www.youtube.com/watch?v=juGNPLdjLH4", duration: "34:17" },
+  ],
+
+  /* -----------------------------------------------------------------------
+   * QA / Software Testing
+   * --------------------------------------------------------------------- */
+  "qa-fundamentals": [
+    { id: "qa-f-v1", title: "Software Testing Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=u6QfIXgjwGQ", duration: "3:27:14" },
+    { id: "qa-f-v2", title: "Manual Testing Full Course for Beginners", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=oLc9gVM8FBM", duration: "4:21:37" },
+    { id: "qa-f-v3", title: "Software Testing Explained in 100 Seconds", channel: "Fireship", url: "https://www.youtube.com/watch?v=u6QfIXgjwGQ", duration: "2:48" },
+  ],
+  "qa-web-automation": [
+    { id: "qa-wa-v1", title: "Selenium Full Course for Beginners", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=j7VZsCCnptM", duration: "4:12:33" },
+    { id: "qa-wa-v2", title: "Cypress End-to-End Testing", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=u8vMu7viCm8", duration: "3:44:22" },
+    { id: "qa-wa-v3", title: "Playwright Tutorial for Beginners", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=wawbt1cATsk", duration: "2:33:18" },
+    { id: "qa-wa-v4", title: "Playwright End-to-End Testing", channel: "Fireship", url: "https://www.youtube.com/watch?v=JbHlFHU0GFA", duration: "4:39" },
+  ],
+  "qa-api-testing": [
+    { id: "qa-api-v1", title: "Postman API Testing Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=VywxIQ2ZXw4", duration: "3:47:55" },
+    { id: "qa-api-v2", title: "REST API Testing with Postman", channel: "Traversy Media", url: "https://www.youtube.com/watch?v=VywxIQ2ZXw4", duration: "45:23" },
+    { id: "qa-api-v3", title: "API Testing Tutorial for Beginners", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=qiQR5rTSshw", duration: "1:58:38" },
+  ],
+  "qa-performance": [
+    { id: "qa-perf-v1", title: "JMeter Tutorial for Beginners", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=M-iAXz8vs48", duration: "2:45:12" },
+    { id: "qa-perf-v2", title: "Load Testing with k6", channel: "k6", url: "https://www.youtube.com/watch?v=brasMBAezJY", duration: "38:41" },
+    { id: "qa-perf-v3", title: "Performance Testing Tutorial", channel: "Traversy Media", url: "https://www.youtube.com/watch?v=1-4RuHo4V5E", duration: "42:18" },
+  ],
+  "qa-cicd": [
+    { id: "qa-ci-v1", title: "GitHub Actions Tutorial", channel: "TechWorld with Nana", url: "https://www.youtube.com/watch?v=R8_veQiYBjI", duration: "32:35" },
+    { id: "qa-ci-v2", title: "CI/CD in 100 Seconds", channel: "Fireship", url: "https://www.youtube.com/watch?v=scEDHsr3APg", duration: "2:32" },
+    { id: "qa-ci-v3", title: "Jenkins Full Course for Beginners", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=pMO26jELH4U", duration: "3:07:43" },
+    { id: "qa-ci-v4", title: "Automated Testing in CI/CD Pipelines", channel: "TechWorld with Nana", url: "https://www.youtube.com/watch?v=qP8kir2GUgo", duration: "18:54" },
+  ],
+
+  /* -----------------------------------------------------------------------
+   * UX Design
+   * --------------------------------------------------------------------- */
+  "ux-design-thinking": [
+    { id: "ux-dt-v1", title: "Design Thinking Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=_r0VX-aU_T8", duration: "2:38:42" },
+    { id: "ux-dt-v2", title: "UX Design Course for Beginners", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=uL2ZB7XXIgg", duration: "1:22:15" },
+    { id: "ux-dt-v3", title: "UX Research Methods", channel: "Google Career Certificates", url: "https://www.youtube.com/watch?v=7_sFOYvGN6s", duration: "28:34" },
+  ],
+  "ux-figma": [
+    { id: "ux-fig-v1", title: "Figma Tutorial for Beginners – Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=jwCmIBJ8Jtc", duration: "3:42:25" },
+    { id: "ux-fig-v2", title: "Figma in 100 Seconds", channel: "Fireship", url: "https://www.youtube.com/watch?v=Cx2dkpBxst8", duration: "2:38" },
+    { id: "ux-fig-v3", title: "Figma UI Design Tutorial", channel: "DesignCourse", url: "https://www.youtube.com/watch?v=FTFaQWZBqQ8", duration: "58:22" },
+    { id: "ux-fig-v4", title: "Figma Auto Layout – Complete Guide", channel: "DesignCourse", url: "https://www.youtube.com/watch?v=Do31OELVH1g", duration: "24:15" },
+  ],
+  "ux-wireframing": [
+    { id: "ux-wf-v1", title: "Wireframing for Beginners", channel: "Google Career Certificates", url: "https://www.youtube.com/watch?v=qpH7-KFWZRI", duration: "32:44" },
+    { id: "ux-wf-v2", title: "Prototyping in Figma – Full Tutorial", channel: "DesignCourse", url: "https://www.youtube.com/watch?v=iBkXf6u8htI", duration: "42:18" },
+    { id: "ux-wf-v3", title: "Low-Fidelity vs High-Fidelity Wireframes", channel: "Google Career Certificates", url: "https://www.youtube.com/watch?v=RYDiDpW2VkM", duration: "14:22" },
+  ],
+  "ux-usability": [
+    { id: "ux-us-v1", title: "Usability Testing – Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=BrVnBj3m5hE", duration: "1:45:33" },
+    { id: "ux-us-v2", title: "How to Conduct User Research", channel: "Google Career Certificates", url: "https://www.youtube.com/watch?v=VUPu5YVcPYA", duration: "22:41" },
+    { id: "ux-us-v3", title: "UX Heuristic Evaluation Explained", channel: "DesignCourse", url: "https://www.youtube.com/watch?v=pEfEjq1IHqI", duration: "18:12" },
+  ],
+  "ux-design-systems": [
+    { id: "ux-dsys-v1", title: "Design Systems Full Course", channel: "freeCodeCamp", url: "https://www.youtube.com/watch?v=wc5krC28ynQ", duration: "2:12:44" },
+    { id: "ux-dsys-v2", title: "Build a Design System with Figma", channel: "DesignCourse", url: "https://www.youtube.com/watch?v=EK-pHkc5EL4", duration: "1:05:38" },
+    { id: "ux-dsys-v3", title: "Component Libraries Explained", channel: "Fireship", url: "https://www.youtube.com/watch?v=FJ5S4mJfiJY", duration: "6:32" },
+    { id: "ux-dsys-v4", title: "Design Tokens Tutorial", channel: "DesignCourse", url: "https://www.youtube.com/watch?v=Ka1I5TphDb0", duration: "22:17" },
+  ],
 };
