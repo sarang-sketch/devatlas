@@ -18,6 +18,9 @@
 import type { MetadataRoute } from "next";
 import { listPublicRoutes, type ConcreteRoute } from "@/lib/seo/routes";
 
+// Required for `output: "export"` static builds.
+export const dynamic = "force-static";
+
 /**
  * The canonical site origin used to build absolute sitemap URLs. Configurable
  * via `NEXT_PUBLIC_SITE_URL` so deployments can point at their real domain;

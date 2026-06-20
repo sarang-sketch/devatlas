@@ -57,6 +57,10 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  // Static export for Cloudflare Pages deployment.
+  output: "export",
+  distDir: "out",
+
   // Remove the "X-Powered-By: Next.js" fingerprint header.
   poweredByHeader: false,
 
