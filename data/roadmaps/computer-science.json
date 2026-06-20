@@ -1,0 +1,215 @@
+{
+  "id": "computer-science",
+  "careerPathId": "computer-science",
+  "nodes": [
+    {
+      "id": "cs-programming-fundamentals",
+      "title": "Programming Fundamentals (C & Python)",
+      "order": 1,
+      "tags": ["c", "python", "programming", "basics"],
+      "sections": {
+        "learn": [
+          { "id": "cs-1-learn-cs50", "name": "Harvard CS50: Introduction to Computer Science", "url": "https://cs50.harvard.edu/x/", "resourceType": "course", "tags": ["cs50", "c", "python"] },
+          { "id": "cs-1-learn-python", "name": "Python.org: Official Tutorial", "url": "https://docs.python.org/3/tutorial/", "resourceType": "documentation", "tags": ["python"] },
+          { "id": "cs-1-learn-c", "name": "Learn C Programming (Programiz)", "url": "https://www.programiz.com/c-programming", "resourceType": "documentation", "tags": ["c"] }
+        ],
+        "practice": [
+          { "id": "cs-1-practice-hackerrank", "name": "HackerRank: C Challenges", "url": "https://www.hackerrank.com/domains/c", "resourceType": "challenge", "tags": ["c", "practice"] },
+          { "id": "cs-1-practice-exercism-python", "name": "Exercism: Python Track", "url": "https://exercism.org/tracks/python", "resourceType": "platform", "tags": ["python", "practice"] }
+        ],
+        "build": [
+          { "projectId": "implement-a-hashmap-in-c" },
+          { "projectId": "build-a-cli-calculator-in-python" }
+        ],
+        "use": [
+          { "toolId": "vs-code" },
+          { "toolId": "python" },
+          { "toolId": "cs50" },
+          { "toolId": "github" }
+        ],
+        "deploy": [
+          { "id": "cs-1-deploy-github", "name": "Publish your code and notes on GitHub", "url": "https://github.com/", "resourceType": "deployment", "tags": ["github", "publishing"] }
+        ],
+        "career": [
+          { "id": "cs-1-career-roadmap-cs", "name": "roadmap.sh: Computer Science", "url": "https://roadmap.sh/computer-science", "resourceType": "career", "tags": ["career", "roadmap"] },
+          { "id": "cs-1-career-tech-interview-handbook", "name": "Tech Interview Handbook", "url": "https://www.techinterviewhandbook.org/", "resourceType": "career", "tags": ["career", "interview"] }
+        ]
+      }
+    },
+    {
+      "id": "cs-dsa",
+      "title": "Data Structures & Algorithms",
+      "order": 2,
+      "tags": ["dsa", "algorithms", "data-structures"],
+      "sections": {
+        "learn": [
+          { "id": "cs-2-learn-mit-ocw", "name": "MIT OpenCourseWare: Introduction to Algorithms", "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/", "resourceType": "course", "tags": ["algorithms", "mit"] },
+          { "id": "cs-2-learn-gfg-dsa", "name": "GeeksforGeeks: Data Structures", "url": "https://www.geeksforgeeks.org/data-structures/", "resourceType": "documentation", "tags": ["dsa"] },
+          { "id": "cs-2-learn-abdul-bari", "name": "Abdul Bari: Algorithms (YouTube)", "url": "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O", "resourceType": "video", "tags": ["algorithms"] }
+        ],
+        "practice": [
+          { "id": "cs-2-practice-leetcode", "name": "LeetCode: Problems by Topic", "url": "https://leetcode.com/problemset/", "resourceType": "platform", "tags": ["dsa", "leetcode"] },
+          { "id": "cs-2-practice-neetcode", "name": "NeetCode 150 Roadmap", "url": "https://neetcode.io/roadmap", "resourceType": "platform", "tags": ["dsa", "roadmap"] }
+        ],
+        "build": [
+          { "projectId": "implement-a-binary-search-tree-in-c" },
+          { "projectId": "build-and-document-neetcode-150-solutions" }
+        ],
+        "use": [
+          { "toolId": "vs-code" },
+          { "toolId": "python" },
+          { "toolId": "github" }
+        ],
+        "deploy": [
+          { "id": "cs-2-deploy-github", "name": "Publish your DSA solutions on GitHub", "url": "https://github.com/", "resourceType": "deployment", "tags": ["github", "publishing"] }
+        ],
+        "career": [
+          { "id": "cs-2-career-tech-interview-handbook", "name": "Tech Interview Handbook: Coding Interview Prep", "url": "https://www.techinterviewhandbook.org/", "resourceType": "career", "tags": ["career", "interview"] },
+          { "id": "cs-2-career-linkedin-jobs", "name": "LinkedIn Jobs: software engineering roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["career", "jobs"] }
+        ]
+      }
+    },
+    {
+      "id": "cs-operating-systems",
+      "title": "Operating Systems",
+      "order": 3,
+      "tags": ["os", "operating-systems", "linux"],
+      "sections": {
+        "learn": [
+          { "id": "cs-3-learn-ostep", "name": "OSTEP: Operating Systems: Three Easy Pieces", "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/", "resourceType": "documentation", "tags": ["os", "textbook"] },
+          { "id": "cs-3-learn-neso", "name": "Neso Academy: Operating System (YouTube)", "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAdc0cPiS", "resourceType": "video", "tags": ["os"] },
+          { "id": "cs-3-learn-linux", "name": "Linux Foundation: Intro to Linux (edX)", "url": "https://www.edx.org/learn/linux/the-linux-foundation-introduction-to-linux", "resourceType": "course", "tags": ["linux"] }
+        ],
+        "practice": [
+          { "id": "cs-3-practice-bandit", "name": "OverTheWire: Bandit (Linux CLI)", "url": "https://overthewire.org/wargames/bandit/", "resourceType": "challenge", "tags": ["linux", "cli"] }
+        ],
+        "build": [
+          { "projectId": "build-a-shell-in-c" },
+          { "projectId": "implement-a-thread-scheduler-in-c" }
+        ],
+        "use": [
+          { "toolId": "linux" },
+          { "toolId": "vs-code" },
+          { "toolId": "github" },
+          { "toolId": "git" }
+        ],
+        "deploy": [
+          { "id": "cs-3-deploy-github", "name": "Publish your OS projects and notes on GitHub", "url": "https://github.com/", "resourceType": "deployment", "tags": ["github", "publishing"] }
+        ],
+        "career": [
+          { "id": "cs-3-career-roadmap-cs", "name": "roadmap.sh: Computer Science", "url": "https://roadmap.sh/computer-science", "resourceType": "career", "tags": ["career", "roadmap"] },
+          { "id": "cs-3-career-linkedin-jobs", "name": "LinkedIn Jobs: systems engineering roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["career", "jobs"] }
+        ]
+      }
+    },
+    {
+      "id": "cs-databases",
+      "title": "Database Management Systems",
+      "order": 4,
+      "tags": ["dbms", "sql", "databases"],
+      "sections": {
+        "learn": [
+          { "id": "cs-4-learn-cmu-db", "name": "CMU 15-445: Database Systems (YouTube)", "url": "https://www.youtube.com/playlist?list=PLSE8ODhjZXjbj8BMuIrRcacnQh20hmY9g", "resourceType": "video", "tags": ["dbms", "cmu"] },
+          { "id": "cs-4-learn-sqlbolt", "name": "SQLBolt: Interactive SQL Tutorial", "url": "https://sqlbolt.com/", "resourceType": "course", "tags": ["sql"] },
+          { "id": "cs-4-learn-gfg-dbms", "name": "GeeksforGeeks: DBMS", "url": "https://www.geeksforgeeks.org/dbms/", "resourceType": "documentation", "tags": ["dbms"] }
+        ],
+        "practice": [
+          { "id": "cs-4-practice-sqlzoo", "name": "SQLZoo: Interactive SQL", "url": "https://sqlzoo.net/", "resourceType": "challenge", "tags": ["sql"] },
+          { "id": "cs-4-practice-hackerrank-sql", "name": "HackerRank: SQL Challenges", "url": "https://www.hackerrank.com/domains/sql", "resourceType": "challenge", "tags": ["sql", "practice"] }
+        ],
+        "build": [
+          { "projectId": "design-a-relational-schema-for-a-blog" },
+          { "projectId": "build-a-sql-query-engine-in-python" }
+        ],
+        "use": [
+          { "toolId": "postgresql" },
+          { "toolId": "vs-code" },
+          { "toolId": "docker" },
+          { "toolId": "github" }
+        ],
+        "deploy": [
+          { "id": "cs-4-deploy-github", "name": "Publish your schema and queries on GitHub", "url": "https://github.com/", "resourceType": "deployment", "tags": ["github", "publishing"] },
+          { "id": "cs-4-deploy-postgres-docker", "name": "Run PostgreSQL in Docker", "url": "https://hub.docker.com/_/postgres", "resourceType": "deployment", "tags": ["postgresql", "docker"] }
+        ],
+        "career": [
+          { "id": "cs-4-career-linkedin-jobs", "name": "LinkedIn Jobs: database and backend roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["career", "jobs"] }
+        ]
+      }
+    },
+    {
+      "id": "cs-networking",
+      "title": "Computer Networking",
+      "order": 5,
+      "tags": ["networking", "tcp-ip", "protocols"],
+      "sections": {
+        "learn": [
+          { "id": "cs-5-learn-kurose", "name": "Computer Networking: A Top-Down Approach (Resources)", "url": "https://gaia.cs.umass.edu/kurose_ross/lectures.php", "resourceType": "documentation", "tags": ["networking"] },
+          { "id": "cs-5-learn-cisco", "name": "Cisco Networking Essentials", "url": "https://www.netacad.com/courses/networking/networking-essentials", "resourceType": "course", "tags": ["networking", "cisco"] },
+          { "id": "cs-5-learn-practical", "name": "Practical Networking (YouTube)", "url": "https://www.youtube.com/c/PracticalNetworking/playlists", "resourceType": "video", "tags": ["networking"] }
+        ],
+        "practice": [
+          { "id": "cs-5-practice-packet-tracer", "name": "Cisco Packet Tracer Labs", "url": "https://www.netacad.com/courses/packet-tracer", "resourceType": "platform", "tags": ["networking", "labs"] },
+          { "id": "cs-5-practice-natas", "name": "OverTheWire: Natas (web/network security)", "url": "https://overthewire.org/wargames/natas/", "resourceType": "challenge", "tags": ["networking", "security"] }
+        ],
+        "build": [
+          { "projectId": "build-an-http-server-in-python" },
+          { "projectId": "implement-a-tcp-chat-app-in-python" }
+        ],
+        "use": [
+          { "toolId": "linux" },
+          { "toolId": "python" },
+          { "toolId": "vs-code" },
+          { "toolId": "github" }
+        ],
+        "deploy": [
+          { "id": "cs-5-deploy-github", "name": "Publish your networking projects on GitHub", "url": "https://github.com/", "resourceType": "deployment", "tags": ["github", "publishing"] }
+        ],
+        "career": [
+          { "id": "cs-5-career-roadmap-cs", "name": "roadmap.sh: Computer Science", "url": "https://roadmap.sh/computer-science", "resourceType": "career", "tags": ["career", "roadmap"] },
+          { "id": "cs-5-career-linkedin-jobs", "name": "LinkedIn Jobs: network engineering roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["career", "jobs"] }
+        ]
+      }
+    },
+    {
+      "id": "cs-system-design",
+      "title": "System Design & Software Engineering",
+      "order": 6,
+      "tags": ["system-design", "architecture", "software-engineering"],
+      "sections": {
+        "learn": [
+          { "id": "cs-6-learn-system-design-primer", "name": "System Design Primer (GitHub)", "url": "https://github.com/donnemartin/system-design-primer", "resourceType": "documentation", "tags": ["system-design"] },
+          { "id": "cs-6-learn-gaurav-sen", "name": "Gaurav Sen: System Design (YouTube)", "url": "https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX", "resourceType": "video", "tags": ["system-design"] },
+          { "id": "cs-6-learn-design-patterns", "name": "Refactoring Guru: Design Patterns", "url": "https://refactoring.guru/design-patterns", "resourceType": "documentation", "tags": ["design-patterns"] }
+        ],
+        "practice": [
+          { "id": "cs-6-practice-designgurus", "name": "DesignGurus: System Design Questions", "url": "https://www.designgurus.io/course/grokking-the-system-design-interview", "resourceType": "platform", "tags": ["system-design"] }
+        ],
+        "build": [
+          { "projectId": "design-a-url-shortener-system" },
+          { "projectId": "design-a-scalable-chat-system" }
+        ],
+        "use": [
+          { "toolId": "docker" },
+          { "toolId": "postgresql" },
+          { "toolId": "github" },
+          { "toolId": "vs-code" }
+        ],
+        "deploy": [
+          { "id": "cs-6-deploy-github", "name": "Publish your design docs and diagrams on GitHub", "url": "https://github.com/", "resourceType": "deployment", "tags": ["github", "publishing"] }
+        ],
+        "career": [
+          { "id": "cs-6-career-system-design-primer", "name": "System Design Primer: interview prep", "url": "https://github.com/donnemartin/system-design-primer", "resourceType": "career", "tags": ["career", "system-design"] },
+          { "id": "cs-6-career-roadmap-cs", "name": "roadmap.sh: Computer Science", "url": "https://roadmap.sh/computer-science", "resourceType": "career", "tags": ["career", "roadmap"] },
+          { "id": "cs-6-career-resume", "name": "Resume.io: build a software engineer resume", "url": "https://www.resume.io/", "resourceType": "career", "tags": ["career", "resume"] }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "cs-programming-fundamentals", "to": "cs-dsa" },
+    { "from": "cs-dsa", "to": "cs-operating-systems" },
+    { "from": "cs-operating-systems", "to": "cs-databases" },
+    { "from": "cs-databases", "to": "cs-networking" },
+    { "from": "cs-networking", "to": "cs-system-design" }
+  ]
+}

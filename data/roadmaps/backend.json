@@ -1,0 +1,461 @@
+{
+  "id": "backend",
+  "careerPathId": "backend",
+  "nodes": [
+    {
+      "id": "backend-language-fundamentals",
+      "title": "Server-Side Language Fundamentals",
+      "order": 1,
+      "tags": ["node", "javascript", "backend"],
+      "sections": {
+        "learn": [
+          {
+            "id": "be-1-learn-nodejs-docs",
+            "name": "Node.js: Introduction to Node.js",
+            "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+            "resourceType": "documentation",
+            "tags": ["node", "javascript"]
+          },
+          {
+            "id": "be-1-learn-fcc-backend",
+            "name": "freeCodeCamp: Back End Development and APIs",
+            "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+            "resourceType": "course",
+            "tags": ["node", "api", "freecodecamp"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "be-1-practice-exercism-node",
+            "name": "Exercism: JavaScript track",
+            "url": "https://exercism.org/tracks/javascript",
+            "resourceType": "platform",
+            "tags": ["javascript", "practice"]
+          }
+        ],
+        "build": [
+          { "projectId": "rest-api-starter" }
+        ],
+        "use": [
+          { "toolId": "vscode" },
+          { "toolId": "nodejs" }
+        ],
+        "deploy": [
+          {
+            "id": "be-1-deploy-railway",
+            "name": "Railway: deploy a Node.js app",
+            "url": "https://railway.app/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "node"]
+          },
+          {
+            "id": "be-1-deploy-render",
+            "name": "Render: free web services",
+            "url": "https://render.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "hosting"]
+          }
+        ],
+        "career": [
+          {
+            "id": "be-1-career-roadmap",
+            "name": "Backend Developer Roadmap",
+            "url": "https://roadmap.sh/backend",
+            "resourceType": "career",
+            "tags": ["career", "roadmap"]
+          },
+          {
+            "id": "be-1-career-linkedin",
+            "name": "LinkedIn Jobs: backend developer",
+            "url": "https://www.linkedin.com/jobs/",
+            "resourceType": "career",
+            "tags": ["jobs", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "backend-http-apis",
+      "title": "HTTP & REST APIs",
+      "order": 2,
+      "tags": ["api", "rest", "http", "express"],
+      "sections": {
+        "learn": [
+          {
+            "id": "be-2-learn-mdn-http",
+            "name": "MDN: An overview of HTTP",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+            "resourceType": "documentation",
+            "tags": ["http", "mdn"]
+          },
+          {
+            "id": "be-2-learn-express",
+            "name": "Express: Getting Started",
+            "url": "https://expressjs.com/en/starter/installing.html",
+            "resourceType": "documentation",
+            "tags": ["express", "node"]
+          },
+          {
+            "id": "be-2-learn-rest-restfulapi",
+            "name": "REST API Tutorial",
+            "url": "https://restfulapi.net/",
+            "resourceType": "article",
+            "tags": ["rest", "api"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "be-2-practice-postman",
+            "name": "Postman Learning Center",
+            "url": "https://learning.postman.com/",
+            "resourceType": "platform",
+            "tags": ["api", "testing"]
+          }
+        ],
+        "build": [
+          { "projectId": "rest-api-starter" },
+          { "projectId": "url-shortener" }
+        ],
+        "use": [
+          { "toolId": "postman" },
+          { "toolId": "express" }
+        ],
+        "deploy": [
+          {
+            "id": "be-2-deploy-render",
+            "name": "Render: deploy a REST API",
+            "url": "https://render.com/docs/deploy-node-express-app",
+            "resourceType": "deployment",
+            "tags": ["deployment", "api"]
+          },
+          {
+            "id": "be-2-deploy-fly",
+            "name": "Fly.io: run your app close to users",
+            "url": "https://fly.io/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "containers"]
+          }
+        ],
+        "career": [
+          {
+            "id": "be-2-career-system-design",
+            "name": "System Design Primer: API design",
+            "url": "https://github.com/donnemartin/system-design-primer",
+            "resourceType": "career",
+            "tags": ["interview", "system-design"]
+          },
+          {
+            "id": "be-2-career-remoteok",
+            "name": "RemoteOK: backend developer jobs",
+            "url": "https://remoteok.com/",
+            "resourceType": "career",
+            "tags": ["jobs", "remote"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "backend-databases",
+      "title": "Databases & Data Modeling",
+      "order": 3,
+      "tags": ["databases", "sql", "postgres", "data-modeling"],
+      "sections": {
+        "learn": [
+          {
+            "id": "be-3-learn-postgres-tutorial",
+            "name": "PostgreSQL Tutorial",
+            "url": "https://www.postgresqltutorial.com/",
+            "resourceType": "documentation",
+            "tags": ["postgres", "sql"]
+          },
+          {
+            "id": "be-3-learn-sqlbolt",
+            "name": "SQLBolt: Learn SQL with interactive exercises",
+            "url": "https://sqlbolt.com/",
+            "resourceType": "course",
+            "tags": ["sql", "interactive"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "be-3-practice-pgexercises",
+            "name": "PostgreSQL Exercises",
+            "url": "https://pgexercises.com/",
+            "resourceType": "challenge",
+            "tags": ["sql", "postgres"]
+          }
+        ],
+        "build": [
+          { "projectId": "blog-backend" }
+        ],
+        "use": [
+          { "toolId": "postgresql" },
+          { "toolId": "supabase" }
+        ],
+        "deploy": [
+          {
+            "id": "be-3-deploy-neon",
+            "name": "Neon: serverless Postgres hosting",
+            "url": "https://neon.tech/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "postgres"]
+          },
+          {
+            "id": "be-3-deploy-supabase",
+            "name": "Supabase: hosted Postgres database",
+            "url": "https://supabase.com/database",
+            "resourceType": "deployment",
+            "tags": ["deployment", "database"]
+          }
+        ],
+        "career": [
+          {
+            "id": "be-3-career-tech-interview",
+            "name": "Tech Interview Handbook: databases",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["interview", "databases"]
+          },
+          {
+            "id": "be-3-career-resume",
+            "name": "Reactive Resume: free resume builder",
+            "url": "https://rxresu.me/",
+            "resourceType": "career",
+            "tags": ["resume", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "backend-auth-security",
+      "title": "Authentication & Security",
+      "order": 4,
+      "tags": ["auth", "security", "jwt", "oauth"],
+      "sections": {
+        "learn": [
+          {
+            "id": "be-4-learn-owasp",
+            "name": "OWASP Top Ten",
+            "url": "https://owasp.org/www-project-top-ten/",
+            "resourceType": "documentation",
+            "tags": ["security", "owasp"]
+          },
+          {
+            "id": "be-4-learn-jwt-intro",
+            "name": "Introduction to JSON Web Tokens",
+            "url": "https://jwt.io/introduction",
+            "resourceType": "article",
+            "tags": ["jwt", "auth"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "be-4-practice-owasp-juice",
+            "name": "OWASP Juice Shop: find security vulnerabilities",
+            "url": "https://owasp.org/www-project-juice-shop/",
+            "resourceType": "challenge",
+            "tags": ["security", "owasp"]
+          },
+          {
+            "id": "be-4-practice-jwt-debugger",
+            "name": "JWT.io Debugger: inspect and verify tokens",
+            "url": "https://jwt.io/",
+            "resourceType": "platform",
+            "tags": ["jwt", "auth"]
+          }
+        ],
+        "build": [
+          { "projectId": "auth-service" }
+        ],
+        "use": [
+          { "toolId": "auth0" },
+          { "toolId": "supabase" }
+        ],
+        "deploy": [
+          {
+            "id": "be-4-deploy-auth0",
+            "name": "Auth0: deploy managed authentication",
+            "url": "https://auth0.com/docs/get-started",
+            "resourceType": "deployment",
+            "tags": ["auth", "deployment"]
+          },
+          {
+            "id": "be-4-deploy-render",
+            "name": "Render: deploy your auth service",
+            "url": "https://render.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "hosting"]
+          }
+        ],
+        "career": [
+          {
+            "id": "be-4-career-system-design",
+            "name": "System Design Primer: security",
+            "url": "https://github.com/donnemartin/system-design-primer",
+            "resourceType": "career",
+            "tags": ["interview", "security"]
+          },
+          {
+            "id": "be-4-career-linkedin",
+            "name": "LinkedIn Jobs: backend security roles",
+            "url": "https://www.linkedin.com/jobs/",
+            "resourceType": "career",
+            "tags": ["jobs", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "backend-testing-observability",
+      "title": "Testing & Observability",
+      "order": 5,
+      "tags": ["testing", "monitoring", "logging"],
+      "sections": {
+        "learn": [
+          {
+            "id": "be-5-learn-jest",
+            "name": "Jest: Getting Started",
+            "url": "https://jestjs.io/docs/getting-started",
+            "resourceType": "documentation",
+            "tags": ["testing", "jest"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "be-5-practice-testing-node",
+            "name": "Node.js: Testing guide",
+            "url": "https://nodejs.org/en/learn/test-runner/introduction",
+            "resourceType": "documentation",
+            "tags": ["testing", "node"]
+          }
+        ],
+        "build": [
+          { "projectId": "add-tests-and-monitoring-to-an-api" },
+          { "projectId": "rest-api-with-auth" }
+        ],
+        "use": [
+          { "toolId": "jest" },
+          { "toolId": "sentry" }
+        ],
+        "deploy": [
+          {
+            "id": "be-5-deploy-sentry",
+            "name": "Sentry: error monitoring setup",
+            "url": "https://docs.sentry.io/platforms/node/",
+            "resourceType": "deployment",
+            "tags": ["monitoring", "observability"]
+          },
+          {
+            "id": "be-5-deploy-github-actions",
+            "name": "GitHub Actions: run tests in CI",
+            "url": "https://docs.github.com/en/actions/automating-builds-and-tests",
+            "resourceType": "deployment",
+            "tags": ["ci", "testing"]
+          }
+        ],
+        "career": [
+          {
+            "id": "be-5-career-tech-interview",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["interview", "career"]
+          },
+          {
+            "id": "be-5-career-remoteok",
+            "name": "RemoteOK: backend engineer jobs",
+            "url": "https://remoteok.com/",
+            "resourceType": "career",
+            "tags": ["jobs", "remote"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "backend-deploy-career",
+      "title": "Deploy & Career",
+      "order": 6,
+      "tags": ["deployment", "career", "devops"],
+      "sections": {
+        "learn": [
+          {
+            "id": "be-6-learn-render-docs",
+            "name": "Render: Deploy a web service",
+            "url": "https://render.com/docs/web-services",
+            "resourceType": "documentation",
+            "tags": ["deployment", "render"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "be-6-practice-leetcode",
+            "name": "LeetCode: coding interview practice",
+            "url": "https://leetcode.com/",
+            "resourceType": "platform",
+            "tags": ["interview", "algorithms"]
+          },
+          {
+            "id": "be-6-practice-system-design",
+            "name": "System Design Primer: practice questions",
+            "url": "https://github.com/donnemartin/system-design-primer#study-guide",
+            "resourceType": "challenge",
+            "tags": ["system-design", "interview"]
+          }
+        ],
+        "build": [
+          { "projectId": "blog-backend" }
+        ],
+        "use": [
+          { "toolId": "render" },
+          { "toolId": "railway" }
+        ],
+        "deploy": [
+          {
+            "id": "be-6-deploy-render",
+            "name": "Deploy on Render",
+            "url": "https://render.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "hosting"]
+          },
+          {
+            "id": "be-6-deploy-railway",
+            "name": "Deploy on Railway",
+            "url": "https://railway.app/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "hosting"]
+          },
+          {
+            "id": "be-6-deploy-fly",
+            "name": "Deploy on Fly.io",
+            "url": "https://fly.io/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "containers"]
+          }
+        ],
+        "career": [
+          {
+            "id": "be-6-career-system-design",
+            "name": "System Design Primer",
+            "url": "https://github.com/donnemartin/system-design-primer",
+            "resourceType": "career",
+            "tags": ["interview", "system-design"]
+          },
+          {
+            "id": "be-6-career-backend-interview",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["interview", "career"]
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "backend-language-fundamentals", "to": "backend-http-apis" },
+    { "from": "backend-http-apis", "to": "backend-databases" },
+    { "from": "backend-databases", "to": "backend-auth-security" },
+    { "from": "backend-auth-security", "to": "backend-testing-observability" },
+    { "from": "backend-testing-observability", "to": "backend-deploy-career" }
+  ]
+}

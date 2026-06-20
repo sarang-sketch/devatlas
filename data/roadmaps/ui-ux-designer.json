@@ -1,0 +1,170 @@
+{
+  "id": "ui-ux-designer",
+  "careerPathId": "ui-ux-designer",
+  "nodes": [
+    {
+      "id": "ux-design-thinking",
+      "title": "Design Thinking & UX Research",
+      "order": 1,
+      "tags": ["design-thinking", "ux-research", "user-centered"],
+      "sections": {
+        "learn": [
+          { "id": "ux-1-learn-google-ux", "name": "Google UX Design Certificate (Audit)", "url": "https://www.coursera.org/professional-certificates/google-ux-design", "resourceType": "course", "tags": ["google", "ux"] },
+          { "id": "ux-1-learn-ideo", "name": "IDEO: Introduction to Human-Centered Design", "url": "https://www.plusacumen.org/courses/introduction-human-centered-design", "resourceType": "course", "tags": ["design-thinking"] },
+          { "id": "ux-1-learn-nngroup", "name": "Nielsen Norman Group: UX Articles (Free)", "url": "https://www.nngroup.com/articles/", "resourceType": "article", "tags": ["ux-research"] },
+          { "id": "ux-1-learn-lawsofux", "name": "Laws of UX: Psychology Principles for Designers", "url": "https://lawsofux.com/", "resourceType": "article", "tags": ["ux", "principles"] }
+        ],
+        "practice": [
+          { "id": "ux-1-practice-nngroup-templates", "name": "NN/g: Apply UX Research Methods on a Project", "url": "https://www.nngroup.com/articles/", "resourceType": "challenge", "tags": ["ux-research", "practice"] },
+          { "id": "ux-1-practice-dailyui", "name": "Daily UI: Daily Design Challenges", "url": "https://www.dailyui.co/", "resourceType": "challenge", "tags": ["practice", "ui-design"] }
+        ],
+        "build": [
+          { "projectId": "run-a-usability-test" }
+        ],
+        "use": [
+          { "toolId": "figma" },
+          { "toolId": "miro-free" }
+        ],
+        "deploy": [
+          { "id": "ux-1-deploy-figma-share", "name": "Share a UX Research Summary as a Figma Link", "url": "https://www.figma.com/", "resourceType": "deployment", "tags": ["figma", "share"] }
+        ],
+        "career": [
+          { "id": "ux-1-career-linkedin", "name": "LinkedIn Jobs: UX Researcher Roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["jobs", "linkedin"] },
+          { "id": "ux-1-career-resume", "name": "Resume.io: Build a UX Designer Resume", "url": "https://www.resume.io/", "resourceType": "career", "tags": ["resume"] }
+        ]
+      }
+    },
+    {
+      "id": "ux-figma",
+      "title": "UI Design with Figma",
+      "order": 2,
+      "tags": ["figma", "ui-design", "prototyping"],
+      "sections": {
+        "learn": [
+          { "id": "ux-2-learn-figma-official", "name": "Figma: Official Learning Resources", "url": "https://help.figma.com/hc/en-us/categories/360002051613", "resourceType": "documentation", "tags": ["figma"] },
+          { "id": "ux-2-learn-figma-yt", "name": "Figma: UI Design Tutorial for Beginners (YouTube)", "url": "https://www.youtube.com/watch?v=FTFaQWZBqQ8", "resourceType": "video", "tags": ["figma"] },
+          { "id": "ux-2-learn-material", "name": "Google Material Design Guidelines", "url": "https://m3.material.io/", "resourceType": "documentation", "tags": ["material-design", "ui"] },
+          { "id": "ux-2-learn-refactoringui", "name": "Refactoring UI: Practical Visual Design Tips", "url": "https://www.refactoringui.com/", "resourceType": "article", "tags": ["ui-design", "visual"] }
+        ],
+        "practice": [
+          { "id": "ux-2-practice-dailyui", "name": "Daily UI: Design Challenge", "url": "https://www.dailyui.co/", "resourceType": "challenge", "tags": ["ui-design", "practice"] },
+          { "id": "ux-2-practice-figma-community", "name": "Figma Community: Remix Free Files & Templates", "url": "https://www.figma.com/community", "resourceType": "platform", "tags": ["figma", "practice"] }
+        ],
+        "build": [
+          { "projectId": "design-a-mobile-app-ui-kit" }
+        ],
+        "use": [
+          { "toolId": "figma" },
+          { "toolId": "coolors" }
+        ],
+        "deploy": [
+          { "id": "ux-2-deploy-figma-prototype", "name": "Publish an Interactive Figma Prototype Link", "url": "https://www.figma.com/", "resourceType": "deployment", "tags": ["figma", "prototype", "share"] }
+        ],
+        "career": [
+          { "id": "ux-2-career-dribbble", "name": "Dribbble: Showcase UI Shots", "url": "https://dribbble.com/", "resourceType": "career", "tags": ["portfolio", "dribbble"] },
+          { "id": "ux-2-career-linkedin", "name": "LinkedIn Jobs: UI Designer Roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["jobs", "linkedin"] }
+        ]
+      }
+    },
+    {
+      "id": "ux-wireframing",
+      "title": "Wireframing & Prototyping",
+      "order": 3,
+      "tags": ["wireframe", "prototype", "mockup"],
+      "sections": {
+        "learn": [
+          { "id": "ux-3-learn-wireframe", "name": "CareerFoundry: Guide to Wireframing", "url": "https://careerfoundry.com/en/blog/ux-design/what-is-a-wireframe-guide/", "resourceType": "article", "tags": ["wireframe"] },
+          { "id": "ux-3-learn-figma-proto", "name": "Figma: Prototyping Basics", "url": "https://help.figma.com/hc/en-us/articles/360040314193", "resourceType": "documentation", "tags": ["figma", "prototype"] }
+        ],
+        "practice": [
+          { "id": "ux-3-practice-dailyui", "name": "Daily UI: Build Wireframes from Prompts", "url": "https://www.dailyui.co/", "resourceType": "challenge", "tags": ["wireframe", "practice"] },
+          { "id": "ux-3-practice-figma-community", "name": "Figma Community: Wireframe Kit Files", "url": "https://www.figma.com/community", "resourceType": "platform", "tags": ["figma", "wireframe", "practice"] }
+        ],
+        "build": [
+          { "projectId": "redesign-a-landing-page" }
+        ],
+        "use": [
+          { "toolId": "figma" },
+          { "toolId": "excalidraw" }
+        ],
+        "deploy": [
+          { "id": "ux-3-deploy-figma-prototype", "name": "Share a Clickable Wireframe Prototype on Figma", "url": "https://www.figma.com/", "resourceType": "deployment", "tags": ["figma", "prototype", "share"] }
+        ],
+        "career": [
+          { "id": "ux-3-career-behance", "name": "Behance: Publish Wireframe Case Studies", "url": "https://www.behance.net/", "resourceType": "career", "tags": ["portfolio", "behance"] },
+          { "id": "ux-3-career-resume", "name": "Resume.io: Add Prototyping Skills to Resume", "url": "https://www.resume.io/", "resourceType": "career", "tags": ["resume"] }
+        ]
+      }
+    },
+    {
+      "id": "ux-usability",
+      "title": "Usability Testing & Accessibility",
+      "order": 4,
+      "tags": ["usability", "accessibility", "a11y", "testing"],
+      "sections": {
+        "learn": [
+          { "id": "ux-4-learn-a11y", "name": "Web Accessibility by Google (Udacity)", "url": "https://www.udacity.com/course/web-accessibility--ud891", "resourceType": "course", "tags": ["accessibility"] },
+          { "id": "ux-4-learn-wcag", "name": "W3C: Web Content Accessibility Guidelines", "url": "https://www.w3.org/WAI/standards-guidelines/wcag/", "resourceType": "documentation", "tags": ["wcag", "a11y"] },
+          { "id": "ux-4-learn-maze", "name": "Maze: Usability Testing Guide", "url": "https://maze.co/guides/usability-testing/", "resourceType": "article", "tags": ["usability"] }
+        ],
+        "practice": [
+          { "id": "ux-4-practice-nngroup", "name": "NN/g: Run a Moderated Usability Test", "url": "https://www.nngroup.com/articles/", "resourceType": "challenge", "tags": ["usability", "practice"] },
+          { "id": "ux-4-practice-dailyui", "name": "Daily UI: Iterate Designs from Test Feedback", "url": "https://www.dailyui.co/", "resourceType": "challenge", "tags": ["usability", "practice"] }
+        ],
+        "build": [
+          { "projectId": "run-a-usability-test" }
+        ],
+        "use": [
+          { "toolId": "figma" },
+          { "toolId": "miro-free" }
+        ],
+        "deploy": [
+          { "id": "ux-4-deploy-figma-report", "name": "Share a Usability Test Report as a Figma Link", "url": "https://www.figma.com/", "resourceType": "deployment", "tags": ["figma", "share"] }
+        ],
+        "career": [
+          { "id": "ux-4-career-linkedin", "name": "LinkedIn Jobs: UX/Usability Roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["jobs", "linkedin"] },
+          { "id": "ux-4-career-behance", "name": "Behance: Publish Accessibility Case Studies", "url": "https://www.behance.net/", "resourceType": "career", "tags": ["portfolio", "behance"] }
+        ]
+      }
+    },
+    {
+      "id": "ux-design-systems",
+      "title": "Design Systems & Portfolio",
+      "order": 5,
+      "tags": ["design-system", "portfolio", "handoff"],
+      "sections": {
+        "learn": [
+          { "id": "ux-5-learn-design-systems", "name": "Design Systems Repo (Collection)", "url": "https://designsystemsrepo.com/", "resourceType": "documentation", "tags": ["design-system"] },
+          { "id": "ux-5-learn-behance", "name": "Behance: UX Case Study Examples", "url": "https://www.behance.net/galleries/8/interaction", "resourceType": "article", "tags": ["portfolio", "case-study"] }
+        ],
+        "practice": [
+          { "id": "ux-5-practice-figma-community", "name": "Figma Community: Explore & Remix Design Systems", "url": "https://www.figma.com/community", "resourceType": "platform", "tags": ["figma", "design-system", "practice"] },
+          { "id": "ux-5-practice-dailyui", "name": "Daily UI: Build Components for a System", "url": "https://www.dailyui.co/", "resourceType": "challenge", "tags": ["design-system", "practice"] }
+        ],
+        "build": [
+          { "projectId": "build-a-design-system-in-figma" }
+        ],
+        "use": [
+          { "toolId": "figma" },
+          { "toolId": "storybook" }
+        ],
+        "deploy": [
+          { "id": "ux-5-deploy-behance", "name": "Publish Your Portfolio Case Study on Behance", "url": "https://www.behance.net/", "resourceType": "deployment", "tags": ["portfolio", "behance", "publish"] },
+          { "id": "ux-5-deploy-dribbble", "name": "Share Design System Shots on Dribbble", "url": "https://dribbble.com/", "resourceType": "deployment", "tags": ["portfolio", "dribbble", "publish"] }
+        ],
+        "career": [
+          { "id": "ux-5-career-behance", "name": "Behance: Build Your Designer Portfolio", "url": "https://www.behance.net/", "resourceType": "career", "tags": ["portfolio", "behance"] },
+          { "id": "ux-5-career-dribbble", "name": "Dribbble: Get Discovered by Hiring Teams", "url": "https://dribbble.com/", "resourceType": "career", "tags": ["portfolio", "dribbble"] },
+          { "id": "ux-5-career-linkedin", "name": "LinkedIn Jobs: Product/Design System Roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["jobs", "linkedin"] },
+          { "id": "ux-5-career-resume", "name": "Resume.io: Build a Design Portfolio Resume", "url": "https://www.resume.io/", "resourceType": "career", "tags": ["resume"] }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "ux-design-thinking", "to": "ux-figma" },
+    { "from": "ux-figma", "to": "ux-wireframing" },
+    { "from": "ux-wireframing", "to": "ux-usability" },
+    { "from": "ux-usability", "to": "ux-design-systems" }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "id": "data-scientist",
+  "careerPathId": "data-scientist",
+  "nodes": [
+    {
+      "id": "ds-python-stats",
+      "title": "Python & Statistics",
+      "order": 1,
+      "tags": ["python", "statistics", "data-science"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ds-1-learn-python",
+            "name": "Python: The Python Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "resourceType": "documentation",
+            "tags": ["python", "official"]
+          },
+          {
+            "id": "ds-1-learn-khan-stats",
+            "name": "Khan Academy: Statistics and Probability",
+            "url": "https://www.khanacademy.org/math/statistics-probability",
+            "resourceType": "course",
+            "tags": ["statistics", "math"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ds-1-practice-kaggle-python",
+            "name": "Kaggle: Python course",
+            "url": "https://www.kaggle.com/learn/python",
+            "resourceType": "platform",
+            "tags": ["python", "kaggle"]
+          }
+        ],
+        "build": [
+          { "projectId": "build-a-statistics-exploration-notebook" },
+          { "projectId": "simulate-probability-distributions-in-python" }
+        ],
+        "use": [
+          { "toolId": "python" },
+          { "toolId": "jupyter" }
+        ],
+        "deploy": [
+          {
+            "id": "ds-1-deploy-colab",
+            "name": "Share Notebooks on Google Colab",
+            "url": "https://colab.research.google.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "notebook"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ds-1-career-interview-handbook",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["interview", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ds-data-wrangling",
+      "title": "Data Wrangling with pandas",
+      "order": 2,
+      "tags": ["pandas", "data", "cleaning"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ds-2-learn-pandas",
+            "name": "pandas: 10 minutes to pandas",
+            "url": "https://pandas.pydata.org/docs/user_guide/10min.html",
+            "resourceType": "documentation",
+            "tags": ["pandas", "data"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ds-2-practice-kaggle-pandas",
+            "name": "Kaggle: pandas course",
+            "url": "https://www.kaggle.com/learn/pandas",
+            "resourceType": "challenge",
+            "tags": ["pandas", "kaggle"]
+          }
+        ],
+        "build": [
+          { "projectId": "data-cleaning-notebook" }
+        ],
+        "use": [
+          { "toolId": "pandas" },
+          { "toolId": "jupyter" }
+        ],
+        "deploy": [
+          {
+            "id": "ds-2-deploy-colab",
+            "name": "Publish a Cleaning Pipeline on Google Colab",
+            "url": "https://colab.research.google.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "notebook"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ds-2-career-ds-interviews",
+            "name": "Data Science Interview Questions (GitHub)",
+            "url": "https://github.com/alexeygrigorev/data-science-interviews",
+            "resourceType": "career",
+            "tags": ["interview", "data-science"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ds-sql",
+      "title": "SQL for Analytics",
+      "order": 3,
+      "tags": ["sql", "databases", "analytics"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ds-3-learn-mode-sql",
+            "name": "Mode: SQL Tutorial",
+            "url": "https://mode.com/sql-tutorial",
+            "resourceType": "course",
+            "tags": ["sql", "analytics"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ds-3-practice-sqlbolt",
+            "name": "SQLBolt",
+            "url": "https://sqlbolt.com/",
+            "resourceType": "challenge",
+            "tags": ["sql", "interactive"]
+          },
+          {
+            "id": "ds-3-practice-sqlzoo",
+            "name": "SQLZoo: Interactive SQL",
+            "url": "https://sqlzoo.net/",
+            "resourceType": "challenge",
+            "tags": ["sql", "interactive"]
+          }
+        ],
+        "build": [
+          { "projectId": "build-an-analytics-query-library" },
+          { "projectId": "model-a-star-schema-in-postgres" }
+        ],
+        "use": [
+          { "toolId": "postgresql" }
+        ],
+        "deploy": [
+          {
+            "id": "ds-3-deploy-neon",
+            "name": "Host an Analytics Database on Neon",
+            "url": "https://neon.tech/docs/get-started-with-neon/signing-up",
+            "resourceType": "deployment",
+            "tags": ["deployment", "database"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ds-3-career-interview-handbook",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["interview", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ds-visualization",
+      "title": "Data Visualization",
+      "order": 4,
+      "tags": ["visualization", "matplotlib", "dashboards"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ds-4-learn-matplotlib",
+            "name": "Matplotlib: Tutorials",
+            "url": "https://matplotlib.org/stable/tutorials/index.html",
+            "resourceType": "documentation",
+            "tags": ["matplotlib", "visualization"]
+          },
+          {
+            "id": "ds-4-learn-kaggle-viz",
+            "name": "Kaggle: Data Visualization",
+            "url": "https://www.kaggle.com/learn/data-visualization",
+            "resourceType": "course",
+            "tags": ["visualization", "kaggle"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ds-4-practice-kaggle-datasets",
+            "name": "Kaggle: Visualize a Public Dataset",
+            "url": "https://www.kaggle.com/datasets",
+            "resourceType": "challenge",
+            "tags": ["visualization", "kaggle"]
+          }
+        ],
+        "build": [
+          { "projectId": "sales-dashboard" }
+        ],
+        "use": [
+          { "toolId": "plotly" },
+          { "toolId": "metabase" }
+        ],
+        "deploy": [
+          {
+            "id": "ds-4-deploy-streamlit",
+            "name": "Deploy a Visualization App on Streamlit Cloud",
+            "url": "https://streamlit.io/cloud",
+            "resourceType": "deployment",
+            "tags": ["deployment", "dashboard"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ds-4-career-resume",
+            "name": "Resume.io: Build a Data Science Resume",
+            "url": "https://www.resume.io/",
+            "resourceType": "career",
+            "tags": ["resume", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ds-ml-modeling",
+      "title": "Predictive Modeling",
+      "order": 5,
+      "tags": ["ml", "modeling", "scikit-learn"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ds-5-learn-sklearn",
+            "name": "scikit-learn: User Guide",
+            "url": "https://scikit-learn.org/stable/user_guide.html",
+            "resourceType": "documentation",
+            "tags": ["scikit-learn", "ml"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ds-5-practice-kaggle-comp",
+            "name": "Kaggle Competitions",
+            "url": "https://www.kaggle.com/competitions",
+            "resourceType": "challenge",
+            "tags": ["ml", "kaggle"]
+          }
+        ],
+        "build": [
+          { "projectId": "churn-prediction" }
+        ],
+        "use": [
+          { "toolId": "scikit-learn" }
+        ],
+        "deploy": [
+          {
+            "id": "ds-5-deploy-huggingface",
+            "name": "Deploy a Model on Hugging Face Spaces",
+            "url": "https://huggingface.co/spaces",
+            "resourceType": "deployment",
+            "tags": ["deployment", "ml"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ds-5-career-ds-interviews",
+            "name": "Data Science Interview Questions (GitHub)",
+            "url": "https://github.com/alexeygrigorev/data-science-interviews",
+            "resourceType": "career",
+            "tags": ["interview", "data-science"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ds-communicate-career",
+      "title": "Communicate Results & Career",
+      "order": 6,
+      "tags": ["communication", "career", "storytelling"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ds-6-learn-storytelling",
+            "name": "Google: Data Analytics resources",
+            "url": "https://grow.google/certificates/data-analytics/",
+            "resourceType": "article",
+            "tags": ["communication", "analytics"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ds-6-practice-kaggle-notebooks",
+            "name": "Kaggle: Publish a Public Notebook",
+            "url": "https://www.kaggle.com/code",
+            "resourceType": "platform",
+            "tags": ["kaggle", "portfolio"]
+          }
+        ],
+        "build": [
+          { "projectId": "sales-dashboard" }
+        ],
+        "use": [
+          { "toolId": "streamlit" }
+        ],
+        "deploy": [
+          {
+            "id": "ds-6-deploy-streamlit",
+            "name": "Streamlit Community Cloud",
+            "url": "https://streamlit.io/cloud",
+            "resourceType": "deployment",
+            "tags": ["deployment", "python"]
+          },
+          {
+            "id": "ds-6-deploy-huggingface",
+            "name": "Deploy on Hugging Face Spaces",
+            "url": "https://huggingface.co/spaces",
+            "resourceType": "deployment",
+            "tags": ["deployment", "data"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ds-6-career-ds-interview",
+            "name": "Data Science Interview Questions (GitHub)",
+            "url": "https://github.com/alexeygrigorev/data-science-interviews",
+            "resourceType": "career",
+            "tags": ["interview", "data-science"]
+          },
+          {
+            "id": "ds-6-career-linkedin-jobs",
+            "name": "LinkedIn Jobs: Data Scientist Roles",
+            "url": "https://www.linkedin.com/jobs/",
+            "resourceType": "career",
+            "tags": ["jobs", "career"]
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "ds-python-stats", "to": "ds-data-wrangling" },
+    { "from": "ds-data-wrangling", "to": "ds-sql" },
+    { "from": "ds-sql", "to": "ds-visualization" },
+    { "from": "ds-visualization", "to": "ds-ml-modeling" },
+    { "from": "ds-ml-modeling", "to": "ds-communicate-career" }
+  ]
+}

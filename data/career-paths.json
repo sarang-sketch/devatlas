@@ -1,0 +1,128 @@
+[
+  {
+    "id": "frontend",
+    "name": "Frontend Developer",
+    "description": "Build the user-facing side of web apps with HTML, CSS, JavaScript, and modern frameworks like React, focusing on responsive, accessible interfaces.",
+    "tags": ["frontend", "react", "css", "javascript", "html", "ui", "web"],
+    "roadmapId": "frontend"
+  },
+  {
+    "id": "backend",
+    "name": "Backend Developer",
+    "description": "Design and build server-side logic, APIs, and databases that power applications, handling data, authentication, and business rules.",
+    "tags": ["backend", "api", "node", "databases", "server", "rest", "auth"],
+    "roadmapId": "backend"
+  },
+  {
+    "id": "fullstack",
+    "name": "Full Stack Developer",
+    "description": "Work across the entire stack, combining frontend interfaces with backend services and databases to ship complete end-to-end web applications.",
+    "tags": ["fullstack", "frontend", "backend", "react", "node", "api", "databases"],
+    "roadmapId": "fullstack"
+  },
+  {
+    "id": "mobile",
+    "name": "Mobile Developer",
+    "description": "Create native and cross-platform mobile apps for iOS and Android using tools like React Native, Flutter, Swift, and Kotlin.",
+    "tags": ["mobile", "react-native", "flutter", "ios", "android", "swift", "kotlin"],
+    "roadmapId": "mobile"
+  },
+  {
+    "id": "ai-engineer",
+    "name": "AI Engineer",
+    "description": "Build AI-powered products by integrating large language models, prompt engineering, and ML APIs into real-world applications.",
+    "tags": ["ai", "ml", "llm", "python", "prompt-engineering", "nlp", "openai"],
+    "roadmapId": "ai-engineer"
+  },
+  {
+    "id": "ml-engineer",
+    "name": "Machine Learning Engineer",
+    "description": "Design, train, and deploy machine learning models at scale, covering data pipelines, model serving, and MLOps practices.",
+    "tags": ["ml", "machine-learning", "python", "tensorflow", "pytorch", "mlops", "ai"],
+    "roadmapId": "ml-engineer"
+  },
+  {
+    "id": "data-scientist",
+    "name": "Data Scientist",
+    "description": "Extract insights from data using statistics, visualization, and predictive modeling to drive data-informed decisions.",
+    "tags": ["data-science", "python", "statistics", "pandas", "visualization", "analytics", "sql"],
+    "roadmapId": "data-scientist"
+  },
+  {
+    "id": "devops",
+    "name": "DevOps Engineer",
+    "description": "Automate build, deployment, and infrastructure with CI/CD pipelines, containers, and monitoring to deliver software reliably.",
+    "tags": ["devops", "ci-cd", "docker", "kubernetes", "automation", "linux", "monitoring"],
+    "roadmapId": "devops"
+  },
+  {
+    "id": "cloud",
+    "name": "Cloud Engineer",
+    "description": "Architect and operate scalable cloud infrastructure on AWS, Azure, and GCP using serverless, networking, and infrastructure as code.",
+    "tags": ["cloud", "aws", "azure", "gcp", "serverless", "infrastructure", "terraform"],
+    "roadmapId": "cloud"
+  },
+  {
+    "id": "cybersecurity",
+    "name": "Cybersecurity Engineer",
+    "description": "Protect systems and data by identifying vulnerabilities, hardening defenses, and responding to threats across networks and applications.",
+    "tags": ["cybersecurity", "security", "networking", "pentesting", "encryption", "threats", "compliance"],
+    "roadmapId": "cybersecurity"
+  },
+  {
+    "id": "game-dev",
+    "name": "Game Developer",
+    "description": "Build interactive games and experiences using engines like Unity and Unreal, covering graphics, physics, and gameplay programming.",
+    "tags": ["game-dev", "unity", "unreal", "csharp", "cpp", "graphics", "gameplay"],
+    "roadmapId": "game-dev"
+  },
+  {
+    "id": "blockchain",
+    "name": "Blockchain Developer",
+    "description": "Develop decentralized apps and smart contracts on platforms like Ethereum using Solidity, Web3, and cryptographic fundamentals.",
+    "tags": ["blockchain", "solidity", "web3", "ethereum", "smart-contracts", "crypto", "defi"],
+    "roadmapId": "blockchain"
+  },
+  {
+    "id": "computer-science",
+    "name": "Computer Science Engineer",
+    "description": "Master CS fundamentals including data structures, algorithms, operating systems, databases, networking, and system design.",
+    "tags": ["cs", "dsa", "algorithms", "os", "dbms", "networking", "system-design"],
+    "roadmapId": "computer-science"
+  },
+  {
+    "id": "data-analyst",
+    "name": "Data Analyst",
+    "description": "Analyze data to drive business decisions using SQL, Excel, Python, Tableau, Power BI, statistics, and data storytelling.",
+    "tags": ["data", "sql", "excel", "python", "tableau", "power-bi", "analytics"],
+    "roadmapId": "data-analyst"
+  },
+  {
+    "id": "qa-engineer",
+    "name": "QA / Software Testing Engineer",
+    "description": "Ensure software quality through manual testing, test automation with Selenium and Cypress, API testing, and CI/CD integration.",
+    "tags": ["testing", "qa", "selenium", "cypress", "automation", "api-testing", "ci-cd"],
+    "roadmapId": "qa-engineer"
+  },
+  {
+    "id": "embedded-systems",
+    "name": "Embedded Systems Engineer",
+    "description": "Design firmware and hardware-software interfaces using C/C++, microcontrollers, RTOS, IoT protocols, and embedded Linux.",
+    "tags": ["embedded", "c", "cpp", "microcontroller", "rtos", "iot", "firmware"],
+    "roadmapId": "embedded-systems"
+  },
+  {
+    "id": "ui-ux-designer",
+    "name": "UI/UX Designer",
+    "description": "Create user-centered designs using design thinking, wireframing, prototyping in Figma, user research, and accessibility.",
+    "tags": ["design", "figma", "ux", "ui", "wireframe", "prototype", "accessibility"],
+    "roadmapId": "ui-ux-designer"
+  },
+  {
+    "id": "digital-marketer",
+    "name": "Digital Marketing Specialist",
+    "description": "Drive online growth using SEO, Google Analytics, social media marketing, content strategy, email campaigns, and paid ads.",
+    "tags": ["marketing", "seo", "analytics", "social-media", "content", "email", "ads"],
+    "roadmapId": "digital-marketer"
+  }
+]

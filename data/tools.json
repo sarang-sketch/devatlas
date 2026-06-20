@@ -1,0 +1,3383 @@
+[
+  {
+    "id": "hugging-face",
+    "name": "Hugging Face",
+    "description": "Hub for open-source machine learning models, datasets, and demo Spaces with hosted inference.",
+    "category": "AI",
+    "freeTier": "Free account with unlimited public models/datasets, community GPU-backed Spaces, and a rate-limited Inference API.",
+    "website": "https://huggingface.co",
+    "alternatives": [
+      "replicate",
+      "openrouter"
+    ],
+    "tags": [
+      "ai",
+      "ml",
+      "llm",
+      "data-science",
+      "open-source"
+    ],
+    "comparison": {
+      "pricing": "Free tier; Pro at $9/mo; pay-as-you-go inference endpoints",
+      "learningCurve": "Moderate"
+    }
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "description": "Run open large language models like Llama, Mistral, and Gemma locally with a single command.",
+    "category": "AI",
+    "freeTier": "Completely free and open source; runs entirely on your own hardware with no usage caps.",
+    "website": "https://ollama.com",
+    "alternatives": [
+      "hugging-face",
+      "groq"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "local",
+      "open-source"
+    ],
+    "comparison": {
+      "pricing": "Free (self-hosted)",
+      "learningCurve": "Easy"
+    }
+  },
+  {
+    "id": "groq",
+    "name": "Groq",
+    "description": "Ultra-low-latency LLM inference served on custom LPU hardware via an OpenAI-compatible API.",
+    "category": "AI",
+    "freeTier": "Free developer tier with generous daily token limits across supported open models.",
+    "website": "https://groq.com",
+    "alternatives": [
+      "openrouter",
+      "google-ai-studio"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "api",
+      "inference"
+    ],
+    "comparison": {
+      "pricing": "Free tier; usage-based pay-per-token beyond limits",
+      "learningCurve": "Easy"
+    }
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "description": "Unified API gateway that routes requests across hundreds of LLMs from many providers.",
+    "category": "AI",
+    "freeTier": "Free access to a rotating set of free models plus credits to trial paid models.",
+    "website": "https://openrouter.ai",
+    "alternatives": [
+      "groq",
+      "hugging-face"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "api"
+    ]
+  },
+  {
+    "id": "google-ai-studio",
+    "name": "Google AI Studio",
+    "description": "Browser-based workspace to prototype prompts and build with the Gemini family of models.",
+    "category": "AI",
+    "freeTier": "Free prompt prototyping and a free Gemini API tier with per-minute rate limits.",
+    "website": "https://aistudio.google.com",
+    "alternatives": [
+      "openrouter",
+      "groq"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "api",
+      "ml"
+    ]
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "description": "Frontend cloud for deploying Next.js and other frameworks with global edge delivery and previews.",
+    "category": "Hosting",
+    "freeTier": "Hobby plan: free personal projects, automatic HTTPS, preview deployments, and 100 GB bandwidth/mo.",
+    "website": "https://vercel.com",
+    "alternatives": [
+      "netlify",
+      "cloudflare-pages",
+      "render"
+    ],
+    "tags": [
+      "frontend",
+      "hosting",
+      "deployment",
+      "fullstack",
+      "serverless"
+    ],
+    "comparison": {
+      "databaseSupport": "Via integrations (Vercel Postgres, Neon, Supabase)",
+      "authSupport": "Through libraries and integrations (no built-in auth)",
+      "storageSupport": "Vercel Blob storage on free tier",
+      "realtimeSupport": "Edge functions and streaming responses",
+      "pricing": "Free Hobby; Pro at $20/user/mo",
+      "learningCurve": "Easy"
+    }
+  },
+  {
+    "id": "netlify",
+    "name": "Netlify",
+    "description": "Platform for deploying static sites and serverless functions with CI from Git.",
+    "category": "Hosting",
+    "freeTier": "Free Starter: 100 GB bandwidth/mo, 300 build minutes, deploy previews, and serverless functions.",
+    "website": "https://www.netlify.com",
+    "alternatives": [
+      "vercel",
+      "cloudflare-pages",
+      "render"
+    ],
+    "tags": [
+      "frontend",
+      "hosting",
+      "deployment",
+      "serverless"
+    ],
+    "comparison": {
+      "databaseSupport": "External providers only",
+      "storageSupport": "Netlify Blobs",
+      "pricing": "Free Starter; Pro at $19/user/mo",
+      "learningCurve": "Easy"
+    }
+  },
+  {
+    "id": "cloudflare-pages",
+    "name": "Cloudflare Pages",
+    "description": "JAMstack hosting on Cloudflare's edge network with tight Workers integration.",
+    "category": "Hosting",
+    "freeTier": "Free unlimited sites and requests, 500 builds/mo, and unlimited bandwidth.",
+    "website": "https://pages.cloudflare.com",
+    "alternatives": [
+      "vercel",
+      "netlify"
+    ],
+    "tags": [
+      "frontend",
+      "hosting",
+      "deployment",
+      "edge",
+      "serverless"
+    ],
+    "comparison": {
+      "databaseSupport": "Cloudflare D1 (SQLite) on free tier",
+      "storageSupport": "Cloudflare R2 with free egress",
+      "realtimeSupport": "Durable Objects and WebSockets via Workers",
+      "pricing": "Free; Workers Paid at $5/mo",
+      "learningCurve": "Moderate"
+    }
+  },
+  {
+    "id": "render",
+    "name": "Render",
+    "description": "Unified cloud for hosting web services, static sites, cron jobs, and managed databases.",
+    "category": "Hosting",
+    "freeTier": "Free static sites and free web services that sleep after inactivity; free Postgres for 30 days.",
+    "website": "https://render.com",
+    "alternatives": [
+      "railway",
+      "vercel"
+    ],
+    "tags": [
+      "backend",
+      "hosting",
+      "deployment",
+      "fullstack"
+    ],
+    "comparison": {
+      "databaseSupport": "Managed PostgreSQL and Redis",
+      "pricing": "Free tier; paid services from $7/mo",
+      "learningCurve": "Easy"
+    }
+  },
+  {
+    "id": "railway",
+    "name": "Railway",
+    "description": "Infrastructure platform to deploy apps, databases, and services from a Git repo with minimal config.",
+    "category": "Hosting",
+    "freeTier": "One-time $5 trial credit to start; the Hobby plan is $5/mo and includes $5 of usage.",
+    "website": "https://railway.com",
+    "alternatives": [
+      "render",
+      "vercel"
+    ],
+    "tags": [
+      "backend",
+      "hosting",
+      "deployment",
+      "fullstack"
+    ]
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase",
+    "description": "Open-source Firebase alternative offering Postgres, auth, storage, edge functions, and realtime.",
+    "category": "Databases",
+    "freeTier": "Free project: 500 MB Postgres, 1 GB storage, 50k monthly active auth users, and realtime.",
+    "website": "https://supabase.com",
+    "alternatives": [
+      "firebase",
+      "neon",
+      "planetscale"
+    ],
+    "tags": [
+      "backend",
+      "database",
+      "fullstack",
+      "auth",
+      "storage",
+      "realtime",
+      "open-source"
+    ],
+    "comparison": {
+      "databaseSupport": "Full PostgreSQL with SQL access and row-level security",
+      "authSupport": "Built-in auth with email, OAuth, and magic links",
+      "storageSupport": "S3-compatible object storage included",
+      "realtimeSupport": "Realtime subscriptions over WebSockets",
+      "pricing": "Free tier; Pro at $25/mo",
+      "learningCurve": "Moderate"
+    }
+  },
+  {
+    "id": "neon",
+    "name": "Neon",
+    "description": "Serverless Postgres with branching, autoscaling, and scale-to-zero for development workflows.",
+    "category": "Databases",
+    "freeTier": "Free plan: 0.5 GB storage, autoscaling compute, and database branching for one project.",
+    "website": "https://neon.tech",
+    "alternatives": [
+      "supabase",
+      "planetscale"
+    ],
+    "tags": [
+      "backend",
+      "database",
+      "serverless",
+      "postgres"
+    ],
+    "comparison": {
+      "databaseSupport": "Serverless PostgreSQL with instant branching",
+      "authSupport": "None built in",
+      "storageSupport": "Database storage only",
+      "realtimeSupport": "Logical replication; no native pub/sub",
+      "pricing": "Free tier; Launch at $19/mo",
+      "learningCurve": "Easy"
+    }
+  },
+  {
+    "id": "planetscale",
+    "name": "PlanetScale",
+    "description": "MySQL-compatible serverless database platform built on Vitess with non-blocking schema changes and online schema migrations.",
+    "category": "Databases",
+    "freeTier": "No free tier — the free Hobby plan was discontinued in April 2024; paid plans now start at $39/mo. Listed for comparison; see Turso, Neon, or Supabase for free options.",
+    "website": "https://planetscale.com",
+    "alternatives": [
+      "neon",
+      "supabase",
+      "turso"
+    ],
+    "tags": [
+      "backend",
+      "database",
+      "serverless",
+      "mysql"
+    ],
+    "comparison": {
+      "databaseSupport": "MySQL-compatible (Vitess) with branching",
+      "authSupport": "None built in",
+      "realtimeSupport": "None native",
+      "pricing": "Paid only; plans from $39/mo (free tier discontinued 2024)",
+      "learningCurve": "Moderate"
+    }
+  },
+  {
+    "id": "mongodb-atlas",
+    "name": "MongoDB Atlas",
+    "description": "Fully managed cloud document database with global clusters and full-text search.",
+    "category": "Databases",
+    "freeTier": "Free M0 shared cluster with 512 MB storage on AWS, GCP, or Azure.",
+    "website": "https://www.mongodb.com/atlas",
+    "alternatives": [
+      "supabase",
+      "firebase"
+    ],
+    "tags": [
+      "backend",
+      "database",
+      "nosql",
+      "fullstack"
+    ],
+    "comparison": {
+      "databaseSupport": "Managed MongoDB document database",
+      "storageSupport": "Atlas Data Lake and GridFS for files",
+      "realtimeSupport": "Change streams for live updates",
+      "pricing": "Free M0; dedicated clusters from ~$57/mo",
+      "learningCurve": "Moderate"
+    }
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "description": "Google's app development platform with realtime/Firestore databases, auth, hosting, and storage.",
+    "category": "Databases",
+    "freeTier": "Spark plan: free Firestore reads/writes quota, 1 GB storage, auth, and hosting.",
+    "website": "https://firebase.google.com",
+    "alternatives": [
+      "supabase",
+      "mongodb-atlas"
+    ],
+    "tags": [
+      "backend",
+      "database",
+      "nosql",
+      "auth",
+      "storage",
+      "realtime",
+      "mobile",
+      "fullstack"
+    ],
+    "comparison": {
+      "databaseSupport": "Firestore and Realtime Database (NoSQL)",
+      "authSupport": "Firebase Authentication with many providers",
+      "storageSupport": "Cloud Storage for Firebase",
+      "realtimeSupport": "Realtime sync across clients",
+      "pricing": "Free Spark; pay-as-you-go Blaze plan",
+      "learningCurve": "Easy"
+    }
+  },
+  {
+    "id": "google-analytics",
+    "name": "Google Analytics",
+    "description": "Web and app analytics platform for tracking traffic, events, and conversions.",
+    "category": "Analytics",
+    "freeTier": "Free for standard use with event-based GA4 reporting and audience insights.",
+    "website": "https://analytics.google.com",
+    "alternatives": [
+      "plausible",
+      "posthog",
+      "umami"
+    ],
+    "tags": [
+      "analytics",
+      "frontend",
+      "marketing"
+    ]
+  },
+  {
+    "id": "plausible",
+    "name": "Plausible Analytics",
+    "description": "Lightweight, privacy-friendly, cookie-free website analytics that is open source.",
+    "category": "Analytics",
+    "freeTier": "Free when self-hosted; 30-day trial on the managed cloud service.",
+    "website": "https://plausible.io",
+    "alternatives": [
+      "umami",
+      "google-analytics"
+    ],
+    "tags": [
+      "analytics",
+      "privacy",
+      "open-source"
+    ]
+  },
+  {
+    "id": "posthog",
+    "name": "PostHog",
+    "description": "Open-source product analytics suite with funnels, session replay, and feature flags.",
+    "category": "Analytics",
+    "freeTier": "Generous free tier: 1M events, 5k recordings, and feature flags each month.",
+    "website": "https://posthog.com",
+    "alternatives": [
+      "plausible",
+      "google-analytics"
+    ],
+    "tags": [
+      "analytics",
+      "product",
+      "open-source",
+      "fullstack"
+    ]
+  },
+  {
+    "id": "umami",
+    "name": "Umami",
+    "description": "Simple, fast, privacy-focused open-source analytics you can self-host in minutes.",
+    "category": "Analytics",
+    "freeTier": "Free and open source when self-hosted; free hosted tier with 100k events/mo.",
+    "website": "https://umami.is",
+    "alternatives": [
+      "plausible",
+      "posthog"
+    ],
+    "tags": [
+      "analytics",
+      "privacy",
+      "open-source"
+    ]
+  },
+  {
+    "id": "clerk",
+    "name": "Clerk",
+    "description": "Drop-in authentication and user management with prebuilt UI components for modern apps.",
+    "category": "Auth",
+    "freeTier": "Free up to 10,000 monthly active users with prebuilt components and social logins.",
+    "website": "https://clerk.com",
+    "alternatives": [
+      "auth0",
+      "supabase-auth",
+      "firebase-auth"
+    ],
+    "tags": [
+      "auth",
+      "frontend",
+      "fullstack",
+      "security"
+    ],
+    "comparison": {
+      "authSupport": "Full auth: email, OAuth, MFA, and session management",
+      "databaseSupport": "Stores users; syncs to your database via webhooks",
+      "pricing": "Free up to 10k MAU; Pro from $25/mo",
+      "learningCurve": "Easy"
+    }
+  },
+  {
+    "id": "auth0",
+    "name": "Auth0",
+    "description": "Identity platform providing authentication, authorization, and single sign-on as a service.",
+    "category": "Auth",
+    "freeTier": "Free up to 25,000 monthly active users with social and passwordless login.",
+    "website": "https://auth0.com",
+    "alternatives": [
+      "clerk",
+      "supabase-auth"
+    ],
+    "tags": [
+      "auth",
+      "security",
+      "backend",
+      "fullstack"
+    ],
+    "comparison": {
+      "authSupport": "Enterprise-grade auth, SSO, and RBAC",
+      "realtimeSupport": "None",
+      "pricing": "Free up to 25k MAU; paid plans scale by features",
+      "learningCurve": "Moderate"
+    }
+  },
+  {
+    "id": "supabase-auth",
+    "name": "Supabase Auth",
+    "description": "Postgres-native authentication with row-level security, OAuth providers, and magic links.",
+    "category": "Auth",
+    "freeTier": "Included in the Supabase free tier with 50,000 monthly active users.",
+    "website": "https://supabase.com/auth",
+    "alternatives": [
+      "clerk",
+      "firebase-auth",
+      "auth0"
+    ],
+    "tags": [
+      "auth",
+      "backend",
+      "fullstack",
+      "security",
+      "open-source"
+    ],
+    "comparison": {
+      "authSupport": "Email, OAuth, magic links, and phone auth",
+      "databaseSupport": "Tightly integrated with Supabase Postgres + RLS",
+      "pricing": "Free with Supabase; scales on Pro at $25/mo",
+      "learningCurve": "Moderate"
+    }
+  },
+  {
+    "id": "firebase-auth",
+    "name": "Firebase Authentication",
+    "description": "Managed authentication backend supporting email, phone, and federated identity providers.",
+    "category": "Auth",
+    "freeTier": "Free for most providers; phone auth includes a limited free monthly verification quota.",
+    "website": "https://firebase.google.com/products/auth",
+    "alternatives": [
+      "supabase-auth",
+      "clerk"
+    ],
+    "tags": [
+      "auth",
+      "mobile",
+      "fullstack",
+      "security"
+    ],
+    "comparison": {
+      "authSupport": "Email, phone, and many federated providers",
+      "pricing": "Free tier; phone auth billed beyond free quota",
+      "learningCurve": "Easy"
+    }
+  },
+  {
+    "id": "cloudinary",
+    "name": "Cloudinary",
+    "description": "Media platform for uploading, transforming, optimizing, and delivering images and video.",
+    "category": "Storage",
+    "freeTier": "Free plan with 25 monthly credits covering storage, transformations, and bandwidth.",
+    "website": "https://cloudinary.com",
+    "alternatives": [
+      "supabase-storage",
+      "aws-s3"
+    ],
+    "tags": [
+      "storage",
+      "media",
+      "frontend",
+      "cdn"
+    ],
+    "comparison": {
+      "storageSupport": "Optimized media storage with on-the-fly transforms",
+      "pricing": "Free 25 credits/mo; paid plans from $99/mo",
+      "learningCurve": "Easy"
+    }
+  },
+  {
+    "id": "supabase-storage",
+    "name": "Supabase Storage",
+    "description": "S3-compatible object storage with access policies tied to your Postgres auth rules.",
+    "category": "Storage",
+    "freeTier": "1 GB of file storage included on the Supabase free tier.",
+    "website": "https://supabase.com/storage",
+    "alternatives": [
+      "cloudinary",
+      "backblaze-b2",
+      "aws-s3"
+    ],
+    "tags": [
+      "storage",
+      "backend",
+      "fullstack",
+      "open-source"
+    ],
+    "comparison": {
+      "storageSupport": "S3-compatible object storage with RLS policies",
+      "pricing": "Free 1 GB; scales with Supabase Pro",
+      "learningCurve": "Easy"
+    }
+  },
+  {
+    "id": "backblaze-b2",
+    "name": "Backblaze B2",
+    "description": "Low-cost S3-compatible cloud object storage with free egress to many CDN partners.",
+    "category": "Storage",
+    "freeTier": "First 10 GB of storage free, plus free daily download allowance.",
+    "website": "https://www.backblaze.com/cloud-storage",
+    "alternatives": [
+      "aws-s3",
+      "cloudinary"
+    ],
+    "tags": [
+      "storage",
+      "backend",
+      "cloud"
+    ]
+  },
+  {
+    "id": "aws-s3",
+    "name": "Amazon S3",
+    "description": "Industry-standard scalable object storage for files, backups, and static assets.",
+    "category": "Storage",
+    "freeTier": "Free tier: 5 GB standard storage for 12 months with limited requests.",
+    "website": "https://aws.amazon.com/s3",
+    "alternatives": [
+      "backblaze-b2",
+      "supabase-storage"
+    ],
+    "tags": [
+      "storage",
+      "cloud",
+      "backend",
+      "devops"
+    ]
+  },
+  {
+    "id": "sentry",
+    "name": "Sentry",
+    "description": "Application monitoring and error tracking with stack traces, releases, and performance tracing.",
+    "category": "Monitoring",
+    "freeTier": "Free Developer plan: 5k errors, 10k performance units, and basic alerting per month.",
+    "website": "https://sentry.io",
+    "alternatives": [
+      "better-stack",
+      "grafana-cloud"
+    ],
+    "tags": [
+      "monitoring",
+      "observability",
+      "backend",
+      "frontend",
+      "devops"
+    ]
+  },
+  {
+    "id": "grafana-cloud",
+    "name": "Grafana Cloud",
+    "description": "Hosted observability stack for metrics, logs, and traces with prebuilt dashboards.",
+    "category": "Monitoring",
+    "freeTier": "Free forever tier: 10k metrics series, 50 GB logs and traces, and 14-day retention.",
+    "website": "https://grafana.com/products/cloud",
+    "alternatives": [
+      "sentry",
+      "better-stack"
+    ],
+    "tags": [
+      "monitoring",
+      "observability",
+      "devops",
+      "cloud",
+      "open-source"
+    ]
+  },
+  {
+    "id": "better-stack",
+    "name": "Better Stack",
+    "description": "Uptime monitoring, incident management, and log management in one platform.",
+    "category": "Monitoring",
+    "freeTier": "Free plan with 10 monitors, status pages, and 3 GB of logs per month.",
+    "website": "https://betterstack.com",
+    "alternatives": [
+      "uptime-robot",
+      "sentry"
+    ],
+    "tags": [
+      "monitoring",
+      "observability",
+      "devops"
+    ]
+  },
+  {
+    "id": "uptime-robot",
+    "name": "UptimeRobot",
+    "description": "Simple uptime and status monitoring that alerts you when your services go down.",
+    "category": "Monitoring",
+    "freeTier": "Free plan with 50 monitors at 5-minute checks and public status pages.",
+    "website": "https://uptimerobot.com",
+    "alternatives": [
+      "better-stack"
+    ],
+    "tags": [
+      "monitoring",
+      "devops",
+      "uptime"
+    ]
+  },
+  {
+    "id": "github-actions",
+    "name": "GitHub Actions",
+    "description": "CI/CD automation built into GitHub for building, testing, and deploying from workflows.",
+    "category": "CI/CD",
+    "freeTier": "Free unlimited minutes for public repos; 2,000 minutes/mo for private repos.",
+    "website": "https://github.com/features/actions",
+    "alternatives": [
+      "gitlab-ci",
+      "circleci"
+    ],
+    "tags": [
+      "ci-cd",
+      "devops",
+      "automation",
+      "deployment",
+      "fullstack"
+    ]
+  },
+  {
+    "id": "gitlab-ci",
+    "name": "GitLab CI/CD",
+    "description": "Integrated pipelines for building, testing, and deploying directly from GitLab repositories.",
+    "category": "CI/CD",
+    "freeTier": "Free tier includes 400 compute minutes per month on shared runners.",
+    "website": "https://docs.gitlab.com/ee/ci",
+    "alternatives": [
+      "github-actions",
+      "circleci"
+    ],
+    "tags": [
+      "ci-cd",
+      "devops",
+      "automation",
+      "deployment"
+    ]
+  },
+  {
+    "id": "circleci",
+    "name": "CircleCI",
+    "description": "Cloud CI/CD platform with configurable pipelines, caching, and parallelism.",
+    "category": "CI/CD",
+    "freeTier": "Free plan with 6,000 build minutes per month and up to 5 active users.",
+    "website": "https://circleci.com",
+    "alternatives": [
+      "github-actions",
+      "gitlab-ci"
+    ],
+    "tags": [
+      "ci-cd",
+      "devops",
+      "automation"
+    ]
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "description": "API platform for designing, testing, documenting, and mocking HTTP APIs.",
+    "category": "APIs",
+    "freeTier": "Free plan with collaborative collections, 25 mock/monitor calls, and shared workspaces.",
+    "website": "https://www.postman.com",
+    "alternatives": [
+      "hoppscotch"
+    ],
+    "tags": [
+      "api",
+      "testing",
+      "backend",
+      "tools"
+    ]
+  },
+  {
+    "id": "hoppscotch",
+    "name": "Hoppscotch",
+    "description": "Lightweight open-source API development tool for crafting and testing requests in the browser.",
+    "category": "APIs",
+    "freeTier": "Free and open source; self-host or use the free hosted app.",
+    "website": "https://hoppscotch.io",
+    "alternatives": [
+      "postman"
+    ],
+    "tags": [
+      "api",
+      "testing",
+      "open-source",
+      "backend"
+    ]
+  },
+  {
+    "id": "rapidapi",
+    "name": "RapidAPI",
+    "description": "Marketplace to discover, test, and connect to thousands of public and private APIs.",
+    "category": "APIs",
+    "freeTier": "Free to browse and subscribe to APIs that offer free usage tiers.",
+    "website": "https://rapidapi.com",
+    "alternatives": [
+      "postman"
+    ],
+    "tags": [
+      "api",
+      "backend",
+      "integration"
+    ]
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "description": "Developer-first payments API for accepting cards, subscriptions, and marketplace payouts.",
+    "category": "APIs",
+    "freeTier": "No monthly fee; pay only per-transaction, with a full-featured test mode for development.",
+    "website": "https://stripe.com",
+    "alternatives": [],
+    "tags": [
+      "api",
+      "payments",
+      "backend",
+      "fullstack"
+    ]
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "description": "Collaborative interface design tool for UI design, prototyping, and design systems.",
+    "category": "Design",
+    "freeTier": "Free Starter plan: 3 design files, unlimited collaborators, and basic prototyping.",
+    "website": "https://www.figma.com",
+    "alternatives": [
+      "canva",
+      "excalidraw"
+    ],
+    "tags": [
+      "design",
+      "frontend",
+      "ui",
+      "prototyping"
+    ]
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "description": "Drag-and-drop design tool for graphics, presentations, and social media assets.",
+    "category": "Design",
+    "freeTier": "Free plan with thousands of templates, photos, and basic editing features.",
+    "website": "https://www.canva.com",
+    "alternatives": [
+      "figma"
+    ],
+    "tags": [
+      "design",
+      "graphics",
+      "marketing"
+    ]
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw",
+    "description": "Virtual whiteboard for sketching hand-drawn-style diagrams and architecture flows.",
+    "category": "Design",
+    "freeTier": "Free and open source with no account required; collaborative rooms available.",
+    "website": "https://excalidraw.com",
+    "alternatives": [
+      "figma"
+    ],
+    "tags": [
+      "design",
+      "diagramming",
+      "open-source",
+      "whiteboard"
+    ]
+  },
+  {
+    "id": "coolors",
+    "name": "Coolors",
+    "description": "Fast color palette generator for building accessible, harmonious design systems.",
+    "category": "Design",
+    "freeTier": "Free palette generation and browsing with optional account to save palettes.",
+    "website": "https://coolors.co",
+    "alternatives": [],
+    "tags": [
+      "design",
+      "color",
+      "frontend",
+      "ui"
+    ]
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "description": "All-in-one workspace for notes, docs, wikis, and lightweight project databases.",
+    "category": "Productivity",
+    "freeTier": "Free Personal plan with unlimited pages and blocks for individuals.",
+    "website": "https://www.notion.so",
+    "alternatives": [
+      "linear"
+    ],
+    "tags": [
+      "productivity",
+      "docs",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "description": "Code hosting platform for version control, collaboration, issues, and pull requests.",
+    "category": "Productivity",
+    "freeTier": "Free unlimited public and private repositories with collaborators and Actions minutes.",
+    "website": "https://github.com",
+    "alternatives": [
+      "gitlab-ci"
+    ],
+    "tags": [
+      "productivity",
+      "version-control",
+      "collaboration",
+      "open-source",
+      "devops"
+    ]
+  },
+  {
+    "id": "vs-code",
+    "name": "Visual Studio Code",
+    "description": "Free, extensible source-code editor with debugging, Git integration, and a huge extension market.",
+    "category": "Productivity",
+    "freeTier": "Completely free and open source for all platforms.",
+    "website": "https://code.visualstudio.com",
+    "alternatives": [],
+    "tags": [
+      "productivity",
+      "editor",
+      "open-source",
+      "frontend",
+      "backend"
+    ]
+  },
+  {
+    "id": "linear",
+    "name": "Linear",
+    "description": "Streamlined issue tracking and project management built for software teams.",
+    "category": "Productivity",
+    "freeTier": "Free plan for small teams with unlimited members and 250 active issues.",
+    "website": "https://linear.app",
+    "alternatives": [
+      "notion"
+    ],
+    "tags": [
+      "productivity",
+      "project-management",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright",
+    "description": "End-to-end browser testing framework supporting Chromium, Firefox, and WebKit.",
+    "category": "Testing",
+    "freeTier": "Free and open source with no usage limits.",
+    "website": "https://playwright.dev",
+    "alternatives": [
+      "cypress"
+    ],
+    "tags": [
+      "testing",
+      "e2e",
+      "open-source",
+      "frontend",
+      "automation"
+    ]
+  },
+  {
+    "id": "cypress",
+    "name": "Cypress",
+    "description": "Front-end testing tool for fast, reliable end-to-end and component tests in the browser.",
+    "category": "Testing",
+    "freeTier": "Open-source test runner is free; Cypress Cloud free tier includes 500 test results/mo.",
+    "website": "https://www.cypress.io",
+    "alternatives": [
+      "playwright"
+    ],
+    "tags": [
+      "testing",
+      "e2e",
+      "open-source",
+      "frontend"
+    ]
+  },
+  {
+    "id": "vitest",
+    "name": "Vitest",
+    "description": "Blazing-fast unit test framework powered by Vite with a Jest-compatible API.",
+    "category": "Testing",
+    "freeTier": "Free and open source.",
+    "website": "https://vitest.dev",
+    "alternatives": [
+      "jest"
+    ],
+    "tags": [
+      "testing",
+      "unit",
+      "open-source",
+      "frontend",
+      "backend"
+    ]
+  },
+  {
+    "id": "jest",
+    "name": "Jest",
+    "description": "Delightful JavaScript testing framework with a focus on simplicity and snapshot testing.",
+    "category": "Testing",
+    "freeTier": "Free and open source.",
+    "website": "https://jestjs.io",
+    "alternatives": [
+      "vitest"
+    ],
+    "tags": [
+      "testing",
+      "unit",
+      "open-source",
+      "backend"
+    ]
+  },
+  {
+    "id": "snyk",
+    "name": "Snyk",
+    "description": "Developer security platform that finds and fixes vulnerabilities in code, dependencies, and containers.",
+    "category": "Security",
+    "freeTier": "Free plan with limited monthly tests for open-source, code, and container scanning.",
+    "website": "https://snyk.io",
+    "alternatives": [
+      "owasp-zap"
+    ],
+    "tags": [
+      "security",
+      "devops",
+      "vulnerability",
+      "cybersecurity"
+    ]
+  },
+  {
+    "id": "1password-developer",
+    "name": "1Password Developer Tools",
+    "description": "Securely manage and inject secrets, SSH keys, and environment variables into development workflows.",
+    "category": "Security",
+    "freeTier": "Free for open-source maintainers and via free credits; CLI and SSH agent are free to use.",
+    "website": "https://developer.1password.com",
+    "alternatives": [],
+    "tags": [
+      "security",
+      "secrets",
+      "devops",
+      "cybersecurity"
+    ]
+  },
+  {
+    "id": "owasp-zap",
+    "name": "OWASP ZAP",
+    "description": "Open-source web application security scanner for finding vulnerabilities through active and passive scanning.",
+    "category": "Security",
+    "freeTier": "Free and open source with no limits.",
+    "website": "https://www.zaproxy.org",
+    "alternatives": [
+      "snyk"
+    ],
+    "tags": [
+      "security",
+      "cybersecurity",
+      "open-source",
+      "pentesting"
+    ]
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "description": "Distributed version control system for tracking changes across software projects.",
+    "category": "Open Source",
+    "freeTier": "Free and open source for all platforms.",
+    "website": "https://git-scm.com",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "version-control",
+      "devops",
+      "tools"
+    ]
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "description": "Open-source operating system kernel powering servers, cloud infrastructure, and developer machines.",
+    "category": "Open Source",
+    "freeTier": "Free and open source across all major distributions.",
+    "website": "https://www.kernel.org",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "devops",
+      "cloud",
+      "operating-system"
+    ]
+  },
+  {
+    "id": "freecodecamp",
+    "name": "freeCodeCamp",
+    "description": "Nonprofit offering a free, project-based curriculum and certifications for web development.",
+    "category": "Open Source",
+    "freeTier": "Completely free curriculum, certifications, and community.",
+    "website": "https://www.freecodecamp.org",
+    "alternatives": [
+      "mdn-web-docs"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "frontend",
+      "backend",
+      "fullstack"
+    ]
+  },
+  {
+    "id": "mdn-web-docs",
+    "name": "MDN Web Docs",
+    "description": "Comprehensive, community-maintained documentation for web standards, HTML, CSS, and JavaScript.",
+    "category": "Open Source",
+    "freeTier": "Free and open documentation for all web developers.",
+    "website": "https://developer.mozilla.org",
+    "alternatives": [
+      "freecodecamp"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "documentation",
+      "frontend"
+    ]
+  },
+  {
+    "id": "antigravity",
+    "name": "Antigravity (Google)",
+    "description": "Free AI-powered coding assistant by Google DeepMind for advanced agentic coding, debugging, and code generation.",
+    "category": "AI",
+    "freeTier": "Free for individual developers with full AI coding capabilities.",
+    "website": "https://cloud.google.com",
+    "alternatives": [
+      "github-copilot-free",
+      "cursor"
+    ],
+    "tags": [
+      "ai",
+      "coding-assistant",
+      "google",
+      "free",
+      "agentic"
+    ]
+  },
+  {
+    "id": "github-copilot-free",
+    "name": "GitHub Copilot Free",
+    "description": "AI pair programmer that suggests code completions and entire functions in your editor. Free tier available.",
+    "category": "AI",
+    "freeTier": "Free tier with limited completions per month for individual developers.",
+    "website": "https://github.com/features/copilot",
+    "alternatives": [
+      "antigravity",
+      "codeium"
+    ],
+    "tags": [
+      "ai",
+      "coding-assistant",
+      "github",
+      "free"
+    ]
+  },
+  {
+    "id": "codeium",
+    "name": "Codeium",
+    "description": "Free AI-powered code completion and chat for 70+ languages in any IDE.",
+    "category": "AI",
+    "freeTier": "Free forever for individual developers with unlimited completions.",
+    "website": "https://codeium.com",
+    "alternatives": [
+      "github-copilot-free",
+      "antigravity"
+    ],
+    "tags": [
+      "ai",
+      "coding-assistant",
+      "free",
+      "editor"
+    ]
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "description": "AI-first code editor built on VS Code with integrated AI chat, code generation, and editing.",
+    "category": "AI",
+    "freeTier": "Free tier with limited AI requests per month.",
+    "website": "https://cursor.sh",
+    "alternatives": [
+      "antigravity",
+      "github-copilot-free"
+    ],
+    "tags": [
+      "ai",
+      "editor",
+      "coding-assistant",
+      "free"
+    ]
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "description": "OpenAI's conversational AI for coding help, debugging, explaining code, and generating solutions.",
+    "category": "AI",
+    "freeTier": "Free tier with GPT-3.5 and limited GPT-4o access.",
+    "website": "https://chat.openai.com",
+    "alternatives": [
+      "gemini-ai",
+      "claude-ai"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "chatbot",
+      "free",
+      "coding-assistant"
+    ]
+  },
+  {
+    "id": "gemini-ai",
+    "name": "Google Gemini",
+    "description": "Google's multimodal AI for coding, analysis, research, and creative tasks with free access.",
+    "category": "AI",
+    "freeTier": "Free access to Gemini with generous usage limits.",
+    "website": "https://gemini.google.com",
+    "alternatives": [
+      "chatgpt",
+      "claude-ai"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "google",
+      "free",
+      "multimodal"
+    ]
+  },
+  {
+    "id": "claude-ai",
+    "name": "Claude (Anthropic)",
+    "description": "Anthropic's AI assistant excelling at coding, analysis, and long-context tasks.",
+    "category": "AI",
+    "freeTier": "Free tier with daily usage limits on Claude 3.5 Sonnet.",
+    "website": "https://claude.ai",
+    "alternatives": [
+      "chatgpt",
+      "gemini-ai"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "coding-assistant",
+      "free"
+    ]
+  },
+  {
+    "id": "replicate",
+    "name": "Replicate",
+    "description": "Run open-source ML models in the cloud with a simple API. Pay per use with free credits.",
+    "category": "AI",
+    "freeTier": "Free credits for new users; open-source models are free to run.",
+    "website": "https://replicate.com",
+    "alternatives": [
+      "hugging-face"
+    ],
+    "tags": [
+      "ai",
+      "ml",
+      "inference",
+      "api",
+      "free"
+    ]
+  },
+  {
+    "id": "together-ai",
+    "name": "Together AI",
+    "description": "Fast inference API for open-source LLMs like Llama, Mistral, and more.",
+    "category": "AI",
+    "freeTier": "$5 free credits on signup; open-source model hosting.",
+    "website": "https://together.ai",
+    "alternatives": [
+      "groq",
+      "openrouter"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "inference",
+      "api",
+      "free"
+    ]
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "description": "Open-source framework for building LLM-powered applications with chains, agents, and retrieval.",
+    "category": "AI",
+    "freeTier": "Fully open-source and free. LangSmith tracing has a free tier.",
+    "website": "https://langchain.com",
+    "alternatives": [
+      "llamaindex"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "framework",
+      "open-source",
+      "rag"
+    ]
+  },
+  {
+    "id": "llamaindex",
+    "name": "LlamaIndex",
+    "description": "Data framework for connecting LLMs with external data sources for RAG applications.",
+    "category": "AI",
+    "freeTier": "Fully open-source and free to use.",
+    "website": "https://www.llamaindex.ai",
+    "alternatives": [
+      "langchain"
+    ],
+    "tags": [
+      "ai",
+      "llm",
+      "rag",
+      "open-source",
+      "framework"
+    ]
+  },
+  {
+    "id": "stability-ai",
+    "name": "Stable Diffusion",
+    "description": "Open-source image generation model. Run locally for free or use via API services.",
+    "category": "AI",
+    "freeTier": "Fully open-source; run locally for free with no limits.",
+    "website": "https://stability.ai",
+    "alternatives": [],
+    "tags": [
+      "ai",
+      "image-generation",
+      "open-source",
+      "free"
+    ]
+  },
+  {
+    "id": "perplexity-ai",
+    "name": "Perplexity AI",
+    "description": "AI-powered search engine that provides cited answers for research and learning.",
+    "category": "AI",
+    "freeTier": "Free tier with unlimited basic searches.",
+    "website": "https://perplexity.ai",
+    "alternatives": [
+      "chatgpt",
+      "gemini-ai"
+    ],
+    "tags": [
+      "ai",
+      "search",
+      "research",
+      "free"
+    ]
+  },
+  {
+    "id": "v0-dev",
+    "name": "v0 by Vercel",
+    "description": "AI-powered UI generation tool that creates React components from text prompts.",
+    "category": "AI",
+    "freeTier": "Free tier with limited generations per month.",
+    "website": "https://v0.dev",
+    "alternatives": [],
+    "tags": [
+      "ai",
+      "ui",
+      "react",
+      "frontend",
+      "free"
+    ]
+  },
+  {
+    "id": "github-pages",
+    "name": "GitHub Pages",
+    "description": "Free static site hosting directly from your GitHub repository with custom domains.",
+    "category": "Hosting",
+    "freeTier": "Free for public repos; 1GB storage, 100GB bandwidth/month.",
+    "website": "https://pages.github.com",
+    "alternatives": [
+      "netlify",
+      "vercel"
+    ],
+    "tags": [
+      "hosting",
+      "static",
+      "free",
+      "github"
+    ]
+  },
+  {
+    "id": "fly-io",
+    "name": "Fly.io",
+    "description": "Deploy full-stack apps globally with free allowances for small projects.",
+    "category": "Hosting",
+    "freeTier": "Free tier: 3 shared VMs, 160GB outbound, 3GB persistent storage.",
+    "website": "https://fly.io",
+    "alternatives": [
+      "railway",
+      "render"
+    ],
+    "tags": [
+      "hosting",
+      "backend",
+      "docker",
+      "free",
+      "edge"
+    ]
+  },
+  {
+    "id": "deno-deploy",
+    "name": "Deno Deploy",
+    "description": "Serverless edge hosting for Deno/TypeScript applications with instant deploys.",
+    "category": "Hosting",
+    "freeTier": "Free tier: 100K requests/day, 100 GiB bandwidth/month.",
+    "website": "https://deno.com/deploy",
+    "alternatives": [
+      "vercel",
+      "cloudflare-pages"
+    ],
+    "tags": [
+      "hosting",
+      "serverless",
+      "edge",
+      "typescript",
+      "free"
+    ]
+  },
+  {
+    "id": "surge",
+    "name": "Surge",
+    "description": "Simple, single-command static web publishing for frontend developers.",
+    "category": "Hosting",
+    "freeTier": "Free tier with unlimited publishing, custom domains, and SSL.",
+    "website": "https://surge.sh",
+    "alternatives": [
+      "netlify",
+      "github-pages"
+    ],
+    "tags": [
+      "hosting",
+      "static",
+      "frontend",
+      "free"
+    ]
+  },
+  {
+    "id": "glitch",
+    "name": "Glitch",
+    "description": "Build and host full-stack web apps in the browser with instant deploys.",
+    "category": "Hosting",
+    "freeTier": "Free tier with full-stack app hosting (sleeps after inactivity).",
+    "website": "https://glitch.com",
+    "alternatives": [
+      "replit",
+      "codepen"
+    ],
+    "tags": [
+      "hosting",
+      "fullstack",
+      "editor",
+      "free",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "replit",
+    "name": "Replit",
+    "description": "Browser-based IDE with built-in hosting, AI assistance, and collaboration.",
+    "category": "Hosting",
+    "freeTier": "Free tier with unlimited repls, built-in hosting, and AI.",
+    "website": "https://replit.com",
+    "alternatives": [
+      "glitch",
+      "codepen"
+    ],
+    "tags": [
+      "hosting",
+      "editor",
+      "ai",
+      "free",
+      "collaboration"
+    ]
+  },
+  {
+    "id": "turso",
+    "name": "Turso",
+    "description": "Edge-hosted SQLite database with libSQL, global replication, and embedded replicas.",
+    "category": "Databases",
+    "freeTier": "Free: 500 databases, 9GB storage, 25M row reads/month.",
+    "website": "https://turso.tech",
+    "alternatives": [
+      "neon",
+      "supabase"
+    ],
+    "tags": [
+      "database",
+      "sqlite",
+      "edge",
+      "free",
+      "serverless"
+    ]
+  },
+  {
+    "id": "upstash",
+    "name": "Upstash",
+    "description": "Serverless Redis and Kafka with per-request pricing and generous free tiers.",
+    "category": "Databases",
+    "freeTier": "Free: 10K commands/day Redis, 10K messages/day Kafka.",
+    "website": "https://upstash.com",
+    "alternatives": [
+      "supabase",
+      "firebase"
+    ],
+    "tags": [
+      "database",
+      "redis",
+      "kafka",
+      "serverless",
+      "free"
+    ]
+  },
+  {
+    "id": "cockroachdb",
+    "name": "CockroachDB",
+    "description": "Distributed SQL database with PostgreSQL compatibility and automatic scaling.",
+    "category": "Databases",
+    "freeTier": "Free Serverless tier: 10 GiB storage, 50M request units/month.",
+    "website": "https://www.cockroachlabs.com",
+    "alternatives": [
+      "neon",
+      "planetscale"
+    ],
+    "tags": [
+      "database",
+      "sql",
+      "distributed",
+      "free",
+      "postgresql"
+    ]
+  },
+  {
+    "id": "fauna",
+    "name": "Fauna",
+    "description": "Serverless document-relational database with native GraphQL and global distribution.",
+    "category": "Databases",
+    "freeTier": "Free tier: 100K read/write ops, 5GB storage.",
+    "website": "https://fauna.com",
+    "alternatives": [
+      "supabase",
+      "firebase"
+    ],
+    "tags": [
+      "database",
+      "serverless",
+      "graphql",
+      "free"
+    ]
+  },
+  {
+    "id": "airtable",
+    "name": "Airtable",
+    "description": "Spreadsheet-database hybrid for building apps, managing data, and automating workflows.",
+    "category": "Databases",
+    "freeTier": "Free: unlimited bases, 1,000 records per base, 1GB attachments.",
+    "website": "https://airtable.com",
+    "alternatives": [
+      "notion"
+    ],
+    "tags": [
+      "database",
+      "nocode",
+      "productivity",
+      "free"
+    ]
+  },
+  {
+    "id": "xata",
+    "name": "Xata",
+    "description": "Serverless Postgres platform with built-in search, analytics, and branching.",
+    "category": "Databases",
+    "freeTier": "Free: 15GB storage, 75 requests/second, 750K records.",
+    "website": "https://xata.io",
+    "alternatives": [
+      "neon",
+      "supabase"
+    ],
+    "tags": [
+      "database",
+      "postgresql",
+      "serverless",
+      "free",
+      "search"
+    ]
+  },
+  {
+    "id": "mixpanel",
+    "name": "Mixpanel",
+    "description": "Product analytics platform for tracking user behavior, funnels, and retention.",
+    "category": "Analytics",
+    "freeTier": "Free: up to 20M events/month with unlimited data history.",
+    "website": "https://mixpanel.com",
+    "alternatives": [
+      "posthog",
+      "plausible"
+    ],
+    "tags": [
+      "analytics",
+      "product",
+      "free",
+      "events"
+    ]
+  },
+  {
+    "id": "amplitude",
+    "name": "Amplitude",
+    "description": "Digital analytics platform for understanding user behavior and product usage.",
+    "category": "Analytics",
+    "freeTier": "Free Starter plan with up to 50K tracked users/month.",
+    "website": "https://amplitude.com",
+    "alternatives": [
+      "mixpanel",
+      "posthog"
+    ],
+    "tags": [
+      "analytics",
+      "product",
+      "free"
+    ]
+  },
+  {
+    "id": "hotjar",
+    "name": "Hotjar",
+    "description": "Heatmaps, session recordings, and user feedback tools for understanding website visitors.",
+    "category": "Analytics",
+    "freeTier": "Free Basic plan: 35 daily sessions, unlimited heatmaps.",
+    "website": "https://hotjar.com",
+    "alternatives": [
+      "posthog",
+      "mixpanel"
+    ],
+    "tags": [
+      "analytics",
+      "ux",
+      "heatmaps",
+      "free"
+    ]
+  },
+  {
+    "id": "lucia-auth",
+    "name": "Lucia Auth",
+    "description": "Lightweight, session-based authentication library for any runtime and framework.",
+    "category": "Auth",
+    "freeTier": "Fully open-source and free to use. Self-hosted.",
+    "website": "https://lucia-auth.com",
+    "alternatives": [
+      "clerk",
+      "auth0"
+    ],
+    "tags": [
+      "auth",
+      "open-source",
+      "free",
+      "session"
+    ]
+  },
+  {
+    "id": "nextauth",
+    "name": "NextAuth.js / Auth.js",
+    "description": "Open-source authentication for Next.js and other frameworks with 50+ providers.",
+    "category": "Auth",
+    "freeTier": "Completely free and open-source.",
+    "website": "https://authjs.dev",
+    "alternatives": [
+      "clerk",
+      "lucia-auth"
+    ],
+    "tags": [
+      "auth",
+      "nextjs",
+      "open-source",
+      "free",
+      "oauth"
+    ]
+  },
+  {
+    "id": "keycloak",
+    "name": "Keycloak",
+    "description": "Open-source identity and access management with SSO, LDAP, and social login.",
+    "category": "Auth",
+    "freeTier": "Fully open-source; self-hosted with no limits.",
+    "website": "https://www.keycloak.org",
+    "alternatives": [
+      "auth0",
+      "clerk"
+    ],
+    "tags": [
+      "auth",
+      "sso",
+      "open-source",
+      "free",
+      "enterprise"
+    ]
+  },
+  {
+    "id": "logto",
+    "name": "Logto",
+    "description": "Open-source auth infrastructure with beautiful sign-in experience and management console.",
+    "category": "Auth",
+    "freeTier": "Free: 50K MAU, unlimited apps, social connectors.",
+    "website": "https://logto.io",
+    "alternatives": [
+      "clerk",
+      "auth0"
+    ],
+    "tags": [
+      "auth",
+      "open-source",
+      "free"
+    ]
+  },
+  {
+    "id": "uploadthing",
+    "name": "UploadThing",
+    "description": "File uploads for full-stack TypeScript applications with a simple API.",
+    "category": "Storage",
+    "freeTier": "Free tier: 2GB storage, 2GB bandwidth/month.",
+    "website": "https://uploadthing.com",
+    "alternatives": [
+      "cloudinary",
+      "supabase-storage"
+    ],
+    "tags": [
+      "storage",
+      "uploads",
+      "typescript",
+      "free"
+    ]
+  },
+  {
+    "id": "imgbb",
+    "name": "ImgBB",
+    "description": "Free image hosting with API access, hotlinking, and no expiration.",
+    "category": "Storage",
+    "freeTier": "Free: unlimited uploads up to 32MB per image.",
+    "website": "https://imgbb.com",
+    "alternatives": [
+      "cloudinary"
+    ],
+    "tags": [
+      "storage",
+      "images",
+      "hosting",
+      "free",
+      "api"
+    ]
+  },
+  {
+    "id": "r2-cloudflare",
+    "name": "Cloudflare R2",
+    "description": "S3-compatible object storage with zero egress fees.",
+    "category": "Storage",
+    "freeTier": "Free: 10GB storage, 1M Class A ops, 10M Class B ops/month.",
+    "website": "https://developers.cloudflare.com/r2/",
+    "alternatives": [
+      "aws-s3",
+      "backblaze-b2"
+    ],
+    "tags": [
+      "storage",
+      "cloud",
+      "s3",
+      "free",
+      "cdn"
+    ]
+  },
+  {
+    "id": "datadog-free",
+    "name": "Datadog (Free Tier)",
+    "description": "Infrastructure monitoring, APM, and log management platform.",
+    "category": "Monitoring",
+    "freeTier": "Free: up to 5 hosts, 1-day metric retention.",
+    "website": "https://www.datadoghq.com",
+    "alternatives": [
+      "grafana-cloud",
+      "sentry"
+    ],
+    "tags": [
+      "monitoring",
+      "apm",
+      "logs",
+      "free"
+    ]
+  },
+  {
+    "id": "checkly",
+    "name": "Checkly",
+    "description": "API and browser monitoring with Playwright-based synthetic checks.",
+    "category": "Monitoring",
+    "freeTier": "Free Hobby plan: 5 checks, 10K check runs/month.",
+    "website": "https://www.checklyhq.com",
+    "alternatives": [
+      "uptime-robot",
+      "better-stack"
+    ],
+    "tags": [
+      "monitoring",
+      "api",
+      "testing",
+      "playwright",
+      "free"
+    ]
+  },
+  {
+    "id": "cronitor",
+    "name": "Cronitor",
+    "description": "Monitor cron jobs, background tasks, pipelines, and heartbeat health checks.",
+    "category": "Monitoring",
+    "freeTier": "Free Developer plan: 5 monitors.",
+    "website": "https://cronitor.io",
+    "alternatives": [
+      "uptime-robot",
+      "better-stack"
+    ],
+    "tags": [
+      "monitoring",
+      "cron",
+      "devops",
+      "free"
+    ]
+  },
+  {
+    "id": "jenkins",
+    "name": "Jenkins",
+    "description": "Open-source automation server for building, testing, and deploying software.",
+    "category": "CI/CD",
+    "freeTier": "Fully open-source and free. Self-hosted.",
+    "website": "https://www.jenkins.io",
+    "alternatives": [
+      "github-actions",
+      "gitlab-ci"
+    ],
+    "tags": [
+      "ci-cd",
+      "automation",
+      "open-source",
+      "free",
+      "devops"
+    ]
+  },
+  {
+    "id": "drone-ci",
+    "name": "Drone CI",
+    "description": "Container-native CI/CD platform with pipeline-as-code configuration.",
+    "category": "CI/CD",
+    "freeTier": "Open-source Community Edition is free. Cloud free for open-source.",
+    "website": "https://www.drone.io",
+    "alternatives": [
+      "github-actions",
+      "jenkins"
+    ],
+    "tags": [
+      "ci-cd",
+      "docker",
+      "open-source",
+      "free"
+    ]
+  },
+  {
+    "id": "railway-ci",
+    "name": "Woodpecker CI",
+    "description": "Open-source CI/CD engine with Docker-based pipelines. Community-driven fork of Drone.",
+    "category": "CI/CD",
+    "freeTier": "Fully open-source and free. Self-hosted.",
+    "website": "https://woodpecker-ci.org",
+    "alternatives": [
+      "drone-ci",
+      "jenkins"
+    ],
+    "tags": [
+      "ci-cd",
+      "open-source",
+      "docker",
+      "free"
+    ]
+  },
+  {
+    "id": "twilio-free",
+    "name": "Twilio (Free Trial)",
+    "description": "Cloud communications API for SMS, voice, video, and email.",
+    "category": "APIs",
+    "freeTier": "Free trial with $15 credit; free SMS/voice to verified numbers.",
+    "website": "https://www.twilio.com",
+    "alternatives": [],
+    "tags": [
+      "api",
+      "sms",
+      "communication",
+      "free"
+    ]
+  },
+  {
+    "id": "resend",
+    "name": "Resend",
+    "description": "Modern email API for developers with React Email templates.",
+    "category": "APIs",
+    "freeTier": "Free: 3,000 emails/month, 100 emails/day.",
+    "website": "https://resend.com",
+    "alternatives": [
+      "sendgrid"
+    ],
+    "tags": [
+      "api",
+      "email",
+      "free",
+      "developer"
+    ]
+  },
+  {
+    "id": "sendgrid",
+    "name": "SendGrid",
+    "description": "Email delivery service with API and SMTP relay for transactional and marketing emails.",
+    "category": "APIs",
+    "freeTier": "Free: 100 emails/day forever.",
+    "website": "https://sendgrid.com",
+    "alternatives": [
+      "resend"
+    ],
+    "tags": [
+      "api",
+      "email",
+      "free"
+    ]
+  },
+  {
+    "id": "algolia",
+    "name": "Algolia",
+    "description": "Hosted search API with typo-tolerance, faceting, and instant results.",
+    "category": "APIs",
+    "freeTier": "Free: 10K search requests/month, 10K records.",
+    "website": "https://www.algolia.com",
+    "alternatives": [
+      "meilisearch"
+    ],
+    "tags": [
+      "api",
+      "search",
+      "free"
+    ]
+  },
+  {
+    "id": "meilisearch",
+    "name": "Meilisearch",
+    "description": "Open-source, lightning-fast search engine with typo tolerance and faceted search.",
+    "category": "APIs",
+    "freeTier": "Fully open-source. Meilisearch Cloud free tier: 100K documents.",
+    "website": "https://www.meilisearch.com",
+    "alternatives": [
+      "algolia"
+    ],
+    "tags": [
+      "api",
+      "search",
+      "open-source",
+      "free"
+    ]
+  },
+  {
+    "id": "novu",
+    "name": "Novu",
+    "description": "Open-source notification infrastructure for in-app, email, push, SMS, and chat.",
+    "category": "APIs",
+    "freeTier": "Free: 30K events/month across all channels.",
+    "website": "https://novu.co",
+    "alternatives": [
+      "resend"
+    ],
+    "tags": [
+      "api",
+      "notifications",
+      "open-source",
+      "free"
+    ]
+  },
+  {
+    "id": "penpot",
+    "name": "Penpot",
+    "description": "Open-source design and prototyping platform. Free alternative to Figma.",
+    "category": "Design",
+    "freeTier": "Completely free and open-source. Self-hosted or cloud.",
+    "website": "https://penpot.app",
+    "alternatives": [
+      "figma"
+    ],
+    "tags": [
+      "design",
+      "prototyping",
+      "open-source",
+      "free"
+    ]
+  },
+  {
+    "id": "spline",
+    "name": "Spline",
+    "description": "3D design tool for the web with real-time collaboration and code export.",
+    "category": "Design",
+    "freeTier": "Free: unlimited projects, real-time collaboration, web export.",
+    "website": "https://spline.design",
+    "alternatives": [
+      "figma"
+    ],
+    "tags": [
+      "design",
+      "3d",
+      "web",
+      "free"
+    ]
+  },
+  {
+    "id": "iconify",
+    "name": "Iconify",
+    "description": "Universal icon framework with 200K+ open-source icons from 100+ icon sets.",
+    "category": "Design",
+    "freeTier": "Completely free. All icons are open-source.",
+    "website": "https://iconify.design",
+    "alternatives": [],
+    "tags": [
+      "design",
+      "icons",
+      "open-source",
+      "free",
+      "frontend"
+    ]
+  },
+  {
+    "id": "undraw",
+    "name": "unDraw",
+    "description": "Open-source illustrations for any project. Customizable colors, free to use.",
+    "category": "Design",
+    "freeTier": "Completely free for personal and commercial use.",
+    "website": "https://undraw.co",
+    "alternatives": [],
+    "tags": [
+      "design",
+      "illustrations",
+      "free",
+      "open-source"
+    ]
+  },
+  {
+    "id": "fontsource",
+    "name": "Fontsource",
+    "description": "Self-host Google Fonts and other open-source fonts via npm packages.",
+    "category": "Design",
+    "freeTier": "Completely free and open-source.",
+    "website": "https://fontsource.org",
+    "alternatives": [],
+    "tags": [
+      "design",
+      "fonts",
+      "open-source",
+      "free",
+      "frontend"
+    ]
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "description": "Knowledge management with markdown, backlinks, and graph views for developer notes.",
+    "category": "Productivity",
+    "freeTier": "Free for personal use with unlimited vaults and plugins.",
+    "website": "https://obsidian.md",
+    "alternatives": [
+      "notion"
+    ],
+    "tags": [
+      "productivity",
+      "notes",
+      "markdown",
+      "free"
+    ]
+  },
+  {
+    "id": "todoist",
+    "name": "Todoist",
+    "description": "Task management app with projects, labels, priorities, and integrations.",
+    "category": "Productivity",
+    "freeTier": "Free: 5 active projects, 5 collaborators per project.",
+    "website": "https://todoist.com",
+    "alternatives": [
+      "notion",
+      "linear"
+    ],
+    "tags": [
+      "productivity",
+      "tasks",
+      "project-management",
+      "free"
+    ]
+  },
+  {
+    "id": "raycast",
+    "name": "Raycast",
+    "description": "Blazingly fast launcher and productivity tool for macOS with extensions.",
+    "category": "Productivity",
+    "freeTier": "Free for personal use with all core features.",
+    "website": "https://www.raycast.com",
+    "alternatives": [],
+    "tags": [
+      "productivity",
+      "tools",
+      "automation",
+      "free"
+    ]
+  },
+  {
+    "id": "miro-free",
+    "name": "Miro (Free Tier)",
+    "description": "Online collaborative whiteboard for brainstorming, diagramming, and planning.",
+    "category": "Productivity",
+    "freeTier": "Free: 3 editable boards, unlimited team members.",
+    "website": "https://miro.com",
+    "alternatives": [
+      "excalidraw"
+    ],
+    "tags": [
+      "productivity",
+      "whiteboard",
+      "collaboration",
+      "free",
+      "diagramming"
+    ]
+  },
+  {
+    "id": "slack-free",
+    "name": "Slack (Free Tier)",
+    "description": "Team messaging platform with channels, threads, and integrations.",
+    "category": "Productivity",
+    "freeTier": "Free: 90-day message history, 10 integrations.",
+    "website": "https://slack.com",
+    "alternatives": [
+      "discord"
+    ],
+    "tags": [
+      "productivity",
+      "communication",
+      "collaboration",
+      "free"
+    ]
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "description": "Free communication platform with voice, video, text for developer communities.",
+    "category": "Productivity",
+    "freeTier": "Completely free with unlimited servers, channels, and voice chat.",
+    "website": "https://discord.com",
+    "alternatives": [
+      "slack-free"
+    ],
+    "tags": [
+      "productivity",
+      "communication",
+      "community",
+      "free"
+    ]
+  },
+  {
+    "id": "cron-job-org",
+    "name": "cron-job.org",
+    "description": "Free online cron job service to schedule HTTP requests at any interval.",
+    "category": "Productivity",
+    "freeTier": "Free: unlimited cron jobs with 1-minute minimum interval.",
+    "website": "https://cron-job.org",
+    "alternatives": [
+      "cronitor"
+    ],
+    "tags": [
+      "productivity",
+      "automation",
+      "cron",
+      "free"
+    ]
+  },
+  {
+    "id": "selenium",
+    "name": "Selenium",
+    "description": "Open-source browser automation framework for web application testing.",
+    "category": "Testing",
+    "freeTier": "Completely free and open-source.",
+    "website": "https://www.selenium.dev",
+    "alternatives": [
+      "playwright",
+      "cypress"
+    ],
+    "tags": [
+      "testing",
+      "e2e",
+      "automation",
+      "open-source",
+      "free"
+    ]
+  },
+  {
+    "id": "testing-library",
+    "name": "Testing Library",
+    "description": "Simple and complete testing utilities encouraging good testing practices.",
+    "category": "Testing",
+    "freeTier": "Completely free and open-source.",
+    "website": "https://testing-library.com",
+    "alternatives": [
+      "vitest",
+      "jest"
+    ],
+    "tags": [
+      "testing",
+      "unit",
+      "react",
+      "open-source",
+      "free"
+    ]
+  },
+  {
+    "id": "storybook",
+    "name": "Storybook",
+    "description": "Open-source tool for building, documenting, and testing UI components in isolation.",
+    "category": "Testing",
+    "freeTier": "Completely free and open-source. Chromatic free tier for visual testing.",
+    "website": "https://storybook.js.org",
+    "alternatives": [],
+    "tags": [
+      "testing",
+      "ui",
+      "documentation",
+      "open-source",
+      "free",
+      "frontend"
+    ]
+  },
+  {
+    "id": "k6",
+    "name": "k6 (Grafana)",
+    "description": "Open-source load testing tool for performance testing APIs and websites.",
+    "category": "Testing",
+    "freeTier": "Fully open-source. Grafana Cloud k6 free tier: 50 tests/month.",
+    "website": "https://k6.io",
+    "alternatives": [],
+    "tags": [
+      "testing",
+      "performance",
+      "load-testing",
+      "open-source",
+      "free"
+    ]
+  },
+  {
+    "id": "letsencrypt",
+    "name": "Let's Encrypt",
+    "description": "Free, automated SSL/TLS certificates for any website.",
+    "category": "Security",
+    "freeTier": "Completely free. Unlimited certificates.",
+    "website": "https://letsencrypt.org",
+    "alternatives": [],
+    "tags": [
+      "security",
+      "ssl",
+      "certificates",
+      "free",
+      "open-source"
+    ]
+  },
+  {
+    "id": "cloudflare-free",
+    "name": "Cloudflare (Free Plan)",
+    "description": "Free CDN, DDoS protection, DNS, and web security for any website.",
+    "category": "Security",
+    "freeTier": "Free: unlimited bandwidth CDN, DDoS protection, DNS, SSL.",
+    "website": "https://www.cloudflare.com",
+    "alternatives": [],
+    "tags": [
+      "security",
+      "cdn",
+      "dns",
+      "ddos",
+      "free"
+    ]
+  },
+  {
+    "id": "vault",
+    "name": "HashiCorp Vault",
+    "description": "Open-source secrets management, encryption, and identity-based access.",
+    "category": "Security",
+    "freeTier": "Open-source edition is free. Self-hosted.",
+    "website": "https://www.vaultproject.io",
+    "alternatives": [
+      "1password-developer"
+    ],
+    "tags": [
+      "security",
+      "secrets",
+      "open-source",
+      "free",
+      "devops"
+    ]
+  },
+  {
+    "id": "dependabot",
+    "name": "Dependabot",
+    "description": "Automated dependency updates and security vulnerability alerts for GitHub repos.",
+    "category": "Security",
+    "freeTier": "Completely free on GitHub for all repos.",
+    "website": "https://github.com/dependabot",
+    "alternatives": [
+      "snyk"
+    ],
+    "tags": [
+      "security",
+      "dependencies",
+      "github",
+      "free",
+      "automation"
+    ]
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "description": "Containerization platform for building, shipping, and running applications anywhere.",
+    "category": "Open Source",
+    "freeTier": "Docker Desktop free for personal use; Docker Engine fully open-source.",
+    "website": "https://www.docker.com",
+    "alternatives": [
+      "podman"
+    ],
+    "tags": [
+      "open-source",
+      "containers",
+      "devops",
+      "free"
+    ]
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "description": "Open-source container orchestration system for automating deployment and scaling.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source. Self-managed.",
+    "website": "https://kubernetes.io",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "containers",
+      "orchestration",
+      "devops",
+      "free"
+    ]
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform",
+    "description": "Infrastructure as Code tool for provisioning cloud resources declaratively.",
+    "category": "Open Source",
+    "freeTier": "Open-source CLI is free. Terraform Cloud free: up to 500 resources.",
+    "website": "https://www.terraform.io",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "iac",
+      "devops",
+      "cloud",
+      "free"
+    ]
+  },
+  {
+    "id": "prometheus",
+    "name": "Prometheus",
+    "description": "Open-source monitoring and alerting toolkit for reliability and observability.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source.",
+    "website": "https://prometheus.io",
+    "alternatives": [
+      "grafana-cloud"
+    ],
+    "tags": [
+      "open-source",
+      "monitoring",
+      "observability",
+      "free",
+      "devops"
+    ]
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "description": "Full-stack React framework with SSR, SSG, API routes, and the App Router.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source.",
+    "website": "https://nextjs.org",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "react",
+      "framework",
+      "fullstack",
+      "free",
+      "frontend"
+    ]
+  },
+  {
+    "id": "tailwindcss",
+    "name": "Tailwind CSS",
+    "description": "Utility-first CSS framework for rapidly building custom user interfaces.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source.",
+    "website": "https://tailwindcss.com",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "css",
+      "frontend",
+      "free",
+      "design"
+    ]
+  },
+  {
+    "id": "prisma",
+    "name": "Prisma",
+    "description": "TypeScript ORM for Node.js with auto-generated queries, migrations, and a visual editor.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source. Prisma Accelerate has a free tier.",
+    "website": "https://www.prisma.io",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "database",
+      "orm",
+      "typescript",
+      "free"
+    ]
+  },
+  {
+    "id": "drizzle",
+    "name": "Drizzle ORM",
+    "description": "Lightweight TypeScript ORM with SQL-like syntax and zero dependencies.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source.",
+    "website": "https://orm.drizzle.team",
+    "alternatives": [
+      "prisma"
+    ],
+    "tags": [
+      "open-source",
+      "database",
+      "orm",
+      "typescript",
+      "free"
+    ]
+  },
+  {
+    "id": "shadcn-ui",
+    "name": "shadcn/ui",
+    "description": "Beautifully designed, accessible components built on Radix UI and Tailwind CSS.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source. Copy-paste components.",
+    "website": "https://ui.shadcn.com",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "ui",
+      "react",
+      "frontend",
+      "free",
+      "design"
+    ]
+  },
+  {
+    "id": "zustand",
+    "name": "Zustand",
+    "description": "Small, fast, scalable state management for React with a minimal API.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source.",
+    "website": "https://zustand-demo.pmnd.rs",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "react",
+      "state-management",
+      "free"
+    ]
+  },
+  {
+    "id": "astro",
+    "name": "Astro",
+    "description": "Content-focused web framework with island architecture for maximum performance.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source.",
+    "website": "https://astro.build",
+    "alternatives": [
+      "nextjs"
+    ],
+    "tags": [
+      "open-source",
+      "framework",
+      "frontend",
+      "free"
+    ]
+  },
+  {
+    "id": "vite",
+    "name": "Vite",
+    "description": "Next-generation frontend build tool with instant HMR and lightning-fast builds.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source.",
+    "website": "https://vitejs.dev",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "bundler",
+      "frontend",
+      "free",
+      "tools"
+    ]
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI",
+    "description": "Modern, fast Python web framework for building APIs with automatic documentation.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source.",
+    "website": "https://fastapi.tiangolo.com",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "python",
+      "api",
+      "backend",
+      "free"
+    ]
+  },
+  {
+    "id": "express",
+    "name": "Express.js",
+    "description": "Minimal and flexible Node.js web application framework for APIs and web apps.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source.",
+    "website": "https://expressjs.com",
+    "alternatives": [
+      "fastapi"
+    ],
+    "tags": [
+      "open-source",
+      "nodejs",
+      "api",
+      "backend",
+      "free"
+    ]
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "description": "In-memory data store used as database, cache, message broker, and streaming engine.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source. Self-hosted with no limits.",
+    "website": "https://redis.io",
+    "alternatives": [
+      "upstash"
+    ],
+    "tags": [
+      "open-source",
+      "database",
+      "cache",
+      "free"
+    ]
+  },
+  {
+    "id": "nginx",
+    "name": "NGINX",
+    "description": "High-performance web server, reverse proxy, and load balancer.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source.",
+    "website": "https://nginx.org",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "web-server",
+      "devops",
+      "free"
+    ]
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "description": "The library for building user interfaces with components, hooks, and virtual DOM.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source by Meta.",
+    "website": "https://react.dev",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "frontend",
+      "ui",
+      "javascript",
+      "free"
+    ]
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "description": "Typed superset of JavaScript that compiles to plain JS. Essential for modern development.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source by Microsoft.",
+    "website": "https://www.typescriptlang.org",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "language",
+      "javascript",
+      "free"
+    ]
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "description": "Versatile programming language for web, data science, AI, automation, and scripting.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source.",
+    "website": "https://www.python.org",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "language",
+      "data-science",
+      "ai",
+      "free"
+    ]
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "description": "Powerful open-source relational database with advanced features and extensibility.",
+    "category": "Open Source",
+    "freeTier": "Completely free and open-source. Self-hosted with no limits.",
+    "website": "https://www.postgresql.org",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "database",
+      "sql",
+      "free"
+    ]
+  },
+  {
+    "id": "razorpay",
+    "name": "Razorpay",
+    "description": "India's leading payment gateway supporting UPI, cards, netbanking, wallets, and EMI with developer-friendly APIs.",
+    "category": "APIs",
+    "freeTier": "No setup fee, no maintenance fee. Pay only 2% per transaction. Free test mode with full API access.",
+    "website": "https://razorpay.com",
+    "alternatives": [
+      "payu",
+      "cashfree",
+      "stripe"
+    ],
+    "tags": [
+      "api",
+      "payments",
+      "india",
+      "upi",
+      "free-india"
+    ]
+  },
+  {
+    "id": "payu",
+    "name": "PayU India",
+    "description": "Payment gateway for Indian businesses with UPI, cards, netbanking, EMI, and pay-later options.",
+    "category": "APIs",
+    "freeTier": "Free integration, no setup fees. Pay only per transaction (2%). Full sandbox for testing.",
+    "website": "https://payu.in",
+    "alternatives": [
+      "razorpay",
+      "cashfree"
+    ],
+    "tags": [
+      "api",
+      "payments",
+      "india",
+      "upi",
+      "free-india"
+    ]
+  },
+  {
+    "id": "cashfree",
+    "name": "Cashfree Payments",
+    "description": "Payment gateway and banking APIs for India — payments, payouts, subscriptions, and payment links.",
+    "category": "APIs",
+    "freeTier": "Free integration. No setup or annual fee. Sandbox with full API testing. 1.95% per transaction.",
+    "website": "https://www.cashfree.com",
+    "alternatives": [
+      "razorpay",
+      "payu"
+    ],
+    "tags": [
+      "api",
+      "payments",
+      "india",
+      "upi",
+      "banking",
+      "free-india"
+    ]
+  },
+  {
+    "id": "phonepe-pg",
+    "name": "PhonePe Payment Gateway",
+    "description": "UPI-first payment gateway by PhonePe for Indian merchants with QR, deep links, and SDK.",
+    "category": "APIs",
+    "freeTier": "Zero setup fee. UPI payments at 0% MDR. Free sandbox and developer tools.",
+    "website": "https://www.phonepe.com/business/payment-gateway/",
+    "alternatives": [
+      "razorpay",
+      "payu"
+    ],
+    "tags": [
+      "api",
+      "payments",
+      "india",
+      "upi",
+      "free-india"
+    ]
+  },
+  {
+    "id": "instamojo",
+    "name": "Instamojo",
+    "description": "All-in-one payment and e-commerce solution for Indian small businesses, freelancers, and creators.",
+    "category": "APIs",
+    "freeTier": "Free Lite plan: payment links, UPI/QR collection. 2% + ₹3 per transaction. No monthly fee.",
+    "website": "https://www.instamojo.com",
+    "alternatives": [
+      "razorpay",
+      "cashfree"
+    ],
+    "tags": [
+      "api",
+      "payments",
+      "india",
+      "ecommerce",
+      "free-india"
+    ]
+  },
+  {
+    "id": "juspay",
+    "name": "Juspay",
+    "description": "Payment orchestration platform powering payments for top Indian apps (Google Pay, Amazon, etc.).",
+    "category": "APIs",
+    "freeTier": "Free HyperSDK for mobile. Open-source payment orchestration. Contact for pricing.",
+    "website": "https://juspay.in",
+    "alternatives": [
+      "razorpay"
+    ],
+    "tags": [
+      "api",
+      "payments",
+      "india",
+      "mobile",
+      "free-india"
+    ]
+  },
+  {
+    "id": "digitalocean-india",
+    "name": "DigitalOcean (India DC)",
+    "description": "Cloud hosting with Bangalore data center. Droplets, managed databases, Kubernetes, and App Platform.",
+    "category": "Hosting",
+    "freeTier": "$200 free credits for 60 days. India (BLR1) datacenter for low latency.",
+    "website": "https://www.digitalocean.com",
+    "alternatives": [
+      "railway",
+      "render"
+    ],
+    "tags": [
+      "hosting",
+      "cloud",
+      "india",
+      "free-india"
+    ]
+  },
+  {
+    "id": "aws-india",
+    "name": "AWS Free Tier (Mumbai)",
+    "description": "AWS Mumbai region (ap-south-1) with 12-month free tier: EC2, S3, RDS, Lambda, and 100+ services.",
+    "category": "Hosting",
+    "freeTier": "12-month free tier: 750hrs EC2, 5GB S3, 750hrs RDS, 1M Lambda requests/month. Mumbai region.",
+    "website": "https://aws.amazon.com/free/",
+    "alternatives": [
+      "digitalocean-india",
+      "gcp-india"
+    ],
+    "tags": [
+      "hosting",
+      "cloud",
+      "india",
+      "aws",
+      "free-india"
+    ]
+  },
+  {
+    "id": "gcp-india",
+    "name": "Google Cloud (Mumbai)",
+    "description": "Google Cloud with Mumbai region. Always-free tier includes Compute Engine, Cloud Functions, Firestore.",
+    "category": "Hosting",
+    "freeTier": "$300 free credits for 90 days. Always-free: 1 e2-micro VM, 5GB Cloud Storage, 2M Cloud Functions/month.",
+    "website": "https://cloud.google.com/free",
+    "alternatives": [
+      "aws-india",
+      "digitalocean-india"
+    ],
+    "tags": [
+      "hosting",
+      "cloud",
+      "india",
+      "google",
+      "free-india"
+    ]
+  },
+  {
+    "id": "msg91",
+    "name": "MSG91",
+    "description": "Indian cloud communication platform for SMS, Email, WhatsApp, Voice, and OTP verification.",
+    "category": "APIs",
+    "freeTier": "Free tier: 5,000 SMS credits on signup. Free OTP widget. No monthly charges for test mode.",
+    "website": "https://msg91.com",
+    "alternatives": [
+      "twilio-free"
+    ],
+    "tags": [
+      "api",
+      "sms",
+      "india",
+      "otp",
+      "communication",
+      "free-india"
+    ]
+  },
+  {
+    "id": "gupshup",
+    "name": "Gupshup",
+    "description": "Conversational messaging platform for WhatsApp Business API, SMS, and chatbots in India.",
+    "category": "APIs",
+    "freeTier": "Free sandbox for WhatsApp API testing. Developer-friendly APIs with Indian pricing.",
+    "website": "https://www.gupshup.io",
+    "alternatives": [
+      "msg91"
+    ],
+    "tags": [
+      "api",
+      "whatsapp",
+      "india",
+      "chatbot",
+      "communication",
+      "free-india"
+    ]
+  },
+  {
+    "id": "digilocker-api",
+    "name": "DigiLocker API",
+    "description": "Government of India's digital document platform. Verify Aadhaar, PAN, driving license, and education docs via API.",
+    "category": "Auth",
+    "freeTier": "Free for Indian developers. Government-backed digital identity verification.",
+    "website": "https://digilocker.gov.in",
+    "alternatives": [],
+    "tags": [
+      "auth",
+      "india",
+      "government",
+      "identity",
+      "aadhaar",
+      "free-india"
+    ]
+  },
+  {
+    "id": "aadhaar-ekyc",
+    "name": "Aadhaar eKYC (UIDAI)",
+    "description": "India's Aadhaar-based electronic KYC for identity verification via biometric or OTP.",
+    "category": "Auth",
+    "freeTier": "Free for licensed entities via UIDAI. Sandbox available for testing.",
+    "website": "https://uidai.gov.in",
+    "alternatives": [
+      "digilocker-api"
+    ],
+    "tags": [
+      "auth",
+      "india",
+      "government",
+      "kyc",
+      "aadhaar",
+      "free-india"
+    ]
+  },
+  {
+    "id": "zoho-analytics-free",
+    "name": "Zoho Analytics (Free)",
+    "description": "Business intelligence and analytics platform by Zoho (Chennai-based). Dashboards, reports, and AI insights.",
+    "category": "Analytics",
+    "freeTier": "Free plan: 2 users, 10K rows, unlimited reports and dashboards.",
+    "website": "https://www.zoho.com/analytics/",
+    "alternatives": [
+      "mixpanel",
+      "posthog"
+    ],
+    "tags": [
+      "analytics",
+      "india",
+      "business-intelligence",
+      "free-india"
+    ]
+  },
+  {
+    "id": "zoho-mail-free",
+    "name": "Zoho Mail (Free)",
+    "description": "Ad-free professional email hosting by Zoho with 5GB/user, custom domain, and Indian data centers.",
+    "category": "Productivity",
+    "freeTier": "Free: up to 5 users, 5GB/user, custom domain email, Indian data center.",
+    "website": "https://www.zoho.com/mail/",
+    "alternatives": [],
+    "tags": [
+      "productivity",
+      "email",
+      "india",
+      "hosting",
+      "free-india"
+    ]
+  },
+  {
+    "id": "zoho-projects-free",
+    "name": "Zoho Projects (Free)",
+    "description": "Project management tool by Zoho with Gantt charts, timesheets, and team collaboration.",
+    "category": "Productivity",
+    "freeTier": "Free plan: 3 users, 2 projects, 10MB storage.",
+    "website": "https://www.zoho.com/projects/",
+    "alternatives": [
+      "todoist",
+      "linear"
+    ],
+    "tags": [
+      "productivity",
+      "india",
+      "project-management",
+      "free-india"
+    ]
+  },
+  {
+    "id": "nptel",
+    "name": "NPTEL",
+    "description": "Free online courses by IITs and IISc with certificates. Programming, CS, electronics, and engineering.",
+    "category": "Open Source",
+    "freeTier": "All courses free to audit. Certification exam fee ₹1,000. Government recognized.",
+    "website": "https://nptel.ac.in",
+    "alternatives": [
+      "freecodecamp"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "india",
+      "certificates",
+      "iit",
+      "free-india"
+    ]
+  },
+  {
+    "id": "swayam",
+    "name": "SWAYAM",
+    "description": "India's national MOOC platform by MHRD. Free courses from IITs, IIMs, and central universities.",
+    "category": "Open Source",
+    "freeTier": "All courses free to audit. Certification available at nominal fee.",
+    "website": "https://swayam.gov.in",
+    "alternatives": [
+      "nptel"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "india",
+      "government",
+      "certificates",
+      "free-india"
+    ]
+  },
+  {
+    "id": "skillIndia",
+    "name": "Skill India Digital",
+    "description": "Free government platform for digital skills training — coding, AI, cloud, cybersecurity with certificates.",
+    "category": "Open Source",
+    "freeTier": "Completely free. Government-backed skill development with certificates.",
+    "website": "https://www.skillindiadigital.gov.in",
+    "alternatives": [
+      "nptel",
+      "swayam"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "india",
+      "government",
+      "certificates",
+      "free-india"
+    ]
+  },
+  {
+    "id": "tcsion",
+    "name": "TCS iON Digital Learning",
+    "description": "Free courses by TCS on programming, data science, cloud, and career skills with certificates.",
+    "category": "Open Source",
+    "freeTier": "Many courses free with certificates. Industry-recognized by TCS.",
+    "website": "https://learning.tcsionhub.in",
+    "alternatives": [
+      "nptel"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "india",
+      "certificates",
+      "free-india"
+    ]
+  },
+  {
+    "id": "infosys-springboard",
+    "name": "Infosys Springboard",
+    "description": "Free digital learning platform by Infosys — programming, AI, cloud, soft skills with certificates.",
+    "category": "Open Source",
+    "freeTier": "Completely free. 1000+ courses with certificates from Infosys.",
+    "website": "https://infyspringboard.onwingspan.com",
+    "alternatives": [
+      "tcsion",
+      "nptel"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "india",
+      "certificates",
+      "free-india"
+    ]
+  },
+  {
+    "id": "shiprocket",
+    "name": "Shiprocket",
+    "description": "India's leading shipping and logistics aggregator API with 25+ courier partners.",
+    "category": "APIs",
+    "freeTier": "Free Lite plan: no monthly charges. Pay only per shipment. API access included.",
+    "website": "https://www.shiprocket.in",
+    "alternatives": [],
+    "tags": [
+      "api",
+      "india",
+      "ecommerce",
+      "shipping",
+      "logistics",
+      "free-india"
+    ]
+  },
+  {
+    "id": "delhivery-api",
+    "name": "Delhivery API",
+    "description": "Logistics API for Indian e-commerce — shipping, tracking, warehousing, and fulfillment.",
+    "category": "APIs",
+    "freeTier": "API access available for registered businesses. Pay per shipment.",
+    "website": "https://www.delhivery.com",
+    "alternatives": [
+      "shiprocket"
+    ],
+    "tags": [
+      "api",
+      "india",
+      "ecommerce",
+      "shipping",
+      "logistics",
+      "free-india"
+    ]
+  },
+  {
+    "id": "zoho-show-free",
+    "name": "Zoho Show (Free)",
+    "description": "Online presentation tool by Zoho with collaboration, templates, and broadcasting.",
+    "category": "Design",
+    "freeTier": "Free: unlimited presentations, 5GB storage, real-time collaboration.",
+    "website": "https://www.zoho.com/show/",
+    "alternatives": [
+      "canva"
+    ],
+    "tags": [
+      "design",
+      "india",
+      "presentations",
+      "free-india"
+    ]
+  },
+  {
+    "id": "appwrite",
+    "name": "Appwrite",
+    "description": "Open-source backend-as-a-service with auth, database, storage, functions, and messaging.",
+    "category": "Databases",
+    "freeTier": "Free plan: unlimited projects, 75K monthly active users, 10GB database, 2GB storage.",
+    "website": "https://appwrite.io",
+    "alternatives": [
+      "supabase",
+      "firebase"
+    ],
+    "tags": [
+      "database",
+      "backend",
+      "open-source",
+      "free",
+      "auth"
+    ]
+  },
+  {
+    "id": "hasura-free",
+    "name": "Hasura (Free Tier)",
+    "description": "Instant GraphQL and REST APIs on your data. Auto-generated from PostgreSQL.",
+    "category": "Databases",
+    "freeTier": "Free Cloud tier: 1GB data passthrough/month, 60 requests/min.",
+    "website": "https://hasura.io",
+    "alternatives": [
+      "supabase"
+    ],
+    "tags": [
+      "database",
+      "graphql",
+      "api",
+      "free"
+    ]
+  },
+  {
+    "id": "coursera-free",
+    "name": "Coursera (Free Courses)",
+    "description": "Audit 5000+ courses from top universities free. Paid certificates available, many free for India.",
+    "category": "Open Source",
+    "freeTier": "Free to audit all courses. Financial aid available for certificates in India.",
+    "website": "https://www.coursera.org",
+    "alternatives": [
+      "freecodecamp",
+      "edx-free"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "certificates",
+      "free"
+    ]
+  },
+  {
+    "id": "edx-free",
+    "name": "edX (Free Courses)",
+    "description": "Free courses from Harvard, MIT, and more. Audit any course for free, pay only for certificates.",
+    "category": "Open Source",
+    "freeTier": "Free audit access to all courses. Verified certificates available at low cost.",
+    "website": "https://www.edx.org",
+    "alternatives": [
+      "coursera-free",
+      "freecodecamp"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "certificates",
+      "free"
+    ]
+  },
+  {
+    "id": "google-certs",
+    "name": "Google Career Certificates",
+    "description": "Professional certificates by Google in Data Analytics, Cybersecurity, Project Management, UX, and IT.",
+    "category": "Open Source",
+    "freeTier": "7-day free trial on Coursera. Financial aid available. Widely recognized in India.",
+    "website": "https://grow.google/certificates/",
+    "alternatives": [
+      "aws-training"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "certificates",
+      "google",
+      "free"
+    ]
+  },
+  {
+    "id": "aws-training",
+    "name": "AWS Skill Builder (Free)",
+    "description": "500+ free digital courses on AWS cloud services with badges and learning plans.",
+    "category": "Open Source",
+    "freeTier": "Free tier: 500+ courses, digital badges, and exam prep resources.",
+    "website": "https://skillbuilder.aws",
+    "alternatives": [
+      "google-certs"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "aws",
+      "cloud",
+      "certificates",
+      "free"
+    ]
+  },
+  {
+    "id": "microsoft-learn",
+    "name": "Microsoft Learn",
+    "description": "Free training on Azure, Microsoft 365, Power Platform, and developer tools with certifications.",
+    "category": "Open Source",
+    "freeTier": "All learning content free. Free practice assessments. Paid certification exams.",
+    "website": "https://learn.microsoft.com",
+    "alternatives": [
+      "aws-training",
+      "google-certs"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "azure",
+      "certificates",
+      "free"
+    ]
+  },
+  {
+    "id": "hackerrank",
+    "name": "HackerRank",
+    "description": "Coding practice, skill certifications, and interview prep platform used by top companies.",
+    "category": "Open Source",
+    "freeTier": "Free: unlimited practice, skill certifications, contests, and interview prep.",
+    "website": "https://www.hackerrank.com",
+    "alternatives": [
+      "leetcode-free"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "coding-practice",
+      "certificates",
+      "free"
+    ]
+  },
+  {
+    "id": "leetcode-free",
+    "name": "LeetCode (Free Tier)",
+    "description": "Coding interview prep with 2000+ problems, weekly contests, and discuss forums.",
+    "category": "Open Source",
+    "freeTier": "Free: access to most problems, contests, and discuss. Premium for advanced features.",
+    "website": "https://leetcode.com",
+    "alternatives": [
+      "hackerrank"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "coding-practice",
+      "interview",
+      "free"
+    ]
+  },
+  {
+    "id": "kaggle",
+    "name": "Kaggle",
+    "description": "Data science and ML platform with free notebooks, datasets, competitions, and courses.",
+    "category": "Open Source",
+    "freeTier": "Free: GPU/TPU notebooks, 50K+ datasets, ML competitions, and micro-courses.",
+    "website": "https://www.kaggle.com",
+    "alternatives": [],
+    "tags": [
+      "open-source",
+      "learning",
+      "data-science",
+      "ml",
+      "free"
+    ]
+  },
+  {
+    "id": "scrimba",
+    "name": "Scrimba (Free Courses)",
+    "description": "Interactive coding screencasts for frontend, React, JavaScript, and more.",
+    "category": "Open Source",
+    "freeTier": "Many courses free including Learn React, Learn JavaScript, and Intro to CSS.",
+    "website": "https://scrimba.com",
+    "alternatives": [
+      "freecodecamp"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "frontend",
+      "react",
+      "free"
+    ]
+  },
+  {
+    "id": "the-odin-project",
+    "name": "The Odin Project",
+    "description": "Free, open-source full-stack curriculum with projects, from HTML/CSS to Node.js and React.",
+    "category": "Open Source",
+    "freeTier": "Completely free. Community-driven, project-based learning.",
+    "website": "https://www.theodinproject.com",
+    "alternatives": [
+      "freecodecamp"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "fullstack",
+      "free",
+      "curriculum"
+    ]
+  },
+  {
+    "id": "cs50",
+    "name": "CS50 (Harvard)",
+    "description": "Harvard's legendary intro to CS course — free on edX with certificate option.",
+    "category": "Open Source",
+    "freeTier": "Free to audit. Verified certificate available for a fee.",
+    "website": "https://cs50.harvard.edu",
+    "alternatives": [
+      "freecodecamp",
+      "the-odin-project"
+    ],
+    "tags": [
+      "open-source",
+      "learning",
+      "computer-science",
+      "harvard",
+      "free"
+    ]
+  },
+  {
+    "id": "digitalplat",
+    "name": "DigitalPlat",
+    "description": "Free subdomain provider offering custom subdomains for developers, students, and open-source projects.",
+    "category": "Domains",
+    "freeTier": "Completely free subdomains with DNS management and no hidden costs.",
+    "website": "https://digitalplat.org",
+    "alternatives": [
+      "isroot-in",
+      "pp-ua"
+    ],
+    "tags": [
+      "domains",
+      "free",
+      "subdomain",
+      "hosting",
+      "developer"
+    ]
+  },
+  {
+    "id": "isroot-in",
+    "name": "isroot.in",
+    "description": "Free isroot.in subdomains for developers and personal projects with easy DNS setup.",
+    "category": "Domains",
+    "freeTier": "Free subdomains under isroot.in with full DNS control.",
+    "website": "https://isroot.in",
+    "alternatives": [
+      "digitalplat",
+      "pp-ua"
+    ],
+    "tags": [
+      "domains",
+      "free",
+      "subdomain",
+      "hosting",
+      "developer"
+    ]
+  },
+  {
+    "id": "pp-ua",
+    "name": "pp.ua",
+    "description": "Free pp.ua subdomains for personal websites, portfolios, and developer projects.",
+    "category": "Domains",
+    "freeTier": "Free subdomains under pp.ua with DNS management included.",
+    "website": "https://pp.ua",
+    "alternatives": [
+      "digitalplat",
+      "isroot-in"
+    ],
+    "tags": [
+      "domains",
+      "free",
+      "subdomain",
+      "hosting",
+      "developer"
+    ]
+  }
+]

@@ -1,0 +1,170 @@
+{
+  "id": "embedded-systems",
+  "careerPathId": "embedded-systems",
+  "nodes": [
+    {
+      "id": "emb-c-cpp",
+      "title": "C / C++ Programming",
+      "order": 1,
+      "tags": ["c", "cpp", "programming"],
+      "sections": {
+        "learn": [
+          { "id": "emb-1-learn-c", "name": "Learn C Programming (Programiz)", "url": "https://www.programiz.com/c-programming", "resourceType": "documentation", "tags": ["c"] },
+          { "id": "emb-1-learn-cpp", "name": "LearnCpp.com: C++ Tutorial", "url": "https://www.learncpp.com/", "resourceType": "documentation", "tags": ["cpp"] },
+          { "id": "emb-1-learn-fcc-c", "name": "freeCodeCamp: C Programming (YouTube)", "url": "https://www.youtube.com/watch?v=KJgsSFOSQv0", "resourceType": "video", "tags": ["c"] }
+        ],
+        "practice": [
+          { "id": "emb-1-practice-exercism", "name": "Exercism: C Track", "url": "https://exercism.org/tracks/c", "resourceType": "challenge", "tags": ["c"] },
+          { "id": "emb-1-practice-hackerrank-cpp", "name": "HackerRank: C++ Challenges", "url": "https://www.hackerrank.com/domains/cpp", "resourceType": "challenge", "tags": ["cpp", "practice"] }
+        ],
+        "build": [
+          { "projectId": "implement-a-linked-list-in-c" },
+          { "projectId": "build-a-memory-allocator-in-c" }
+        ],
+        "use": [
+          { "toolId": "vs-code" },
+          { "toolId": "github" },
+          { "toolId": "git" }
+        ],
+        "deploy": [
+          { "id": "emb-1-deploy-github", "name": "Publish your C/C++ code on GitHub", "url": "https://github.com/", "resourceType": "deployment", "tags": ["github", "publishing"] }
+        ],
+        "career": [
+          { "id": "emb-1-career-tech-interview-handbook", "name": "Tech Interview Handbook", "url": "https://www.techinterviewhandbook.org/", "resourceType": "career", "tags": ["career", "interview"] },
+          { "id": "emb-1-career-linkedin-jobs", "name": "LinkedIn Jobs: embedded firmware roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["career", "jobs"] }
+        ]
+      }
+    },
+    {
+      "id": "emb-electronics",
+      "title": "Digital Electronics & Microcontrollers",
+      "order": 2,
+      "tags": ["electronics", "microcontroller", "arduino"],
+      "sections": {
+        "learn": [
+          { "id": "emb-2-learn-arduino", "name": "Arduino: Official Tutorials", "url": "https://www.arduino.cc/en/Tutorial/HomePage", "resourceType": "documentation", "tags": ["arduino"] },
+          { "id": "emb-2-learn-neso-digital", "name": "Neso Academy: Digital Electronics (YouTube)", "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm", "resourceType": "video", "tags": ["digital-electronics"] },
+          { "id": "emb-2-learn-rpi", "name": "Raspberry Pi Projects", "url": "https://projects.raspberrypi.org/en", "resourceType": "platform", "tags": ["raspberry-pi"] }
+        ],
+        "practice": [
+          { "id": "emb-2-practice-wokwi", "name": "Wokwi: Online Arduino & ESP32 Simulator", "url": "https://wokwi.com/", "resourceType": "platform", "tags": ["simulator", "arduino"] }
+        ],
+        "build": [
+          { "projectId": "blink-an-led-with-arduino" },
+          { "projectId": "build-a-temperature-logger" }
+        ],
+        "use": [
+          { "toolId": "vs-code" },
+          { "toolId": "github" },
+          { "toolId": "git" }
+        ],
+        "deploy": [
+          { "id": "emb-2-deploy-arduino-cloud", "name": "Arduino Cloud: Documentation", "url": "https://docs.arduino.cc/arduino-cloud/", "resourceType": "deployment", "tags": ["arduino", "cloud"] }
+        ],
+        "career": [
+          { "id": "emb-2-career-linkedin-jobs", "name": "LinkedIn Jobs: hardware and microcontroller roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["career", "jobs"] }
+        ]
+      }
+    },
+    {
+      "id": "emb-rtos",
+      "title": "RTOS & Embedded OS",
+      "order": 3,
+      "tags": ["rtos", "freertos", "embedded-os"],
+      "sections": {
+        "learn": [
+          { "id": "emb-3-learn-freertos", "name": "FreeRTOS: Developer Documentation", "url": "https://www.freertos.org/Documentation/RTOS_book.html", "resourceType": "documentation", "tags": ["freertos"] },
+          { "id": "emb-3-learn-digikey", "name": "DigiKey: Introduction to RTOS (YouTube)", "url": "https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz", "resourceType": "video", "tags": ["rtos"] }
+        ],
+        "practice": [
+          { "id": "emb-3-practice-wokwi", "name": "Wokwi: simulate FreeRTOS on ESP32", "url": "https://wokwi.com/", "resourceType": "platform", "tags": ["simulator", "rtos"] }
+        ],
+        "build": [
+          { "projectId": "build-a-freertos-task-scheduler-demo" },
+          { "projectId": "implement-a-mutex-protected-sensor-task" }
+        ],
+        "use": [
+          { "toolId": "vs-code" },
+          { "toolId": "github" },
+          { "toolId": "git" }
+        ],
+        "deploy": [
+          { "id": "emb-3-deploy-platformio", "name": "PlatformIO: Documentation", "url": "https://docs.platformio.org/", "resourceType": "deployment", "tags": ["platformio", "firmware"] }
+        ],
+        "career": [
+          { "id": "emb-3-career-linkedin-jobs", "name": "LinkedIn Jobs: RTOS and firmware engineer roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["career", "jobs"] }
+        ]
+      }
+    },
+    {
+      "id": "emb-iot-protocols",
+      "title": "IoT Protocols & Communication",
+      "order": 4,
+      "tags": ["iot", "mqtt", "protocols"],
+      "sections": {
+        "learn": [
+          { "id": "emb-4-learn-cisco-iot", "name": "Cisco: Introduction to IoT", "url": "https://www.netacad.com/courses/iot/introduction-iot", "resourceType": "course", "tags": ["iot", "cisco"] },
+          { "id": "emb-4-learn-ibm-iot", "name": "IBM: A Developer's Guide to IoT", "url": "https://cognitiveclass.ai/courses/developer-iot", "resourceType": "course", "tags": ["iot", "ibm"] },
+          { "id": "emb-4-learn-mqtt", "name": "HiveMQ: MQTT Essentials", "url": "https://www.hivemq.com/mqtt-essentials/", "resourceType": "documentation", "tags": ["mqtt"] }
+        ],
+        "practice": [
+          { "id": "emb-4-practice-wokwi", "name": "Wokwi: simulate MQTT on ESP32", "url": "https://wokwi.com/", "resourceType": "platform", "tags": ["simulator", "mqtt"] }
+        ],
+        "build": [
+          { "projectId": "build-an-mqtt-temperature-publisher" },
+          { "projectId": "build-an-iot-dashboard-with-mqtt" }
+        ],
+        "use": [
+          { "toolId": "python" },
+          { "toolId": "vs-code" },
+          { "toolId": "github" }
+        ],
+        "deploy": [
+          { "id": "emb-4-deploy-arduino-cloud", "name": "Arduino Cloud: Documentation", "url": "https://docs.arduino.cc/arduino-cloud/", "resourceType": "deployment", "tags": ["arduino", "cloud", "iot"] }
+        ],
+        "career": [
+          { "id": "emb-4-career-linkedin-jobs", "name": "LinkedIn Jobs: IoT engineer roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["career", "jobs"] }
+        ]
+      }
+    },
+    {
+      "id": "emb-embedded-linux",
+      "title": "Embedded Linux & Firmware Development",
+      "order": 5,
+      "tags": ["embedded-linux", "firmware", "yocto"],
+      "sections": {
+        "learn": [
+          { "id": "emb-5-learn-bootlin", "name": "Bootlin: Embedded Linux Training (Free Materials)", "url": "https://bootlin.com/training/embedded-linux/", "resourceType": "documentation", "tags": ["embedded-linux"] },
+          { "id": "emb-5-learn-arm", "name": "Arm Education: Embedded Systems", "url": "https://www.arm.com/resources/education", "resourceType": "course", "tags": ["arm", "embedded"] }
+        ],
+        "practice": [
+          { "id": "emb-5-practice-bandit", "name": "OverTheWire: Bandit (Linux CLI skills)", "url": "https://overthewire.org/wargames/bandit/", "resourceType": "challenge", "tags": ["linux", "cli"] }
+        ],
+        "build": [
+          { "projectId": "cross-compile-a-kernel-module-for-arm" },
+          { "projectId": "build-a-yocto-image-for-raspberry-pi" }
+        ],
+        "use": [
+          { "toolId": "linux" },
+          { "toolId": "vs-code" },
+          { "toolId": "github" },
+          { "toolId": "git" }
+        ],
+        "deploy": [
+          { "id": "emb-5-deploy-github", "name": "Publish your firmware and build scripts on GitHub", "url": "https://github.com/", "resourceType": "deployment", "tags": ["github", "publishing"] },
+          { "id": "emb-5-deploy-platformio", "name": "PlatformIO: Documentation", "url": "https://docs.platformio.org/", "resourceType": "deployment", "tags": ["platformio", "firmware"] }
+        ],
+        "career": [
+          { "id": "emb-5-career-linkedin-jobs", "name": "LinkedIn Jobs: embedded Linux engineer roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["career", "jobs"] },
+          { "id": "emb-5-career-resume", "name": "Resume.io: build an embedded engineer resume", "url": "https://www.resume.io/", "resourceType": "career", "tags": ["career", "resume"] }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "emb-c-cpp", "to": "emb-electronics" },
+    { "from": "emb-electronics", "to": "emb-rtos" },
+    { "from": "emb-rtos", "to": "emb-iot-protocols" },
+    { "from": "emb-iot-protocols", "to": "emb-embedded-linux" }
+  ]
+}

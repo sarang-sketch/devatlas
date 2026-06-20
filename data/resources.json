@@ -1,0 +1,226 @@
+[
+  {
+    "id": "mdn-web-docs",
+    "name": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/",
+    "resourceType": "documentation",
+    "tags": ["frontend", "html", "css", "javascript", "web", "documentation"]
+  },
+  {
+    "id": "freecodecamp",
+    "name": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/",
+    "resourceType": "course",
+    "tags": ["frontend", "backend", "fullstack", "javascript", "web", "free"]
+  },
+  {
+    "id": "the-odin-project",
+    "name": "The Odin Project",
+    "url": "https://www.theodinproject.com/",
+    "resourceType": "course",
+    "tags": ["fullstack", "frontend", "backend", "node", "javascript", "ruby"]
+  },
+  {
+    "id": "cs50",
+    "name": "CS50: Introduction to Computer Science",
+    "url": "https://cs50.harvard.edu/x/",
+    "resourceType": "course",
+    "tags": ["computer-science", "programming", "c", "python", "fundamentals"]
+  },
+  {
+    "id": "roadmap-sh",
+    "name": "roadmap.sh Developer Roadmaps",
+    "url": "https://roadmap.sh/",
+    "resourceType": "article",
+    "tags": ["frontend", "backend", "devops", "career", "roadmap"]
+  },
+  {
+    "id": "react-docs",
+    "name": "React Official Documentation",
+    "url": "https://react.dev/",
+    "resourceType": "documentation",
+    "tags": ["frontend", "react", "javascript", "ui", "web"]
+  },
+  {
+    "id": "javascript-info",
+    "name": "The Modern JavaScript Tutorial",
+    "url": "https://javascript.info/",
+    "resourceType": "documentation",
+    "tags": ["frontend", "javascript", "web", "fundamentals"]
+  },
+  {
+    "id": "nodejs-docs",
+    "name": "Node.js Documentation",
+    "url": "https://nodejs.org/en/docs",
+    "resourceType": "documentation",
+    "tags": ["backend", "node", "server", "javascript", "api"]
+  },
+  {
+    "id": "leetcode",
+    "name": "LeetCode",
+    "url": "https://leetcode.com/",
+    "resourceType": "platform",
+    "tags": ["challenges", "algorithms", "data-structures", "interview", "career"]
+  },
+  {
+    "id": "exercism",
+    "name": "Exercism",
+    "url": "https://exercism.org/",
+    "resourceType": "platform",
+    "tags": ["challenges", "programming", "python", "javascript", "practice"]
+  },
+  {
+    "id": "codewars",
+    "name": "Codewars",
+    "url": "https://www.codewars.com/",
+    "resourceType": "challenge",
+    "tags": ["challenges", "algorithms", "javascript", "python", "practice"]
+  },
+  {
+    "id": "kaggle-learn",
+    "name": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn",
+    "resourceType": "platform",
+    "tags": ["data-science", "ml", "machine-learning", "python", "pandas", "analytics"]
+  },
+  {
+    "id": "fast-ai",
+    "name": "Practical Deep Learning for Coders (fast.ai)",
+    "url": "https://course.fast.ai/",
+    "resourceType": "course",
+    "tags": ["ml", "machine-learning", "deep-learning", "python", "pytorch", "ai"]
+  },
+  {
+    "id": "google-ml-crash-course",
+    "name": "Google Machine Learning Crash Course",
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "resourceType": "course",
+    "tags": ["ml", "machine-learning", "tensorflow", "python", "ai"]
+  },
+  {
+    "id": "openai-docs",
+    "name": "OpenAI API Documentation",
+    "url": "https://platform.openai.com/docs",
+    "resourceType": "documentation",
+    "tags": ["ai", "llm", "openai", "prompt-engineering", "nlp", "api"]
+  },
+  {
+    "id": "huggingface-course",
+    "name": "Hugging Face NLP Course",
+    "url": "https://huggingface.co/learn/nlp-course",
+    "resourceType": "course",
+    "tags": ["ai", "ml", "nlp", "llm", "python", "transformers"]
+  },
+  {
+    "id": "kubernetes-docs",
+    "name": "Kubernetes Documentation",
+    "url": "https://kubernetes.io/docs/home/",
+    "resourceType": "documentation",
+    "tags": ["devops", "kubernetes", "docker", "containers", "infrastructure"]
+  },
+  {
+    "id": "docker-getting-started",
+    "name": "Docker Getting Started Guide",
+    "url": "https://docs.docker.com/get-started/",
+    "resourceType": "documentation",
+    "tags": ["devops", "docker", "containers", "ci-cd", "automation"]
+  },
+  {
+    "id": "aws-skill-builder",
+    "name": "AWS Skill Builder",
+    "url": "https://skillbuilder.aws/",
+    "resourceType": "course",
+    "tags": ["cloud", "aws", "serverless", "infrastructure", "devops"]
+  },
+  {
+    "id": "vercel-deployment-docs",
+    "name": "Vercel Deployment Documentation",
+    "url": "https://vercel.com/docs",
+    "resourceType": "deployment",
+    "tags": ["deployment", "hosting", "frontend", "cloud", "serverless"]
+  },
+  {
+    "id": "netlify-docs",
+    "name": "Netlify Docs",
+    "url": "https://docs.netlify.com/",
+    "resourceType": "deployment",
+    "tags": ["deployment", "hosting", "frontend", "ci-cd", "web"]
+  },
+  {
+    "id": "tryhackme",
+    "name": "TryHackMe",
+    "url": "https://tryhackme.com/",
+    "resourceType": "platform",
+    "tags": ["cybersecurity", "security", "pentesting", "networking", "practice"]
+  },
+  {
+    "id": "owasp-top-ten",
+    "name": "OWASP Top Ten",
+    "url": "https://owasp.org/www-project-top-ten/",
+    "resourceType": "article",
+    "tags": ["cybersecurity", "security", "web", "vulnerabilities", "compliance"]
+  },
+  {
+    "id": "flutter-docs",
+    "name": "Flutter Documentation",
+    "url": "https://docs.flutter.dev/",
+    "resourceType": "documentation",
+    "tags": ["mobile", "flutter", "ios", "android", "dart"]
+  },
+  {
+    "id": "react-native-docs",
+    "name": "React Native Documentation",
+    "url": "https://reactnative.dev/docs/getting-started",
+    "resourceType": "documentation",
+    "tags": ["mobile", "react-native", "ios", "android", "javascript"]
+  },
+  {
+    "id": "unity-learn",
+    "name": "Unity Learn",
+    "url": "https://learn.unity.com/",
+    "resourceType": "course",
+    "tags": ["game-dev", "unity", "csharp", "graphics", "gameplay"]
+  },
+  {
+    "id": "cryptozombies",
+    "name": "CryptoZombies",
+    "url": "https://cryptozombies.io/",
+    "resourceType": "challenge",
+    "tags": ["blockchain", "solidity", "ethereum", "smart-contracts", "web3"]
+  },
+  {
+    "id": "ethereum-org-developers",
+    "name": "Ethereum.org Developer Docs",
+    "url": "https://ethereum.org/en/developers/docs/",
+    "resourceType": "documentation",
+    "tags": ["blockchain", "ethereum", "solidity", "web3", "smart-contracts", "defi"]
+  },
+  {
+    "id": "postgresql-tutorial",
+    "name": "PostgreSQL Tutorial",
+    "url": "https://www.postgresqltutorial.com/",
+    "resourceType": "documentation",
+    "tags": ["backend", "databases", "sql", "postgres", "server"]
+  },
+  {
+    "id": "techinterview-handbook",
+    "name": "Tech Interview Handbook",
+    "url": "https://www.techinterviewhandbook.org/",
+    "resourceType": "career",
+    "tags": ["career", "interview", "resume", "algorithms", "job"]
+  },
+  {
+    "id": "freecodecamp-youtube",
+    "name": "freeCodeCamp.org YouTube",
+    "url": "https://www.youtube.com/c/Freecodecamp",
+    "resourceType": "video",
+    "tags": ["frontend", "backend", "python", "javascript", "web", "tutorial"]
+  },
+  {
+    "id": "fireship-youtube",
+    "name": "Fireship",
+    "url": "https://www.youtube.com/c/Fireship",
+    "resourceType": "video",
+    "tags": ["frontend", "fullstack", "web", "javascript", "devops", "tutorial"]
+  }
+]

@@ -1,0 +1,166 @@
+{
+  "id": "data-analyst",
+  "careerPathId": "data-analyst",
+  "nodes": [
+    {
+      "id": "da-spreadsheets-sql",
+      "title": "Spreadsheets & SQL Foundations",
+      "order": 1,
+      "tags": ["excel", "sql", "data"],
+      "sections": {
+        "learn": [
+          { "id": "da-1-learn-excel", "name": "Google Sheets Training (Google)", "url": "https://support.google.com/a/users/answer/9282959", "resourceType": "documentation", "tags": ["excel", "sheets"] },
+          { "id": "da-1-learn-sqlbolt", "name": "SQLBolt: Interactive SQL Lessons", "url": "https://sqlbolt.com/", "resourceType": "course", "tags": ["sql"] },
+          { "id": "da-1-learn-kaggle-sql", "name": "Kaggle: Intro to SQL", "url": "https://www.kaggle.com/learn/intro-to-sql", "resourceType": "course", "tags": ["sql", "kaggle"] }
+        ],
+        "practice": [
+          { "id": "da-1-practice-sqlzoo", "name": "SQLZoo: Interactive SQL", "url": "https://sqlzoo.net/", "resourceType": "challenge", "tags": ["sql"] },
+          { "id": "da-1-practice-hackerrank-sql", "name": "HackerRank: SQL Practice", "url": "https://www.hackerrank.com/domains/sql", "resourceType": "challenge", "tags": ["sql", "practice"] }
+        ],
+        "build": [
+          { "projectId": "build-a-sales-summary-spreadsheet" },
+          { "projectId": "query-a-sample-database-with-sql" }
+        ],
+        "use": [
+          { "toolId": "postgresql" },
+          { "toolId": "vs-code" }
+        ],
+        "deploy": [
+          { "id": "da-1-deploy-neon", "name": "Host a Postgres Database on Neon", "url": "https://neon.tech/docs/get-started-with-neon/signing-up", "resourceType": "deployment", "tags": ["deployment", "database"] }
+        ],
+        "career": [
+          { "id": "da-1-career-interview-handbook", "name": "Tech Interview Handbook", "url": "https://www.techinterviewhandbook.org/", "resourceType": "career", "tags": ["interview", "career"] }
+        ]
+      }
+    },
+    {
+      "id": "da-python-analytics",
+      "title": "Python for Data Analysis",
+      "order": 2,
+      "tags": ["python", "pandas", "numpy"],
+      "sections": {
+        "learn": [
+          { "id": "da-2-learn-kaggle-python", "name": "Kaggle: Python Course", "url": "https://www.kaggle.com/learn/python", "resourceType": "course", "tags": ["python"] },
+          { "id": "da-2-learn-kaggle-pandas", "name": "Kaggle: Pandas Course", "url": "https://www.kaggle.com/learn/pandas", "resourceType": "course", "tags": ["pandas"] },
+          { "id": "da-2-learn-fcc-python", "name": "freeCodeCamp: Data Analysis with Python", "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/", "resourceType": "course", "tags": ["python", "data"] }
+        ],
+        "practice": [
+          { "id": "da-2-practice-kaggle-cleaning", "name": "Kaggle: Data Cleaning", "url": "https://www.kaggle.com/learn/data-cleaning", "resourceType": "challenge", "tags": ["pandas"] },
+          { "id": "da-2-practice-stratascratch", "name": "StrataScratch: Data Projects", "url": "https://www.stratascratch.com/", "resourceType": "challenge", "tags": ["python", "practice"] }
+        ],
+        "build": [
+          { "projectId": "build-an-exploratory-data-analysis-notebook" },
+          { "projectId": "clean-and-merge-messy-csv-datasets" }
+        ],
+        "use": [
+          { "toolId": "python" },
+          { "toolId": "pandas" },
+          { "toolId": "jupyter" }
+        ],
+        "deploy": [
+          { "id": "da-2-deploy-colab", "name": "Share Notebooks via Google Colab", "url": "https://colab.research.google.com/", "resourceType": "deployment", "tags": ["deployment", "notebook"] }
+        ],
+        "career": [
+          { "id": "da-2-career-ds-interviews", "name": "Data Science Interview Questions (GitHub)", "url": "https://github.com/alexeygrigorev/data-science-interviews", "resourceType": "career", "tags": ["interview", "data"] }
+        ]
+      }
+    },
+    {
+      "id": "da-statistics",
+      "title": "Statistics & Probability",
+      "order": 3,
+      "tags": ["statistics", "probability", "math"],
+      "sections": {
+        "learn": [
+          { "id": "da-3-learn-khan", "name": "Khan Academy: Statistics & Probability", "url": "https://www.khanacademy.org/math/statistics-probability", "resourceType": "course", "tags": ["statistics"] },
+          { "id": "da-3-learn-stat110", "name": "Harvard Stat 110: Probability (YouTube)", "url": "https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo", "resourceType": "video", "tags": ["probability"] }
+        ],
+        "practice": [
+          { "id": "da-3-practice-kaggle-stats", "name": "Kaggle: Intro to Statistics datasets", "url": "https://www.kaggle.com/datasets", "resourceType": "challenge", "tags": ["statistics", "kaggle"] }
+        ],
+        "build": [
+          { "projectId": "build-an-ab-test-analysis-report" },
+          { "projectId": "run-a-hypothesis-test-on-a-public-dataset" }
+        ],
+        "use": [
+          { "toolId": "python" },
+          { "toolId": "numpy" },
+          { "toolId": "jupyter" }
+        ],
+        "deploy": [
+          { "id": "da-3-deploy-colab", "name": "Publish Statistical Analysis on Google Colab", "url": "https://colab.research.google.com/", "resourceType": "deployment", "tags": ["deployment", "notebook"] }
+        ],
+        "career": [
+          { "id": "da-3-career-interview-handbook", "name": "Tech Interview Handbook", "url": "https://www.techinterviewhandbook.org/", "resourceType": "career", "tags": ["interview", "career"] }
+        ]
+      }
+    },
+    {
+      "id": "da-visualization",
+      "title": "Data Visualization (Tableau & Power BI)",
+      "order": 4,
+      "tags": ["tableau", "power-bi", "visualization"],
+      "sections": {
+        "learn": [
+          { "id": "da-4-learn-tableau", "name": "Tableau: Free Training Videos", "url": "https://www.tableau.com/learn/training/20204", "resourceType": "course", "tags": ["tableau"] },
+          { "id": "da-4-learn-powerbi", "name": "Microsoft Learn: Power BI Fundamentals", "url": "https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/", "resourceType": "course", "tags": ["power-bi"] },
+          { "id": "da-4-learn-kaggle-viz", "name": "Kaggle: Data Visualization", "url": "https://www.kaggle.com/learn/data-visualization", "resourceType": "course", "tags": ["visualization"] }
+        ],
+        "practice": [
+          { "id": "da-4-practice-makeover-monday", "name": "Makeover Monday: Weekly Viz Challenges", "url": "https://www.makeovermonday.co.uk/", "resourceType": "challenge", "tags": ["tableau", "visualization"] }
+        ],
+        "build": [
+          { "projectId": "build-a-sales-dashboard" },
+          { "projectId": "build-an-interactive-kpi-dashboard" }
+        ],
+        "use": [
+          { "toolId": "metabase" },
+          { "toolId": "zoho-analytics-free" }
+        ],
+        "deploy": [
+          { "id": "da-4-deploy-metabase-render", "name": "Deploy a Metabase Dashboard on Render", "url": "https://render.com/docs", "resourceType": "deployment", "tags": ["deployment", "dashboard"] }
+        ],
+        "career": [
+          { "id": "da-4-career-resume", "name": "Resume.io: Build a Data Analyst Resume", "url": "https://www.resume.io/", "resourceType": "career", "tags": ["resume", "career"] }
+        ]
+      }
+    },
+    {
+      "id": "da-storytelling",
+      "title": "Data Storytelling & Reporting",
+      "order": 5,
+      "tags": ["reporting", "storytelling", "dashboards"],
+      "sections": {
+        "learn": [
+          { "id": "da-5-learn-google-da", "name": "Google Data Analytics Certificate (Audit)", "url": "https://www.coursera.org/professional-certificates/google-data-analytics", "resourceType": "course", "tags": ["google", "analytics"] },
+          { "id": "da-5-learn-ibm-da", "name": "IBM: Data Analysis with Python (Cognitive Class)", "url": "https://cognitiveclass.ai/courses/data-analysis-python", "resourceType": "course", "tags": ["ibm", "python"] }
+        ],
+        "practice": [
+          { "id": "da-5-practice-kaggle-comp", "name": "Kaggle: Competitions (Tabular Playground)", "url": "https://www.kaggle.com/competitions?hostSegmentIdFilter=8", "resourceType": "platform", "tags": ["kaggle", "practice"] }
+        ],
+        "build": [
+          { "projectId": "build-a-stakeholder-report-from-raw-data" },
+          { "projectId": "build-a-data-storytelling-presentation" }
+        ],
+        "use": [
+          { "toolId": "metabase" },
+          { "toolId": "google-analytics" },
+          { "toolId": "github" }
+        ],
+        "deploy": [
+          { "id": "da-5-deploy-streamlit", "name": "Publish a Report App on Streamlit Cloud", "url": "https://streamlit.io/cloud", "resourceType": "deployment", "tags": ["deployment", "dashboard"] }
+        ],
+        "career": [
+          { "id": "da-5-career-linkedin-jobs", "name": "LinkedIn Jobs: Data Analyst Roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["jobs", "career"] },
+          { "id": "da-5-career-interview-handbook", "name": "Tech Interview Handbook", "url": "https://www.techinterviewhandbook.org/", "resourceType": "career", "tags": ["interview", "career"] }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "da-spreadsheets-sql", "to": "da-python-analytics" },
+    { "from": "da-python-analytics", "to": "da-statistics" },
+    { "from": "da-statistics", "to": "da-visualization" },
+    { "from": "da-visualization", "to": "da-storytelling" }
+  ]
+}

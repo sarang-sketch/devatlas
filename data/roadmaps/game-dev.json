@@ -1,0 +1,349 @@
+{
+  "id": "game-dev",
+  "careerPathId": "game-dev",
+  "nodes": [
+    {
+      "id": "gamedev-programming-foundations",
+      "title": "Programming Foundations (C#)",
+      "order": 1,
+      "tags": ["csharp", "programming", "game-dev"],
+      "sections": {
+        "learn": [
+          {
+            "id": "gd-1-learn-csharp",
+            "name": "Microsoft Learn: C# fundamentals",
+            "url": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/",
+            "resourceType": "documentation",
+            "tags": ["csharp", "programming"]
+          },
+          {
+            "id": "gd-1-learn-cs50g",
+            "name": "Harvard CS50's Introduction to Game Development",
+            "url": "https://cs50.harvard.edu/games/",
+            "resourceType": "course",
+            "tags": ["game-dev", "cs50"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "gd-1-practice-exercism-csharp",
+            "name": "Exercism: C# track",
+            "url": "https://exercism.org/tracks/csharp",
+            "resourceType": "platform",
+            "tags": ["csharp", "practice"]
+          },
+          {
+            "id": "gd-1-practice-codewars-csharp",
+            "name": "Codewars: C# Kata",
+            "url": "https://www.codewars.com/?language=csharp",
+            "resourceType": "challenge",
+            "tags": ["csharp", "practice"]
+          }
+        ],
+        "build": [
+          { "projectId": "build-a-text-adventure-in-csharp" }
+        ],
+        "use": [
+          { "toolId": "vscode" },
+          { "toolId": "vs-code" },
+          { "toolId": "github" },
+          { "toolId": "git" }
+        ],
+        "deploy": [
+          {
+            "id": "gd-1-deploy-github",
+            "name": "Publish your C# code on GitHub",
+            "url": "https://github.com/",
+            "resourceType": "deployment",
+            "tags": ["github", "publishing"]
+          }
+        ],
+        "career": [
+          {
+            "id": "gd-1-career-tech-interview-handbook",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["career", "interview"]
+          },
+          {
+            "id": "gd-1-career-linkedin-jobs",
+            "name": "LinkedIn Jobs: junior game programmer roles",
+            "url": "https://www.linkedin.com/jobs/",
+            "resourceType": "career",
+            "tags": ["career", "jobs"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "gamedev-engine-basics",
+      "title": "Game Engine Basics (Unity)",
+      "order": 2,
+      "tags": ["unity", "engine", "game-dev"],
+      "sections": {
+        "learn": [
+          {
+            "id": "gd-2-learn-unity-learn",
+            "name": "Unity Learn",
+            "url": "https://learn.unity.com/",
+            "resourceType": "course",
+            "tags": ["unity", "engine"]
+          },
+          {
+            "id": "gd-2-learn-brackeys",
+            "name": "Brackeys: How to make a Video Game",
+            "url": "https://www.youtube.com/watch?v=XtQMytORBmM",
+            "resourceType": "video",
+            "tags": ["unity", "video"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "gd-2-practice-unity-microgames",
+            "name": "Unity Learn: Microgame projects",
+            "url": "https://learn.unity.com/project/2d-platformer-template",
+            "resourceType": "challenge",
+            "tags": ["unity", "practice"]
+          },
+          {
+            "id": "gd-2-practice-gamejam",
+            "name": "itch.io: Game Jams",
+            "url": "https://itch.io/jams",
+            "resourceType": "challenge",
+            "tags": ["game-jam", "practice"]
+          }
+        ],
+        "build": [
+          { "projectId": "2d-platformer" },
+          { "projectId": "build-a-2d-platformer-in-unity" }
+        ],
+        "use": [
+          { "toolId": "unity" },
+          { "toolId": "vs-code" },
+          { "toolId": "github" }
+        ],
+        "deploy": [
+          {
+            "id": "gd-2-deploy-unity-webgl",
+            "name": "Unity: WebGL builds",
+            "url": "https://docs.unity3d.com/Manual/webgl-building.html",
+            "resourceType": "deployment",
+            "tags": ["webgl", "unity"]
+          }
+        ],
+        "career": [
+          {
+            "id": "gd-2-career-gamedeveloper",
+            "name": "Game Developer: industry news and careers",
+            "url": "https://www.gamedeveloper.com/",
+            "resourceType": "career",
+            "tags": ["career", "game-dev"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "gamedev-graphics-physics",
+      "title": "Graphics, Physics & Animation",
+      "order": 3,
+      "tags": ["graphics", "physics", "animation"],
+      "sections": {
+        "learn": [
+          {
+            "id": "gd-3-learn-unity-physics",
+            "name": "Unity: Physics Manual",
+            "url": "https://docs.unity3d.com/Manual/PhysicsSection.html",
+            "resourceType": "documentation",
+            "tags": ["physics", "unity"]
+          },
+          {
+            "id": "gd-3-learn-unity-animation",
+            "name": "Unity: Animation System Manual",
+            "url": "https://docs.unity3d.com/Manual/AnimationSection.html",
+            "resourceType": "documentation",
+            "tags": ["animation", "unity"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "gd-3-practice-gamejam",
+            "name": "itch.io: Game Jams",
+            "url": "https://itch.io/jams",
+            "resourceType": "challenge",
+            "tags": ["game-jam", "practice"]
+          }
+        ],
+        "build": [
+          { "projectId": "physics-puzzle-game" },
+          { "projectId": "build-a-ragdoll-physics-sandbox-in-unity" }
+        ],
+        "use": [
+          { "toolId": "unity" },
+          { "toolId": "blender" },
+          { "toolId": "vs-code" },
+          { "toolId": "github" }
+        ],
+        "deploy": [
+          {
+            "id": "gd-3-deploy-unity-webgl",
+            "name": "Unity: WebGL builds",
+            "url": "https://docs.unity3d.com/Manual/webgl-building.html",
+            "resourceType": "deployment",
+            "tags": ["webgl", "unity"]
+          }
+        ],
+        "career": [
+          {
+            "id": "gd-3-career-gamedeveloper",
+            "name": "Game Developer: technical art and graphics careers",
+            "url": "https://www.gamedeveloper.com/",
+            "resourceType": "career",
+            "tags": ["career", "graphics"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "gamedev-gameplay-systems",
+      "title": "Gameplay Systems & Polish",
+      "order": 4,
+      "tags": ["gameplay", "ui", "audio"],
+      "sections": {
+        "learn": [
+          {
+            "id": "gd-4-learn-game-programming-patterns",
+            "name": "Game Programming Patterns (free online book)",
+            "url": "https://gameprogrammingpatterns.com/",
+            "resourceType": "documentation",
+            "tags": ["patterns", "gameplay"]
+          },
+          {
+            "id": "gd-4-learn-unity-ui",
+            "name": "Unity: UI Toolkit Manual",
+            "url": "https://docs.unity3d.com/Manual/UIToolkits.html",
+            "resourceType": "documentation",
+            "tags": ["ui", "unity"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "gd-4-practice-gamejam",
+            "name": "itch.io: Game Jams",
+            "url": "https://itch.io/jams",
+            "resourceType": "challenge",
+            "tags": ["game-jam", "practice"]
+          }
+        ],
+        "build": [
+          { "projectId": "2d-platformer" },
+          { "projectId": "build-a-game-menu-and-save-system-in-unity" }
+        ],
+        "use": [
+          { "toolId": "unity" },
+          { "toolId": "vs-code" },
+          { "toolId": "github" },
+          { "toolId": "git" }
+        ],
+        "deploy": [
+          {
+            "id": "gd-4-deploy-itch",
+            "name": "itch.io: Creator Documentation",
+            "url": "https://itch.io/docs/creators/",
+            "resourceType": "deployment",
+            "tags": ["publishing", "itch"]
+          }
+        ],
+        "career": [
+          {
+            "id": "gd-4-career-gamedeveloper",
+            "name": "Game Developer: gameplay engineering careers",
+            "url": "https://www.gamedeveloper.com/",
+            "resourceType": "career",
+            "tags": ["career", "gameplay"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "gamedev-publish-career",
+      "title": "Publish & Career",
+      "order": 5,
+      "tags": ["deployment", "publishing", "career"],
+      "sections": {
+        "learn": [
+          {
+            "id": "gd-5-learn-itch-publish",
+            "name": "itch.io: Creator Documentation",
+            "url": "https://itch.io/docs/creators/",
+            "resourceType": "documentation",
+            "tags": ["publishing", "itch"]
+          },
+          {
+            "id": "gd-5-learn-steamworks",
+            "name": "Steamworks: Documentation",
+            "url": "https://partner.steamgames.com/doc/home",
+            "resourceType": "documentation",
+            "tags": ["publishing", "steam"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "gd-5-practice-gamejam",
+            "name": "itch.io: Game Jams (ship a finished entry)",
+            "url": "https://itch.io/jams",
+            "resourceType": "challenge",
+            "tags": ["game-jam", "practice"]
+          }
+        ],
+        "build": [
+          { "projectId": "physics-puzzle-game" },
+          { "projectId": "publish-a-game-demo-to-itch-io" }
+        ],
+        "use": [
+          { "toolId": "unity" },
+          { "toolId": "github" },
+          { "toolId": "git" }
+        ],
+        "deploy": [
+          {
+            "id": "gd-5-deploy-itch",
+            "name": "Publish on itch.io",
+            "url": "https://itch.io/",
+            "resourceType": "deployment",
+            "tags": ["publishing", "games"]
+          },
+          {
+            "id": "gd-5-deploy-unity-webgl",
+            "name": "Unity: WebGL builds",
+            "url": "https://docs.unity3d.com/Manual/webgl-building.html",
+            "resourceType": "deployment",
+            "tags": ["webgl", "unity"]
+          }
+        ],
+        "career": [
+          {
+            "id": "gd-5-career-gamedev-jobs",
+            "name": "Game Developer: breaking into games",
+            "url": "https://www.gamedeveloper.com/",
+            "resourceType": "career",
+            "tags": ["career", "game-dev"]
+          },
+          {
+            "id": "gd-5-career-resume",
+            "name": "Resume.io: build a game developer resume",
+            "url": "https://www.resume.io/",
+            "resourceType": "career",
+            "tags": ["career", "resume"]
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "gamedev-programming-foundations", "to": "gamedev-engine-basics" },
+    { "from": "gamedev-engine-basics", "to": "gamedev-graphics-physics" },
+    { "from": "gamedev-graphics-physics", "to": "gamedev-gameplay-systems" },
+    { "from": "gamedev-gameplay-systems", "to": "gamedev-publish-career" }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": "qa-engineer",
+  "careerPathId": "qa-engineer",
+  "nodes": [
+    {
+      "id": "qa-fundamentals",
+      "title": "Software Testing Fundamentals",
+      "order": 1,
+      "tags": ["testing", "qa", "manual-testing"],
+      "sections": {
+        "learn": [
+          { "id": "qa-1-learn-istqb", "name": "ISTQB Foundation Level Syllabus (Free)", "url": "https://www.istqb.org/certifications/certified-tester-foundation-level", "resourceType": "documentation", "tags": ["istqb", "testing"] },
+          { "id": "qa-1-learn-guru99", "name": "Guru99: Software Testing Tutorial", "url": "https://www.guru99.com/software-testing.html", "resourceType": "documentation", "tags": ["manual-testing"] },
+          { "id": "qa-1-learn-coursera", "name": "Google: Foundations of Software Testing (Audit)", "url": "https://www.coursera.org/learn/foundations-of-software-testing-and-automation", "resourceType": "course", "tags": ["testing", "google"] },
+          { "id": "qa-1-learn-tau", "name": "Test Automation University: QA Learning Paths", "url": "https://testautomationu.applitools.com/", "resourceType": "course", "tags": ["automation", "testing"] }
+        ],
+        "practice": [
+          { "id": "qa-1-practice-the-internet", "name": "The Internet (Herokuapp): Test Scenarios Playground", "url": "https://the-internet.herokuapp.com/", "resourceType": "platform", "tags": ["practice", "testing"] },
+          { "id": "qa-1-practice-saucedemo", "name": "SauceDemo: Practice Manual Test Cases", "url": "https://www.saucedemo.com/", "resourceType": "platform", "tags": ["practice", "manual-testing"] }
+        ],
+        "build": [
+          { "projectId": "write-a-manual-test-plan-and-bug-report" }
+        ],
+        "use": [
+          { "toolId": "notion" },
+          { "toolId": "github" }
+        ],
+        "deploy": [
+          { "id": "qa-1-deploy-github", "name": "Publish Your Test Cases in a GitHub Repository", "url": "https://github.com/", "resourceType": "deployment", "tags": ["github", "publish"] }
+        ],
+        "career": [
+          { "id": "qa-1-career-roadmap", "name": "roadmap.sh: QA Engineer Roadmap", "url": "https://roadmap.sh/qa", "resourceType": "career", "tags": ["roadmap", "qa"] },
+          { "id": "qa-1-career-linkedin", "name": "LinkedIn Jobs: QA Tester Roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["jobs", "linkedin"] }
+        ]
+      }
+    },
+    {
+      "id": "qa-web-automation",
+      "title": "Web Test Automation (Selenium & Cypress)",
+      "order": 2,
+      "tags": ["selenium", "cypress", "automation"],
+      "sections": {
+        "learn": [
+          { "id": "qa-2-learn-selenium", "name": "Selenium Official Documentation", "url": "https://www.selenium.dev/documentation/", "resourceType": "documentation", "tags": ["selenium"] },
+          { "id": "qa-2-learn-cypress", "name": "Cypress: Getting Started Guide", "url": "https://docs.cypress.io/guides/getting-started/installing-cypress", "resourceType": "documentation", "tags": ["cypress"] },
+          { "id": "qa-2-learn-fcc-selenium", "name": "freeCodeCamp: Selenium Tutorial (YouTube)", "url": "https://www.youtube.com/watch?v=j7VZsCCnptM", "resourceType": "video", "tags": ["selenium"] },
+          { "id": "qa-2-learn-playwright", "name": "Playwright: Official Documentation", "url": "https://playwright.dev/docs/intro", "resourceType": "documentation", "tags": ["playwright", "automation"] }
+        ],
+        "practice": [
+          { "id": "qa-2-practice-saucedemo", "name": "Practice on SauceDemo Test Site", "url": "https://www.saucedemo.com/", "resourceType": "platform", "tags": ["selenium", "practice"] },
+          { "id": "qa-2-practice-the-internet", "name": "The Internet (Herokuapp): Automation Practice", "url": "https://the-internet.herokuapp.com/", "resourceType": "platform", "tags": ["automation", "practice"] }
+        ],
+        "build": [
+          { "projectId": "write-an-e2e-test-suite-with-playwright" }
+        ],
+        "use": [
+          { "toolId": "playwright" },
+          { "toolId": "cypress" }
+        ],
+        "deploy": [
+          { "id": "qa-2-deploy-playwright-ci", "name": "Run Playwright Tests in CI", "url": "https://playwright.dev/docs/ci", "resourceType": "deployment", "tags": ["playwright", "ci"] }
+        ],
+        "career": [
+          { "id": "qa-2-career-techinterview", "name": "Tech Interview Handbook: Prep for QA Interviews", "url": "https://www.techinterviewhandbook.org/", "resourceType": "career", "tags": ["interview"] },
+          { "id": "qa-2-career-linkedin", "name": "LinkedIn Jobs: Automation Engineer Roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["jobs", "linkedin"] }
+        ]
+      }
+    },
+    {
+      "id": "qa-api-testing",
+      "title": "API Testing (Postman & REST Assured)",
+      "order": 3,
+      "tags": ["api", "postman", "rest"],
+      "sections": {
+        "learn": [
+          { "id": "qa-3-learn-postman", "name": "Postman Learning Center", "url": "https://learning.postman.com/docs/getting-started/introduction/", "resourceType": "documentation", "tags": ["postman"] },
+          { "id": "qa-3-learn-postman-academy", "name": "Postman Academy: API Fundamentals", "url": "https://academy.postman.com/", "resourceType": "course", "tags": ["api", "postman"] },
+          { "id": "qa-3-learn-reqres", "name": "ReqRes: Test API Endpoints", "url": "https://reqres.in/", "resourceType": "platform", "tags": ["api", "practice"] },
+          { "id": "qa-3-learn-tau-api", "name": "Test Automation University: API Testing Courses", "url": "https://testautomationu.applitools.com/", "resourceType": "course", "tags": ["api", "automation"] }
+        ],
+        "practice": [
+          { "id": "qa-3-practice-reqres", "name": "ReqRes: Practice API Requests & Assertions", "url": "https://reqres.in/", "resourceType": "platform", "tags": ["api", "practice"] },
+          { "id": "qa-3-practice-the-internet", "name": "The Internet (Herokuapp): API & Endpoint Practice", "url": "https://the-internet.herokuapp.com/", "resourceType": "platform", "tags": ["api", "practice"] }
+        ],
+        "build": [
+          { "projectId": "build-an-api-test-collection" }
+        ],
+        "use": [
+          { "toolId": "postman" },
+          { "toolId": "hoppscotch" }
+        ],
+        "deploy": [
+          { "id": "qa-3-deploy-newman-actions", "name": "Run Postman Collections in GitHub Actions", "url": "https://docs.github.com/en/actions", "resourceType": "deployment", "tags": ["github-actions", "api", "ci"] }
+        ],
+        "career": [
+          { "id": "qa-3-career-resume", "name": "Resume.io: Highlight API Testing Skills", "url": "https://www.resume.io/", "resourceType": "career", "tags": ["resume"] },
+          { "id": "qa-3-career-linkedin", "name": "LinkedIn Jobs: API/Backend QA Roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["jobs", "linkedin"] }
+        ]
+      }
+    },
+    {
+      "id": "qa-performance",
+      "title": "Performance & Load Testing",
+      "order": 4,
+      "tags": ["performance", "jmeter", "load-testing"],
+      "sections": {
+        "learn": [
+          { "id": "qa-4-learn-jmeter", "name": "Apache JMeter: Getting Started", "url": "https://jmeter.apache.org/usermanual/get-started.html", "resourceType": "documentation", "tags": ["jmeter"] },
+          { "id": "qa-4-learn-k6", "name": "k6: Load Testing Documentation", "url": "https://k6.io/docs/", "resourceType": "documentation", "tags": ["k6", "load-testing"] }
+        ],
+        "practice": [
+          { "id": "qa-4-practice-the-internet", "name": "The Internet (Herokuapp): Target for Load Tests", "url": "https://the-internet.herokuapp.com/", "resourceType": "platform", "tags": ["performance", "practice"] },
+          { "id": "qa-4-practice-k6-examples", "name": "k6: Hands-On Examples & Test Scripts", "url": "https://grafana.com/docs/k6/latest/examples/", "resourceType": "platform", "tags": ["k6", "practice"] }
+        ],
+        "build": [
+          { "projectId": "build-a-load-test-script-with-k6" }
+        ],
+        "use": [
+          { "toolId": "k6" },
+          { "toolId": "checkly" }
+        ],
+        "deploy": [
+          { "id": "qa-4-deploy-k6-actions", "name": "Run k6 Load Tests in GitHub Actions", "url": "https://docs.github.com/en/actions", "resourceType": "deployment", "tags": ["github-actions", "performance", "ci"] }
+        ],
+        "career": [
+          { "id": "qa-4-career-techinterview", "name": "Tech Interview Handbook: Performance Testing Prep", "url": "https://www.techinterviewhandbook.org/", "resourceType": "career", "tags": ["interview"] },
+          { "id": "qa-4-career-linkedin", "name": "LinkedIn Jobs: Performance Engineer Roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["jobs", "linkedin"] }
+        ]
+      }
+    },
+    {
+      "id": "qa-cicd",
+      "title": "CI/CD Testing Integration",
+      "order": 5,
+      "tags": ["ci-cd", "github-actions", "testing"],
+      "sections": {
+        "learn": [
+          { "id": "qa-5-learn-github-actions", "name": "GitHub Actions: CI for Testing", "url": "https://docs.github.com/en/actions/automating-builds-and-tests", "resourceType": "documentation", "tags": ["github-actions", "ci-cd"] },
+          { "id": "qa-5-learn-gitlab-ci", "name": "GitLab CI/CD Fundamentals", "url": "https://university.gitlab.com/courses/gitlab-ci-fundamentals", "resourceType": "course", "tags": ["gitlab", "ci-cd"] },
+          { "id": "qa-5-learn-playwright-ci", "name": "Playwright: Continuous Integration Guide", "url": "https://playwright.dev/docs/ci", "resourceType": "documentation", "tags": ["playwright", "ci"] }
+        ],
+        "practice": [
+          { "id": "qa-5-practice-actions-lab", "name": "GitHub Skills: Hands-On Actions Lab", "url": "https://skills.github.com/", "resourceType": "platform", "tags": ["github-actions", "practice"] },
+          { "id": "qa-5-practice-saucedemo", "name": "SauceDemo: Target App for CI Test Pipelines", "url": "https://www.saucedemo.com/", "resourceType": "platform", "tags": ["ci-cd", "practice"] }
+        ],
+        "build": [
+          { "projectId": "set-up-ci-test-automation" }
+        ],
+        "use": [
+          { "toolId": "github-actions" },
+          { "toolId": "playwright" }
+        ],
+        "deploy": [
+          { "id": "qa-5-deploy-github-actions", "name": "Run Your Test Suite in GitHub Actions", "url": "https://docs.github.com/en/actions", "resourceType": "deployment", "tags": ["github-actions", "ci-cd", "publish"] }
+        ],
+        "career": [
+          { "id": "qa-5-career-roadmap", "name": "roadmap.sh: QA Engineer Roadmap", "url": "https://roadmap.sh/qa", "resourceType": "career", "tags": ["roadmap", "qa"] },
+          { "id": "qa-5-career-resume", "name": "Resume.io: Build an SDET Resume", "url": "https://www.resume.io/", "resourceType": "career", "tags": ["resume"] },
+          { "id": "qa-5-career-linkedin", "name": "LinkedIn Jobs: SDET / QA Automation Roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["jobs", "linkedin"] }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "qa-fundamentals", "to": "qa-web-automation" },
+    { "from": "qa-web-automation", "to": "qa-api-testing" },
+    { "from": "qa-api-testing", "to": "qa-performance" },
+    { "from": "qa-performance", "to": "qa-cicd" }
+  ]
+}

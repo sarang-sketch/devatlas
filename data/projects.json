@@ -1,0 +1,302 @@
+[
+  {
+    "id": "todo-app",
+    "name": "Todo App",
+    "skillLevel": "Beginner",
+    "description": "A classic task manager where users can add, complete, edit, and delete todos, with state persisted in the browser.",
+    "requiredSkills": ["HTML", "CSS", "JavaScript basics", "DOM manipulation"],
+    "estimatedTime": "1-2 days",
+    "techStack": ["React", "TypeScript", "Tailwind CSS", "localStorage"],
+    "learningOutcomes": [
+      "Manage component state and lists",
+      "Handle form input and events",
+      "Persist data with the browser local storage API"
+    ],
+    "tags": ["frontend", "react", "javascript", "beginner"]
+  },
+  {
+    "id": "personal-portfolio",
+    "name": "Personal Portfolio",
+    "skillLevel": "Beginner",
+    "description": "A responsive single-page portfolio showcasing your bio, projects, and contact links, ready to deploy to a static host.",
+    "requiredSkills": ["HTML", "CSS", "Responsive design"],
+    "estimatedTime": "2-3 days",
+    "techStack": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    "learningOutcomes": [
+      "Build a responsive layout with Flexbox and Grid",
+      "Structure a multi-section landing page",
+      "Deploy a static site to a free hosting provider"
+    ],
+    "tags": ["frontend", "css", "portfolio", "beginner"]
+  },
+  {
+    "id": "weather-widget",
+    "name": "Weather Widget",
+    "skillLevel": "Beginner",
+    "description": "A small app that fetches the current weather for a city from a public API and renders it with simple loading and error states.",
+    "requiredSkills": ["JavaScript", "Fetch API", "Async/await"],
+    "estimatedTime": "1-2 days",
+    "techStack": ["React", "TypeScript", "OpenWeather API"],
+    "learningOutcomes": [
+      "Call a third-party REST API from the browser",
+      "Handle loading and error UI states",
+      "Render data returned from an asynchronous request"
+    ],
+    "tags": ["frontend", "api", "javascript", "beginner"]
+  },
+  {
+    "id": "markdown-previewer",
+    "name": "Markdown Previewer",
+    "skillLevel": "Beginner",
+    "description": "A split-pane editor that converts Markdown text to live HTML preview as the user types.",
+    "requiredSkills": ["JavaScript", "React state", "npm packages"],
+    "estimatedTime": "1 day",
+    "techStack": ["React", "TypeScript", "marked"],
+    "learningOutcomes": [
+      "Wire controlled inputs to derived state",
+      "Integrate a third-party parsing library",
+      "Safely render generated HTML"
+    ],
+    "tags": ["frontend", "react", "beginner"]
+  },
+  {
+    "id": "tip-calculator",
+    "name": "Tip Calculator",
+    "skillLevel": "Beginner",
+    "description": "An interactive calculator that splits a bill, applies a tip percentage, and shows per-person totals.",
+    "requiredSkills": ["JavaScript", "Numeric formatting", "Forms"],
+    "estimatedTime": "1 day",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "learningOutcomes": [
+      "Perform input validation on numeric fields",
+      "Compute and format currency values",
+      "Update the UI reactively from user input"
+    ],
+    "tags": ["frontend", "javascript", "beginner"]
+  },
+  {
+    "id": "rest-api-with-auth",
+    "name": "REST API with Auth",
+    "skillLevel": "Intermediate",
+    "description": "A backend REST API with user registration, JWT authentication, protected routes, and a relational database.",
+    "requiredSkills": ["Node.js", "HTTP", "SQL", "Authentication concepts"],
+    "estimatedTime": "1 week",
+    "techStack": ["Node.js", "Express", "PostgreSQL", "JWT", "Prisma"],
+    "learningOutcomes": [
+      "Design RESTful routes and status codes",
+      "Implement password hashing and JWT auth",
+      "Protect routes with middleware and validate requests"
+    ],
+    "tags": ["backend", "api", "auth", "node", "intermediate"]
+  },
+  {
+    "id": "weather-dashboard",
+    "name": "Weather Dashboard",
+    "skillLevel": "Intermediate",
+    "description": "A multi-city weather dashboard with search, saved locations, charts of forecast data, and client-side caching.",
+    "requiredSkills": ["React", "API integration", "State management", "Data visualization"],
+    "estimatedTime": "1 week",
+    "techStack": ["React", "TypeScript", "React Query", "Recharts", "Tailwind CSS"],
+    "learningOutcomes": [
+      "Manage server state and caching with React Query",
+      "Compose reusable data-visualization components",
+      "Persist user preferences across sessions"
+    ],
+    "tags": ["frontend", "fullstack", "api", "react", "intermediate"]
+  },
+  {
+    "id": "blog-cms",
+    "name": "Blog with CMS",
+    "skillLevel": "Intermediate",
+    "description": "A full-stack blog with Markdown posts, an admin dashboard for authoring, and server-side rendered public pages.",
+    "requiredSkills": ["Next.js", "Databases", "Authentication", "CRUD"],
+    "estimatedTime": "1-2 weeks",
+    "techStack": ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "NextAuth"],
+    "learningOutcomes": [
+      "Build CRUD flows backed by a database",
+      "Render content server-side for SEO",
+      "Separate public and authenticated admin areas"
+    ],
+    "tags": ["fullstack", "backend", "nextjs", "intermediate"]
+  },
+  {
+    "id": "expense-tracker",
+    "name": "Expense Tracker",
+    "skillLevel": "Intermediate",
+    "description": "A personal finance app to log income and expenses, categorize transactions, and visualize monthly spending trends.",
+    "requiredSkills": ["React", "State management", "REST APIs", "Charts"],
+    "estimatedTime": "1 week",
+    "techStack": ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Chart.js"],
+    "learningOutcomes": [
+      "Model and aggregate transactional data",
+      "Build summary charts from raw records",
+      "Connect a React frontend to a Node backend"
+    ],
+    "tags": ["fullstack", "react", "node", "intermediate"]
+  },
+  {
+    "id": "mobile-fitness-tracker",
+    "name": "Mobile Fitness Tracker",
+    "skillLevel": "Intermediate",
+    "description": "A cross-platform mobile app that logs workouts, tracks streaks, and stores history with offline support.",
+    "requiredSkills": ["React Native", "Mobile navigation", "Local storage", "State management"],
+    "estimatedTime": "1-2 weeks",
+    "techStack": ["React Native", "Expo", "TypeScript", "SQLite"],
+    "learningOutcomes": [
+      "Build navigable multi-screen mobile UIs",
+      "Persist data offline on a device",
+      "Handle platform differences across iOS and Android"
+    ],
+    "tags": ["mobile", "react-native", "intermediate"]
+  },
+  {
+    "id": "real-time-chat-app",
+    "name": "Real-time Chat App",
+    "skillLevel": "Advanced",
+    "description": "A real-time messaging app with rooms, presence indicators, typing status, and message history over WebSockets.",
+    "requiredSkills": ["WebSockets", "Node.js", "React", "State synchronization"],
+    "estimatedTime": "2-3 weeks",
+    "techStack": ["React", "TypeScript", "Node.js", "Socket.IO", "Redis", "PostgreSQL"],
+    "learningOutcomes": [
+      "Implement bidirectional real-time communication",
+      "Manage presence and ephemeral state with Redis",
+      "Reconcile live updates with persisted history"
+    ],
+    "tags": ["fullstack", "backend", "realtime", "advanced"]
+  },
+  {
+    "id": "ecommerce-platform",
+    "name": "E-commerce Platform",
+    "skillLevel": "Advanced",
+    "description": "A storefront with product catalog, cart, checkout, payment integration, and an order-management admin panel.",
+    "requiredSkills": ["Next.js", "Payments", "Databases", "State management", "Webhooks"],
+    "estimatedTime": "3-4 weeks",
+    "techStack": ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Stripe", "Tailwind CSS"],
+    "learningOutcomes": [
+      "Integrate a payment provider and handle webhooks",
+      "Model carts, orders, and inventory",
+      "Build a secure checkout flow end to end"
+    ],
+    "tags": ["fullstack", "nextjs", "payments", "advanced"]
+  },
+  {
+    "id": "ml-image-classifier",
+    "name": "ML Image Classifier",
+    "skillLevel": "Advanced",
+    "description": "An image classification service that trains a convolutional model, serves predictions via an API, and exposes a web upload UI.",
+    "requiredSkills": ["Python", "Deep learning", "Model training", "REST APIs"],
+    "estimatedTime": "2-3 weeks",
+    "techStack": ["Python", "PyTorch", "FastAPI", "Docker", "React"],
+    "learningOutcomes": [
+      "Train and evaluate a CNN on an image dataset",
+      "Serve a model behind a prediction API",
+      "Package an ML service with Docker"
+    ],
+    "tags": ["ml-engineer", "ai-engineer", "data-scientist", "python", "advanced"]
+  },
+  {
+    "id": "devops-ci-cd-pipeline",
+    "name": "CI/CD Pipeline & Infrastructure",
+    "skillLevel": "Advanced",
+    "description": "An automated pipeline that builds, tests, containerizes, and deploys an application to the cloud with infrastructure as code.",
+    "requiredSkills": ["Docker", "CI/CD", "Cloud basics", "Infrastructure as code", "Linux"],
+    "estimatedTime": "2-3 weeks",
+    "techStack": ["Docker", "GitHub Actions", "Terraform", "AWS", "Kubernetes"],
+    "learningOutcomes": [
+      "Automate build, test, and deploy stages",
+      "Provision cloud infrastructure with Terraform",
+      "Containerize and orchestrate a deployment"
+    ],
+    "tags": ["devops", "cloud", "ci-cd", "advanced"]
+  },
+  {
+    "id": "blockchain-voting-dapp",
+    "name": "Blockchain Voting DApp",
+    "skillLevel": "Advanced",
+    "description": "A decentralized voting application with smart contracts, a wallet-connected frontend, and on-chain result tallying.",
+    "requiredSkills": ["Solidity", "Smart contracts", "Web3", "React"],
+    "estimatedTime": "2-3 weeks",
+    "techStack": ["Solidity", "Hardhat", "ethers.js", "React", "TypeScript"],
+    "learningOutcomes": [
+      "Write and test Ethereum smart contracts",
+      "Connect a frontend to a wallet and contract",
+      "Reason about gas, security, and on-chain state"
+    ],
+    "tags": ["blockchain", "web3", "solidity", "advanced"]
+  },
+  {
+    "id": "multi-tenant-saas",
+    "name": "Multi-tenant SaaS",
+    "skillLevel": "Production-grade",
+    "description": "A production SaaS with organization-based multi-tenancy, role-based access control, subscription billing, and audit logging.",
+    "requiredSkills": ["System design", "Authentication", "Databases", "Billing", "Security"],
+    "estimatedTime": "6-8 weeks",
+    "techStack": ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Stripe", "Redis", "AWS"],
+    "learningOutcomes": [
+      "Design tenant isolation and RBAC at scale",
+      "Implement subscription billing and entitlements",
+      "Add observability, audit trails, and rate limiting"
+    ],
+    "tags": ["fullstack", "backend", "saas", "production", "production-grade"]
+  },
+  {
+    "id": "video-streaming-service",
+    "name": "Video Streaming Service",
+    "skillLevel": "Production-grade",
+    "description": "A scalable video platform with upload, transcoding, adaptive bitrate streaming, a CDN, and a recommendation feed.",
+    "requiredSkills": ["System design", "Media processing", "Cloud infrastructure", "Caching", "Scalability"],
+    "estimatedTime": "8-10 weeks",
+    "techStack": ["Node.js", "FFmpeg", "AWS S3", "CloudFront", "PostgreSQL", "Redis", "React"],
+    "learningOutcomes": [
+      "Build a transcoding and adaptive-streaming pipeline",
+      "Serve media at scale through a CDN",
+      "Design for high throughput and low latency"
+    ],
+    "tags": ["backend", "cloud", "streaming", "production", "production-grade"]
+  },
+  {
+    "id": "observability-platform",
+    "name": "Observability Platform",
+    "skillLevel": "Production-grade",
+    "description": "A monitoring system that ingests metrics and logs, runs alerting rules, and renders dashboards for distributed services.",
+    "requiredSkills": ["Distributed systems", "Time-series data", "Monitoring", "Cloud infrastructure"],
+    "estimatedTime": "6-8 weeks",
+    "techStack": ["Go", "Prometheus", "Grafana", "Kafka", "Kubernetes", "ClickHouse"],
+    "learningOutcomes": [
+      "Ingest and store high-volume time-series data",
+      "Implement alerting and anomaly detection",
+      "Operate a system across distributed services"
+    ],
+    "tags": ["devops", "cloud", "monitoring", "production", "production-grade"]
+  },
+  {
+    "id": "ai-rag-assistant",
+    "name": "AI RAG Assistant",
+    "skillLevel": "Production-grade",
+    "description": "A production retrieval-augmented generation assistant with document ingestion, a vector store, streaming responses, and evaluation.",
+    "requiredSkills": ["LLMs", "Vector databases", "Prompt engineering", "Backend APIs", "Evaluation"],
+    "estimatedTime": "6-8 weeks",
+    "techStack": ["Python", "FastAPI", "LangChain", "pgvector", "OpenAI API", "React"],
+    "learningOutcomes": [
+      "Build an ingestion and embedding pipeline",
+      "Implement retrieval-augmented generation with citations",
+      "Evaluate and monitor LLM output quality"
+    ],
+    "tags": ["ai-engineer", "ml-engineer", "production", "production-grade"]
+  },
+  {
+    "id": "secure-banking-api",
+    "name": "Secure Banking API",
+    "skillLevel": "Production-grade",
+    "description": "A hardened financial API with strong authentication, encryption, transaction integrity, fraud checks, and compliance logging.",
+    "requiredSkills": ["Security", "System design", "Databases", "Cryptography", "Compliance"],
+    "estimatedTime": "6-8 weeks",
+    "techStack": ["Java", "Spring Boot", "PostgreSQL", "Vault", "Kafka", "Docker"],
+    "learningOutcomes": [
+      "Apply defense-in-depth and secure coding practices",
+      "Guarantee transactional integrity and idempotency",
+      "Implement audit logging and compliance controls"
+    ],
+    "tags": ["backend", "cybersecurity", "security", "production", "production-grade"]
+  }
+]

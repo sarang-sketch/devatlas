@@ -1,0 +1,557 @@
+{
+  "id": "frontend",
+  "careerPathId": "frontend",
+  "nodes": [
+    {
+      "id": "frontend-web-foundations",
+      "title": "Web Foundations: HTML & CSS",
+      "order": 1,
+      "tags": ["html", "css", "web", "frontend"],
+      "sections": {
+        "learn": [
+          {
+            "id": "fe-1-learn-mdn-html",
+            "name": "MDN: HTML basics",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML",
+            "resourceType": "documentation",
+            "tags": ["html", "mdn"]
+          },
+          {
+            "id": "fe-1-learn-fcc-rwd",
+            "name": "freeCodeCamp: Responsive Web Design",
+            "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+            "resourceType": "course",
+            "tags": ["css", "html", "freecodecamp"]
+          },
+          {
+            "id": "fe-1-learn-css-tricks",
+            "name": "CSS-Tricks: A Complete Guide to Flexbox",
+            "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+            "resourceType": "article",
+            "tags": ["css", "flexbox"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "fe-1-practice-flexbox-froggy",
+            "name": "Flexbox Froggy",
+            "url": "https://flexboxfroggy.com/",
+            "resourceType": "challenge",
+            "tags": ["css", "flexbox", "game"]
+          },
+          {
+            "id": "fe-1-practice-grid-garden",
+            "name": "Grid Garden",
+            "url": "https://cssgridgarden.com/",
+            "resourceType": "challenge",
+            "tags": ["css", "grid", "game"]
+          }
+        ],
+        "build": [
+          { "projectId": "personal-portfolio-page" },
+          { "projectId": "landing-page-clone" }
+        ],
+        "use": [
+          { "toolId": "vscode" },
+          { "toolId": "figma" }
+        ],
+        "deploy": [
+          {
+            "id": "fe-1-deploy-gh-pages",
+            "name": "GitHub Pages: host static sites",
+            "url": "https://pages.github.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "static"]
+          },
+          {
+            "id": "fe-1-deploy-netlify-drop",
+            "name": "Netlify Drop: drag-and-drop deploy",
+            "url": "https://app.netlify.com/drop",
+            "resourceType": "deployment",
+            "tags": ["deployment", "static"]
+          }
+        ],
+        "career": [
+          {
+            "id": "fe-1-career-roadmap",
+            "name": "Frontend Developer Roadmap",
+            "url": "https://roadmap.sh/frontend",
+            "resourceType": "career",
+            "tags": ["career", "roadmap"]
+          },
+          {
+            "id": "fe-1-career-linkedin-jobs",
+            "name": "LinkedIn Jobs: frontend roles",
+            "url": "https://www.linkedin.com/jobs/",
+            "resourceType": "career",
+            "tags": ["jobs", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "frontend-javascript-essentials",
+      "title": "JavaScript Essentials",
+      "order": 2,
+      "tags": ["javascript", "es6", "dom"],
+      "sections": {
+        "learn": [
+          {
+            "id": "fe-2-learn-js-info",
+            "name": "The Modern JavaScript Tutorial",
+            "url": "https://javascript.info/",
+            "resourceType": "documentation",
+            "tags": ["javascript", "es6"]
+          },
+          {
+            "id": "fe-2-learn-mdn-js",
+            "name": "MDN: JavaScript Guide",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+            "resourceType": "documentation",
+            "tags": ["javascript", "mdn"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "fe-2-practice-codewars",
+            "name": "Codewars: JavaScript kata",
+            "url": "https://www.codewars.com/",
+            "resourceType": "platform",
+            "tags": ["javascript", "challenge"]
+          },
+          {
+            "id": "fe-2-practice-exercism",
+            "name": "Exercism: JavaScript track",
+            "url": "https://exercism.org/tracks/javascript",
+            "resourceType": "platform",
+            "tags": ["javascript", "exercism"]
+          }
+        ],
+        "build": [
+          { "projectId": "todo-app" },
+          { "projectId": "weather-dashboard" }
+        ],
+        "use": [
+          { "toolId": "vscode" },
+          { "toolId": "github" }
+        ],
+        "deploy": [
+          {
+            "id": "fe-2-deploy-netlify",
+            "name": "Deploy on Netlify",
+            "url": "https://www.netlify.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "hosting"]
+          },
+          {
+            "id": "fe-2-deploy-gh-pages",
+            "name": "GitHub Pages",
+            "url": "https://pages.github.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "static"]
+          }
+        ],
+        "career": [
+          {
+            "id": "fe-2-career-frontend-handbook",
+            "name": "Front End Interview Handbook: JavaScript",
+            "url": "https://www.frontendinterviewhandbook.com/",
+            "resourceType": "career",
+            "tags": ["interview", "javascript"]
+          },
+          {
+            "id": "fe-2-career-remoteok",
+            "name": "RemoteOK: JavaScript developer jobs",
+            "url": "https://remoteok.com/",
+            "resourceType": "career",
+            "tags": ["jobs", "remote"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "frontend-version-control",
+      "title": "Version Control with Git",
+      "order": 3,
+      "tags": ["git", "github", "workflow"],
+      "sections": {
+        "learn": [
+          {
+            "id": "fe-3-learn-pro-git",
+            "name": "Pro Git Book",
+            "url": "https://git-scm.com/book/en/v2",
+            "resourceType": "documentation",
+            "tags": ["git", "book"]
+          },
+          {
+            "id": "fe-3-learn-github-skills",
+            "name": "GitHub Skills",
+            "url": "https://skills.github.com/",
+            "resourceType": "course",
+            "tags": ["git", "github"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "fe-3-practice-learn-git-branching",
+            "name": "Learn Git Branching",
+            "url": "https://learngitbranching.js.org/",
+            "resourceType": "challenge",
+            "tags": ["git", "interactive"]
+          }
+        ],
+        "build": [
+          { "projectId": "open-source-contribution-workflow" },
+          { "projectId": "personal-portfolio" }
+        ],
+        "use": [
+          { "toolId": "github" },
+          { "toolId": "git" }
+        ],
+        "deploy": [
+          {
+            "id": "fe-3-deploy-github",
+            "name": "Publish your repository on GitHub",
+            "url": "https://docs.github.com/en/get-started/quickstart/create-a-repo",
+            "resourceType": "deployment",
+            "tags": ["github", "publish"]
+          },
+          {
+            "id": "fe-3-deploy-gh-pages",
+            "name": "GitHub Pages from a repository",
+            "url": "https://docs.github.com/en/pages/getting-started-with-github-pages",
+            "resourceType": "deployment",
+            "tags": ["deployment", "static"]
+          }
+        ],
+        "career": [
+          {
+            "id": "fe-3-career-tech-interview",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["interview", "career"]
+          },
+          {
+            "id": "fe-3-career-resume-io",
+            "name": "Resume.io: build a developer resume",
+            "url": "https://www.resume.io/",
+            "resourceType": "career",
+            "tags": ["resume", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "frontend-react",
+      "title": "Building UIs with React",
+      "order": 4,
+      "tags": ["react", "components", "spa", "frontend"],
+      "sections": {
+        "learn": [
+          {
+            "id": "fe-4-learn-react-dev",
+            "name": "React: Learn React (official docs)",
+            "url": "https://react.dev/learn",
+            "resourceType": "documentation",
+            "tags": ["react", "official"]
+          },
+          {
+            "id": "fe-4-learn-fcc-react",
+            "name": "freeCodeCamp: Front End Development Libraries",
+            "url": "https://www.freecodecamp.org/learn/front-end-development-libraries/",
+            "resourceType": "course",
+            "tags": ["react", "freecodecamp"]
+          },
+          {
+            "id": "fe-4-learn-net-ninja-react",
+            "name": "The Net Ninja: Full Modern React Tutorial",
+            "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d",
+            "resourceType": "video",
+            "tags": ["react", "video"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "fe-4-practice-frontend-mentor",
+            "name": "Frontend Mentor: real-world challenges",
+            "url": "https://www.frontendmentor.io/challenges",
+            "resourceType": "challenge",
+            "tags": ["react", "css", "ui"]
+          }
+        ],
+        "build": [
+          { "projectId": "todo-app" },
+          { "projectId": "ecommerce-storefront" }
+        ],
+        "use": [
+          { "toolId": "vite" },
+          { "toolId": "vscode" }
+        ],
+        "deploy": [
+          {
+            "id": "fe-4-deploy-vercel",
+            "name": "Deploy a React app on Vercel",
+            "url": "https://vercel.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "react"]
+          },
+          {
+            "id": "fe-4-deploy-cloudflare",
+            "name": "Cloudflare Pages",
+            "url": "https://pages.cloudflare.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "static"]
+          }
+        ],
+        "career": [
+          {
+            "id": "fe-4-career-frontend-handbook",
+            "name": "Front End Interview Handbook: React",
+            "url": "https://www.frontendinterviewhandbook.com/",
+            "resourceType": "career",
+            "tags": ["interview", "react"]
+          },
+          {
+            "id": "fe-4-career-wellfound",
+            "name": "Wellfound: startup frontend jobs",
+            "url": "https://wellfound.com/",
+            "resourceType": "career",
+            "tags": ["jobs", "startups"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "frontend-styling-systems",
+      "title": "Styling Systems & Design",
+      "order": 5,
+      "tags": ["tailwind", "css", "design", "ui"],
+      "sections": {
+        "learn": [
+          {
+            "id": "fe-5-learn-tailwind-docs",
+            "name": "Tailwind CSS Documentation",
+            "url": "https://tailwindcss.com/docs/installation",
+            "resourceType": "documentation",
+            "tags": ["tailwind", "css"]
+          },
+          {
+            "id": "fe-5-learn-web-dev-design",
+            "name": "web.dev: Learn Responsive Design",
+            "url": "https://web.dev/learn/design/",
+            "resourceType": "course",
+            "tags": ["responsive", "design"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "fe-5-practice-100-days-css",
+            "name": "100 Days CSS Challenge",
+            "url": "https://100dayscss.com/",
+            "resourceType": "challenge",
+            "tags": ["css", "challenge"]
+          }
+        ],
+        "build": [
+          { "projectId": "landing-page-clone" }
+        ],
+        "use": [
+          { "toolId": "tailwind" },
+          { "toolId": "figma" }
+        ],
+        "deploy": [
+          {
+            "id": "fe-5-deploy-netlify",
+            "name": "Deploy on Netlify",
+            "url": "https://www.netlify.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "hosting"]
+          },
+          {
+            "id": "fe-5-deploy-vercel",
+            "name": "Deploy on Vercel",
+            "url": "https://vercel.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "hosting"]
+          }
+        ],
+        "career": [
+          {
+            "id": "fe-5-career-frontend-handbook",
+            "name": "Front End Interview Handbook: CSS questions",
+            "url": "https://www.frontendinterviewhandbook.com/css-questions/",
+            "resourceType": "career",
+            "tags": ["interview", "css"]
+          },
+          {
+            "id": "fe-5-career-rxresume",
+            "name": "Reactive Resume: free resume builder",
+            "url": "https://rxresu.me/",
+            "resourceType": "career",
+            "tags": ["resume", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "frontend-tooling-testing",
+      "title": "Tooling, Testing & Performance",
+      "order": 6,
+      "tags": ["testing", "tooling", "performance", "bundlers"],
+      "sections": {
+        "learn": [
+          {
+            "id": "fe-6-learn-testing-library",
+            "name": "Testing Library Docs",
+            "url": "https://testing-library.com/docs/",
+            "resourceType": "documentation",
+            "tags": ["testing", "react"]
+          },
+          {
+            "id": "fe-6-learn-web-vitals",
+            "name": "web.dev: Core Web Vitals",
+            "url": "https://web.dev/articles/vitals",
+            "resourceType": "article",
+            "tags": ["performance", "web-vitals"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "fe-6-practice-vitest",
+            "name": "Vitest Getting Started",
+            "url": "https://vitest.dev/guide/",
+            "resourceType": "documentation",
+            "tags": ["testing", "vitest"]
+          }
+        ],
+        "build": [
+          { "projectId": "weather-dashboard" }
+        ],
+        "use": [
+          { "toolId": "vitest" },
+          { "toolId": "lighthouse" }
+        ],
+        "deploy": [
+          {
+            "id": "fe-6-deploy-vercel-preview",
+            "name": "Vercel Preview Deployments",
+            "url": "https://vercel.com/docs/deployments/preview-deployments",
+            "resourceType": "deployment",
+            "tags": ["deployment", "ci"]
+          },
+          {
+            "id": "fe-6-deploy-netlify",
+            "name": "Deploy on Netlify",
+            "url": "https://www.netlify.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "hosting"]
+          }
+        ],
+        "career": [
+          {
+            "id": "fe-6-career-tech-interview",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["interview", "career"]
+          },
+          {
+            "id": "fe-6-career-linkedin",
+            "name": "LinkedIn Jobs: frontend engineer",
+            "url": "https://www.linkedin.com/jobs/",
+            "resourceType": "career",
+            "tags": ["jobs", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "frontend-deploy-career",
+      "title": "Deploy & Launch Your Career",
+      "order": 7,
+      "tags": ["deployment", "career", "portfolio"],
+      "sections": {
+        "learn": [
+          {
+            "id": "fe-7-learn-vercel-docs",
+            "name": "Vercel: Deploying a frontend app",
+            "url": "https://vercel.com/docs/getting-started-with-vercel",
+            "resourceType": "documentation",
+            "tags": ["deployment", "vercel"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "fe-7-practice-frontend-mentor",
+            "name": "Frontend Mentor: build and deploy challenges",
+            "url": "https://www.frontendmentor.io/challenges",
+            "resourceType": "challenge",
+            "tags": ["portfolio", "ui"]
+          },
+          {
+            "id": "fe-7-practice-interview",
+            "name": "Tech Interview Handbook: coding interview prep",
+            "url": "https://www.techinterviewhandbook.org/coding-interview-prep/",
+            "resourceType": "platform",
+            "tags": ["interview", "practice"]
+          }
+        ],
+        "build": [
+          { "projectId": "personal-portfolio-page" }
+        ],
+        "use": [
+          { "toolId": "vercel" },
+          { "toolId": "netlify" }
+        ],
+        "deploy": [
+          {
+            "id": "fe-7-deploy-vercel",
+            "name": "Deploy on Vercel",
+            "url": "https://vercel.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "hosting"]
+          },
+          {
+            "id": "fe-7-deploy-netlify",
+            "name": "Deploy on Netlify",
+            "url": "https://www.netlify.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "hosting"]
+          },
+          {
+            "id": "fe-7-deploy-gh-pages",
+            "name": "GitHub Pages",
+            "url": "https://pages.github.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "static"]
+          }
+        ],
+        "career": [
+          {
+            "id": "fe-7-career-frontend-interview",
+            "name": "Front End Interview Handbook",
+            "url": "https://www.frontendinterviewhandbook.com/",
+            "resourceType": "career",
+            "tags": ["interview", "frontend"]
+          },
+          {
+            "id": "fe-7-career-resume",
+            "name": "freeCodeCamp: How to write a developer resume",
+            "url": "https://www.freecodecamp.org/news/writing-a-developer-resume/",
+            "resourceType": "career",
+            "tags": ["resume", "career"]
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "frontend-web-foundations", "to": "frontend-javascript-essentials" },
+    { "from": "frontend-javascript-essentials", "to": "frontend-version-control" },
+    { "from": "frontend-version-control", "to": "frontend-react" },
+    { "from": "frontend-react", "to": "frontend-styling-systems" },
+    { "from": "frontend-styling-systems", "to": "frontend-tooling-testing" },
+    { "from": "frontend-tooling-testing", "to": "frontend-deploy-career" }
+  ]
+}

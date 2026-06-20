@@ -1,0 +1,310 @@
+{
+  "id": "ai-engineer",
+  "careerPathId": "ai-engineer",
+  "nodes": [
+    {
+      "id": "ai-python-foundations",
+      "title": "Python for AI",
+      "order": 1,
+      "tags": ["python", "ai", "fundamentals"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ai-1-learn-python-docs",
+            "name": "Python: The Python Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "resourceType": "documentation",
+            "tags": ["python", "official"]
+          },
+          {
+            "id": "ai-1-learn-fcc-python",
+            "name": "freeCodeCamp: Scientific Computing with Python",
+            "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/",
+            "resourceType": "course",
+            "tags": ["python", "freecodecamp"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ai-1-practice-exercism-python",
+            "name": "Exercism: Python track",
+            "url": "https://exercism.org/tracks/python",
+            "resourceType": "platform",
+            "tags": ["python", "practice"]
+          }
+        ],
+        "build": [
+          { "projectId": "build-a-python-data-script" }
+        ],
+        "use": [
+          { "toolId": "python" },
+          { "toolId": "jupyter" },
+          { "toolId": "vs-code" }
+        ],
+        "deploy": [
+          {
+            "id": "ai-1-deploy-colab",
+            "name": "Run notebooks on Google Colab",
+            "url": "https://colab.research.google.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "python"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ai-1-career-roadmap",
+            "name": "roadmap.sh: Python",
+            "url": "https://roadmap.sh/python",
+            "resourceType": "career",
+            "tags": ["career", "python"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-llm-fundamentals",
+      "title": "LLM Fundamentals",
+      "order": 2,
+      "tags": ["llm", "nlp", "ai", "transformers"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ai-2-learn-hf-course",
+            "name": "Hugging Face: LLM Course",
+            "url": "https://huggingface.co/learn/llm-course",
+            "resourceType": "course",
+            "tags": ["llm", "huggingface"]
+          },
+          {
+            "id": "ai-2-learn-3b1b-transformers",
+            "name": "3Blue1Brown: But what is a GPT?",
+            "url": "https://www.youtube.com/watch?v=wjZofJX0v4M",
+            "resourceType": "video",
+            "tags": ["transformers", "llm"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ai-2-practice-hf-spaces",
+            "name": "Hugging Face Spaces",
+            "url": "https://huggingface.co/spaces",
+            "resourceType": "platform",
+            "tags": ["llm", "demos"]
+          }
+        ],
+        "build": [
+          { "projectId": "ai-chatbot" }
+        ],
+        "use": [
+          { "toolId": "huggingface" },
+          { "toolId": "openai-api" }
+        ],
+        "deploy": [
+          {
+            "id": "ai-2-deploy-hf-spaces",
+            "name": "Deploy a demo on Hugging Face Spaces",
+            "url": "https://huggingface.co/docs/hub/spaces-overview",
+            "resourceType": "deployment",
+            "tags": ["deployment", "huggingface"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ai-2-career-roadmap",
+            "name": "roadmap.sh: AI Engineer",
+            "url": "https://roadmap.sh/ai-engineer",
+            "resourceType": "career",
+            "tags": ["career", "ai"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-prompt-engineering",
+      "title": "Prompt Engineering",
+      "order": 3,
+      "tags": ["prompt-engineering", "llm", "ai"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ai-3-learn-prompt-guide",
+            "name": "Prompt Engineering Guide",
+            "url": "https://www.promptingguide.ai/",
+            "resourceType": "documentation",
+            "tags": ["prompt-engineering", "llm"]
+          },
+          {
+            "id": "ai-3-learn-openai-guide",
+            "name": "OpenAI: Prompt engineering guide",
+            "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+            "resourceType": "article",
+            "tags": ["prompt-engineering", "openai"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ai-3-practice-learnprompting",
+            "name": "Learn Prompting: exercises",
+            "url": "https://learnprompting.org/docs/intro",
+            "resourceType": "challenge",
+            "tags": ["prompt-engineering", "practice"]
+          }
+        ],
+        "build": [
+          { "projectId": "ai-chatbot" }
+        ],
+        "use": [
+          { "toolId": "openai-api" },
+          { "toolId": "google-ai-studio" }
+        ],
+        "deploy": [
+          {
+            "id": "ai-3-deploy-ai-studio",
+            "name": "Test prompts in Google AI Studio",
+            "url": "https://aistudio.google.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "prompt-engineering"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ai-3-career-handbook",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["interview", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-rag-apps",
+      "title": "Building RAG Applications",
+      "order": 4,
+      "tags": ["rag", "vector-db", "embeddings", "langchain"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ai-4-learn-langchain",
+            "name": "LangChain: Introduction",
+            "url": "https://python.langchain.com/docs/introduction/",
+            "resourceType": "documentation",
+            "tags": ["langchain", "rag"]
+          },
+          {
+            "id": "ai-4-learn-pinecone-rag",
+            "name": "Pinecone: Retrieval-Augmented Generation guide",
+            "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+            "resourceType": "article",
+            "tags": ["rag", "vector-db"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ai-4-practice-deeplearning",
+            "name": "DeepLearning.AI: Short Courses",
+            "url": "https://www.deeplearning.ai/short-courses/",
+            "resourceType": "course",
+            "tags": ["rag", "ai"]
+          }
+        ],
+        "build": [
+          { "projectId": "rag-knowledge-base" }
+        ],
+        "use": [
+          { "toolId": "langchain" },
+          { "toolId": "pinecone" }
+        ],
+        "deploy": [
+          {
+            "id": "ai-4-deploy-streamlit",
+            "name": "Deploy a RAG app on Streamlit Community Cloud",
+            "url": "https://streamlit.io/cloud",
+            "resourceType": "deployment",
+            "tags": ["deployment", "rag"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ai-4-career-wellfound",
+            "name": "Wellfound: AI startup jobs",
+            "url": "https://wellfound.com/",
+            "resourceType": "career",
+            "tags": ["jobs", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-deploy-career",
+      "title": "Deploy AI Apps & Career",
+      "order": 5,
+      "tags": ["deployment", "career", "ai"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ai-5-learn-hf-deploy",
+            "name": "Hugging Face: Spaces deployment",
+            "url": "https://huggingface.co/docs/hub/spaces-overview",
+            "resourceType": "documentation",
+            "tags": ["deployment", "huggingface"]
+          },
+          {
+            "id": "ai-5-learn-fastapi-deploy",
+            "name": "FastAPI: Deployment",
+            "url": "https://fastapi.tiangolo.com/deployment/",
+            "resourceType": "documentation",
+            "tags": ["deployment", "fastapi"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ai-5-practice-hf-spaces",
+            "name": "Hugging Face Spaces: deploy and iterate",
+            "url": "https://huggingface.co/spaces",
+            "resourceType": "platform",
+            "tags": ["deployment", "ai"]
+          }
+        ],
+        "build": [
+          { "projectId": "rag-knowledge-base" }
+        ],
+        "use": [
+          { "toolId": "huggingface" },
+          { "toolId": "vercel" }
+        ],
+        "deploy": [
+          {
+            "id": "ai-5-deploy-hf-spaces",
+            "name": "Deploy on Hugging Face Spaces",
+            "url": "https://huggingface.co/spaces",
+            "resourceType": "deployment",
+            "tags": ["deployment", "ai"]
+          },
+          {
+            "id": "ai-5-deploy-streamlit",
+            "name": "Streamlit Community Cloud",
+            "url": "https://streamlit.io/cloud",
+            "resourceType": "deployment",
+            "tags": ["deployment", "python"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ai-5-career-roadmap",
+            "name": "roadmap.sh: AI Engineer",
+            "url": "https://roadmap.sh/ai-engineer",
+            "resourceType": "career",
+            "tags": ["career", "ai"]
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "ai-python-foundations", "to": "ai-llm-fundamentals" },
+    { "from": "ai-llm-fundamentals", "to": "ai-prompt-engineering" },
+    { "from": "ai-prompt-engineering", "to": "ai-rag-apps" },
+    { "from": "ai-rag-apps", "to": "ai-deploy-career" }
+  ]
+}

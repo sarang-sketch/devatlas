@@ -1,0 +1,317 @@
+{
+  "id": "blockchain",
+  "careerPathId": "blockchain",
+  "nodes": [
+    {
+      "id": "blockchain-fundamentals",
+      "title": "Blockchain Fundamentals",
+      "order": 1,
+      "tags": ["blockchain", "crypto", "fundamentals"],
+      "sections": {
+        "learn": [
+          {
+            "id": "bc-1-learn-ethereum-intro",
+            "name": "Ethereum.org: Intro to Ethereum",
+            "url": "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+            "resourceType": "documentation",
+            "tags": ["ethereum", "blockchain"]
+          },
+          {
+            "id": "bc-1-learn-blockchain-basics",
+            "name": "freeCodeCamp: Blockchain explained",
+            "url": "https://www.freecodecamp.org/news/what-is-blockchain-technology/",
+            "resourceType": "article",
+            "tags": ["blockchain", "basics"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "bc-1-practice-metamask-wallet",
+            "name": "MetaMask: set up a wallet and explore testnets",
+            "url": "https://metamask.io/",
+            "resourceType": "platform",
+            "tags": ["wallet", "hands-on"]
+          }
+        ],
+        "build": [
+          { "projectId": "build-a-crypto-wallet-balance-tracker" }
+        ],
+        "use": [
+          { "toolId": "metamask" },
+          { "toolId": "alchemy" }
+        ],
+        "deploy": [
+          {
+            "id": "bc-1-deploy-alchemy-node",
+            "name": "Connect to Ethereum via an Alchemy endpoint",
+            "url": "https://www.alchemy.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "infrastructure"]
+          }
+        ],
+        "career": [
+          {
+            "id": "bc-1-career-roadmap",
+            "name": "roadmap.sh: Blockchain",
+            "url": "https://roadmap.sh/blockchain",
+            "resourceType": "career",
+            "tags": ["career", "blockchain"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "blockchain-solidity",
+      "title": "Smart Contracts with Solidity",
+      "order": 2,
+      "tags": ["solidity", "smart-contracts", "ethereum"],
+      "sections": {
+        "learn": [
+          {
+            "id": "bc-2-learn-solidity-docs",
+            "name": "Solidity Documentation",
+            "url": "https://docs.soliditylang.org/",
+            "resourceType": "documentation",
+            "tags": ["solidity", "smart-contracts"]
+          },
+          {
+            "id": "bc-2-learn-cryptozombies",
+            "name": "CryptoZombies: Learn to code Solidity",
+            "url": "https://cryptozombies.io/",
+            "resourceType": "course",
+            "tags": ["solidity", "interactive"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "bc-2-practice-remix",
+            "name": "Remix IDE",
+            "url": "https://remix.ethereum.org/",
+            "resourceType": "platform",
+            "tags": ["solidity", "ide"]
+          }
+        ],
+        "build": [
+          { "projectId": "erc20-token" }
+        ],
+        "use": [
+          { "toolId": "remix" },
+          { "toolId": "hardhat" }
+        ],
+        "deploy": [
+          {
+            "id": "bc-2-deploy-remix-testnet",
+            "name": "Deploy a contract to a testnet from Remix",
+            "url": "https://remix.ethereum.org/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "testnet"]
+          }
+        ],
+        "career": [
+          {
+            "id": "bc-2-career-roadmap",
+            "name": "roadmap.sh: Blockchain",
+            "url": "https://roadmap.sh/blockchain",
+            "resourceType": "career",
+            "tags": ["career", "blockchain"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "blockchain-dapp-dev",
+      "title": "DApp Development with Web3",
+      "order": 3,
+      "tags": ["web3", "dapp", "ethers", "frontend"],
+      "sections": {
+        "learn": [
+          {
+            "id": "bc-3-learn-ethers",
+            "name": "ethers.js Documentation",
+            "url": "https://docs.ethers.org/",
+            "resourceType": "documentation",
+            "tags": ["web3", "ethers"]
+          },
+          {
+            "id": "bc-3-learn-speedrun",
+            "name": "Speedrun Ethereum",
+            "url": "https://speedrunethereum.com/",
+            "resourceType": "course",
+            "tags": ["dapp", "web3"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "bc-3-practice-remix",
+            "name": "Remix IDE: prototype dApp contracts",
+            "url": "https://remix.ethereum.org/",
+            "resourceType": "platform",
+            "tags": ["web3", "ide"]
+          }
+        ],
+        "build": [
+          { "projectId": "nft-marketplace" }
+        ],
+        "use": [
+          { "toolId": "hardhat" },
+          { "toolId": "alchemy" },
+          { "toolId": "vercel" }
+        ],
+        "deploy": [
+          {
+            "id": "bc-3-deploy-vercel",
+            "name": "Deploy the dApp frontend on Vercel",
+            "url": "https://vercel.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "frontend"]
+          }
+        ],
+        "career": [
+          {
+            "id": "bc-3-career-roadmap",
+            "name": "roadmap.sh: Blockchain",
+            "url": "https://roadmap.sh/blockchain",
+            "resourceType": "career",
+            "tags": ["career", "blockchain"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "blockchain-security-testing",
+      "title": "Smart Contract Security & Testing",
+      "order": 4,
+      "tags": ["security", "testing", "audits"],
+      "sections": {
+        "learn": [
+          {
+            "id": "bc-4-learn-consensys-best",
+            "name": "ConsenSys: Smart Contract Best Practices",
+            "url": "https://consensys.github.io/smart-contract-best-practices/",
+            "resourceType": "documentation",
+            "tags": ["security", "best-practices"]
+          },
+          {
+            "id": "bc-4-learn-openzeppelin",
+            "name": "OpenZeppelin Contracts Documentation",
+            "url": "https://docs.openzeppelin.com/contracts/",
+            "resourceType": "documentation",
+            "tags": ["security", "libraries"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "bc-4-practice-ethernaut",
+            "name": "Ethernaut: security wargame",
+            "url": "https://ethernaut.openzeppelin.com/",
+            "resourceType": "challenge",
+            "tags": ["security", "wargame"]
+          }
+        ],
+        "build": [
+          { "projectId": "build-a-smart-contract-test-suite-with-hardhat" }
+        ],
+        "use": [
+          { "toolId": "hardhat" },
+          { "toolId": "remix" }
+        ],
+        "deploy": [
+          {
+            "id": "bc-4-deploy-sepolia-audit",
+            "name": "Deploy audited contracts to Sepolia via Alchemy",
+            "url": "https://www.alchemy.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "testnet"]
+          }
+        ],
+        "career": [
+          {
+            "id": "bc-4-career-roadmap",
+            "name": "roadmap.sh: Blockchain",
+            "url": "https://roadmap.sh/blockchain",
+            "resourceType": "career",
+            "tags": ["career", "blockchain"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "blockchain-deploy-career",
+      "title": "Deploy & Career",
+      "order": 5,
+      "tags": ["deployment", "career", "testnet"],
+      "sections": {
+        "learn": [
+          {
+            "id": "bc-5-learn-deploy-guide",
+            "name": "Ethereum.org: Deploy a smart contract",
+            "url": "https://ethereum.org/en/developers/tutorials/deploying-your-first-smart-contract/",
+            "resourceType": "article",
+            "tags": ["deployment", "ethereum"]
+          },
+          {
+            "id": "bc-5-learn-hardhat-deploy",
+            "name": "Hardhat: Deploying your contracts",
+            "url": "https://hardhat.org/hardhat-runner/docs/guides/deploying",
+            "resourceType": "documentation",
+            "tags": ["deployment", "hardhat"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "bc-5-practice-ethernaut",
+            "name": "Ethernaut: pre-deployment security review",
+            "url": "https://ethernaut.openzeppelin.com/",
+            "resourceType": "challenge",
+            "tags": ["security", "wargame"]
+          }
+        ],
+        "build": [
+          { "projectId": "nft-marketplace" }
+        ],
+        "use": [
+          { "toolId": "alchemy" },
+          { "toolId": "vercel" }
+        ],
+        "deploy": [
+          {
+            "id": "bc-5-deploy-sepolia",
+            "name": "Deploy to Sepolia testnet (Alchemy)",
+            "url": "https://www.alchemy.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "testnet"]
+          },
+          {
+            "id": "bc-5-deploy-vercel",
+            "name": "Deploy the dApp frontend on Vercel",
+            "url": "https://vercel.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "frontend"]
+          }
+        ],
+        "career": [
+          {
+            "id": "bc-5-career-roadmap",
+            "name": "roadmap.sh: Blockchain",
+            "url": "https://roadmap.sh/blockchain",
+            "resourceType": "career",
+            "tags": ["career", "blockchain"]
+          },
+          {
+            "id": "bc-5-career-interview-handbook",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["career", "interview"]
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "blockchain-fundamentals", "to": "blockchain-solidity" },
+    { "from": "blockchain-solidity", "to": "blockchain-dapp-dev" },
+    { "from": "blockchain-dapp-dev", "to": "blockchain-security-testing" },
+    { "from": "blockchain-security-testing", "to": "blockchain-deploy-career" }
+  ]
+}

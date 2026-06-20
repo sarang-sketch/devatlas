@@ -1,0 +1,310 @@
+{
+  "id": "ml-engineer",
+  "careerPathId": "ml-engineer",
+  "nodes": [
+    {
+      "id": "ml-math-python",
+      "title": "Math & Python Foundations",
+      "order": 1,
+      "tags": ["python", "math", "linear-algebra", "statistics"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ml-1-learn-khan-linear",
+            "name": "Khan Academy: Linear Algebra",
+            "url": "https://www.khanacademy.org/math/linear-algebra",
+            "resourceType": "course",
+            "tags": ["math", "linear-algebra"]
+          },
+          {
+            "id": "ml-1-learn-numpy",
+            "name": "NumPy: Absolute Beginner's Guide",
+            "url": "https://numpy.org/doc/stable/user/absolute_beginners.html",
+            "resourceType": "documentation",
+            "tags": ["numpy", "python"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ml-1-practice-kaggle-python",
+            "name": "Kaggle: Python course",
+            "url": "https://www.kaggle.com/learn/python",
+            "resourceType": "platform",
+            "tags": ["python", "kaggle"]
+          }
+        ],
+        "build": [
+          { "projectId": "build-a-numpy-stats-notebook" }
+        ],
+        "use": [
+          { "toolId": "python" },
+          { "toolId": "jupyter" },
+          { "toolId": "colab" }
+        ],
+        "deploy": [
+          {
+            "id": "ml-1-deploy-colab",
+            "name": "Share notebooks on Google Colab",
+            "url": "https://colab.research.google.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "python"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ml-1-career-roadmap",
+            "name": "roadmap.sh: AI and Data Scientist",
+            "url": "https://roadmap.sh/ai-data-scientist",
+            "resourceType": "career",
+            "tags": ["career", "ml"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ml-classical",
+      "title": "Classical Machine Learning",
+      "order": 2,
+      "tags": ["ml", "scikit-learn", "supervised", "regression"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ml-2-learn-sklearn",
+            "name": "scikit-learn: User Guide",
+            "url": "https://scikit-learn.org/stable/user_guide.html",
+            "resourceType": "documentation",
+            "tags": ["scikit-learn", "ml"]
+          },
+          {
+            "id": "ml-2-learn-google-mlcc",
+            "name": "Google: Machine Learning Crash Course",
+            "url": "https://developers.google.com/machine-learning/crash-course",
+            "resourceType": "course",
+            "tags": ["ml", "google"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ml-2-practice-kaggle-intro",
+            "name": "Kaggle: Intro to Machine Learning",
+            "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+            "resourceType": "challenge",
+            "tags": ["ml", "kaggle"]
+          }
+        ],
+        "build": [
+          { "projectId": "house-price-predictor" }
+        ],
+        "use": [
+          { "toolId": "scikit-learn" },
+          { "toolId": "jupyter" }
+        ],
+        "deploy": [
+          {
+            "id": "ml-2-deploy-streamlit",
+            "name": "Deploy a model demo on Streamlit Community Cloud",
+            "url": "https://streamlit.io/cloud",
+            "resourceType": "deployment",
+            "tags": ["deployment", "ml"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ml-2-career-mle-interview",
+            "name": "Machine Learning Interviews Book",
+            "url": "https://huyenchip.com/ml-interviews-book/",
+            "resourceType": "career",
+            "tags": ["interview", "ml"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ml-deep-learning",
+      "title": "Deep Learning",
+      "order": 3,
+      "tags": ["deep-learning", "pytorch", "tensorflow", "neural-networks"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ml-3-learn-pytorch",
+            "name": "PyTorch: Learn the Basics",
+            "url": "https://pytorch.org/tutorials/beginner/basics/intro.html",
+            "resourceType": "documentation",
+            "tags": ["pytorch", "deep-learning"]
+          },
+          {
+            "id": "ml-3-learn-fastai",
+            "name": "fast.ai: Practical Deep Learning",
+            "url": "https://course.fast.ai/",
+            "resourceType": "course",
+            "tags": ["deep-learning", "fastai"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ml-3-practice-kaggle-dl",
+            "name": "Kaggle: Intro to Deep Learning",
+            "url": "https://www.kaggle.com/learn/intro-to-deep-learning",
+            "resourceType": "challenge",
+            "tags": ["deep-learning", "kaggle"]
+          }
+        ],
+        "build": [
+          { "projectId": "image-classifier" }
+        ],
+        "use": [
+          { "toolId": "pytorch" },
+          { "toolId": "colab" }
+        ],
+        "deploy": [
+          {
+            "id": "ml-3-deploy-hf-spaces",
+            "name": "Deploy a model demo on Hugging Face Spaces",
+            "url": "https://huggingface.co/docs/hub/spaces-overview",
+            "resourceType": "deployment",
+            "tags": ["deployment", "deep-learning"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ml-3-career-handbook",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["interview", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ml-data-pipelines",
+      "title": "Data Pipelines & Feature Engineering",
+      "order": 4,
+      "tags": ["data", "pipelines", "pandas", "feature-engineering"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ml-4-learn-pandas",
+            "name": "pandas: Getting started",
+            "url": "https://pandas.pydata.org/docs/getting_started/index.html",
+            "resourceType": "documentation",
+            "tags": ["pandas", "data"]
+          },
+          {
+            "id": "ml-4-learn-kaggle-pandas",
+            "name": "Kaggle: Pandas course",
+            "url": "https://www.kaggle.com/learn/pandas",
+            "resourceType": "course",
+            "tags": ["pandas", "data"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ml-4-practice-kaggle-fe",
+            "name": "Kaggle: Feature Engineering",
+            "url": "https://www.kaggle.com/learn/feature-engineering",
+            "resourceType": "challenge",
+            "tags": ["feature-engineering", "kaggle"]
+          }
+        ],
+        "build": [
+          { "projectId": "build-a-data-cleaning-pipeline" }
+        ],
+        "use": [
+          { "toolId": "pandas" },
+          { "toolId": "jupyter" }
+        ],
+        "deploy": [
+          {
+            "id": "ml-4-deploy-colab",
+            "name": "Run pipelines on Google Colab",
+            "url": "https://colab.research.google.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "data"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ml-4-career-linkedin",
+            "name": "LinkedIn Jobs: Data Engineer",
+            "url": "https://www.linkedin.com/jobs/",
+            "resourceType": "career",
+            "tags": ["jobs", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ml-mlops-deploy",
+      "title": "MLOps & Model Deployment",
+      "order": 5,
+      "tags": ["mlops", "deployment", "serving", "monitoring"],
+      "sections": {
+        "learn": [
+          {
+            "id": "ml-5-learn-mlflow",
+            "name": "MLflow Documentation",
+            "url": "https://mlflow.org/docs/latest/index.html",
+            "resourceType": "documentation",
+            "tags": ["mlops", "mlflow"]
+          },
+          {
+            "id": "ml-5-learn-mlops-zoomcamp",
+            "name": "DataTalksClub: MLOps Zoomcamp",
+            "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+            "resourceType": "course",
+            "tags": ["mlops", "course"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "ml-5-practice-mlops-zoomcamp",
+            "name": "MLOps Zoomcamp: hands-on modules",
+            "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+            "resourceType": "challenge",
+            "tags": ["mlops", "practice"]
+          }
+        ],
+        "build": [
+          { "projectId": "ml-model-api" }
+        ],
+        "use": [
+          { "toolId": "mlflow" },
+          { "toolId": "docker" }
+        ],
+        "deploy": [
+          {
+            "id": "ml-5-deploy-hf",
+            "name": "Hugging Face Inference Endpoints",
+            "url": "https://huggingface.co/inference-endpoints",
+            "resourceType": "deployment",
+            "tags": ["deployment", "ml"]
+          },
+          {
+            "id": "ml-5-deploy-modal",
+            "name": "Modal: serverless ML deployment",
+            "url": "https://modal.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "serverless"]
+          }
+        ],
+        "career": [
+          {
+            "id": "ml-5-career-mle-interview",
+            "name": "Machine Learning Interviews Book",
+            "url": "https://huyenchip.com/ml-interviews-book/",
+            "resourceType": "career",
+            "tags": ["interview", "ml"]
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "ml-math-python", "to": "ml-classical" },
+    { "from": "ml-classical", "to": "ml-deep-learning" },
+    { "from": "ml-deep-learning", "to": "ml-data-pipelines" },
+    { "from": "ml-data-pipelines", "to": "ml-mlops-deploy" }
+  ]
+}

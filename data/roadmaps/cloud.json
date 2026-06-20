@@ -1,0 +1,324 @@
+{
+  "id": "cloud",
+  "careerPathId": "cloud",
+  "nodes": [
+    {
+      "id": "cloud-fundamentals",
+      "title": "Cloud Computing Fundamentals",
+      "order": 1,
+      "tags": ["cloud", "fundamentals", "aws"],
+      "sections": {
+        "learn": [
+          {
+            "id": "cl-1-learn-aws-cloud-practitioner",
+            "name": "AWS Cloud Practitioner Essentials",
+            "url": "https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/",
+            "resourceType": "course",
+            "tags": ["aws", "cloud"]
+          },
+          {
+            "id": "cl-1-learn-azure-fundamentals",
+            "name": "Microsoft Learn: Azure Fundamentals",
+            "url": "https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/",
+            "resourceType": "course",
+            "tags": ["azure", "cloud"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "cl-1-practice-aws-skillbuilder",
+            "name": "AWS Skill Builder: hands-on labs",
+            "url": "https://skillbuilder.aws/",
+            "resourceType": "platform",
+            "tags": ["aws", "practice"]
+          }
+        ],
+        "build": [
+          { "projectId": "deploy-a-static-site-to-s3-cloudfront" }
+        ],
+        "use": [
+          { "toolId": "aws" },
+          { "toolId": "microsoft-learn" }
+        ],
+        "deploy": [
+          {
+            "id": "cl-1-deploy-cloudflare-pages",
+            "name": "Cloudflare Pages",
+            "url": "https://pages.cloudflare.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "edge"]
+          }
+        ],
+        "career": [
+          {
+            "id": "cl-1-career-roadmap",
+            "name": "roadmap.sh: AWS",
+            "url": "https://roadmap.sh/aws",
+            "resourceType": "career",
+            "tags": ["career", "cloud"]
+          },
+          {
+            "id": "cl-1-career-interview-handbook",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["career", "interview"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cloud-networking",
+      "title": "Networking & Security in the Cloud",
+      "order": 2,
+      "tags": ["networking", "security", "vpc"],
+      "sections": {
+        "learn": [
+          {
+            "id": "cl-2-learn-aws-vpc",
+            "name": "AWS: VPC Documentation",
+            "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+            "resourceType": "documentation",
+            "tags": ["networking", "aws"]
+          },
+          {
+            "id": "cl-2-learn-aws-iam",
+            "name": "AWS: IAM Documentation",
+            "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html",
+            "resourceType": "documentation",
+            "tags": ["security", "iam"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "cl-2-practice-aws-skillbuilder",
+            "name": "AWS Skill Builder",
+            "url": "https://skillbuilder.aws/",
+            "resourceType": "platform",
+            "tags": ["aws", "practice"]
+          }
+        ],
+        "build": [
+          { "projectId": "configure-a-secure-vpc-with-public-private-subnets" }
+        ],
+        "use": [
+          { "toolId": "aws" },
+          { "toolId": "terraform" }
+        ],
+        "deploy": [
+          {
+            "id": "cl-2-deploy-terraform-cloud",
+            "name": "Provision network infra with Terraform Cloud",
+            "url": "https://app.terraform.io/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "iac"]
+          }
+        ],
+        "career": [
+          {
+            "id": "cl-2-career-roadmap",
+            "name": "roadmap.sh: AWS",
+            "url": "https://roadmap.sh/aws",
+            "resourceType": "career",
+            "tags": ["career", "cloud"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cloud-compute-storage",
+      "title": "Compute & Storage Services",
+      "order": 3,
+      "tags": ["compute", "storage", "ec2", "s3"],
+      "sections": {
+        "learn": [
+          {
+            "id": "cl-3-learn-aws-ec2",
+            "name": "AWS: Amazon EC2 Documentation",
+            "url": "https://docs.aws.amazon.com/ec2/",
+            "resourceType": "documentation",
+            "tags": ["ec2", "compute"]
+          },
+          {
+            "id": "cl-3-learn-aws-s3",
+            "name": "AWS: Amazon S3 Documentation",
+            "url": "https://docs.aws.amazon.com/s3/",
+            "resourceType": "documentation",
+            "tags": ["s3", "storage"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "cl-3-practice-aws-skillbuilder",
+            "name": "AWS Skill Builder: compute & storage labs",
+            "url": "https://skillbuilder.aws/",
+            "resourceType": "platform",
+            "tags": ["aws", "practice"]
+          }
+        ],
+        "build": [
+          { "projectId": "static-site-on-s3" }
+        ],
+        "use": [
+          { "toolId": "aws" },
+          { "toolId": "cloudflare" }
+        ],
+        "deploy": [
+          {
+            "id": "cl-3-deploy-aws-amplify",
+            "name": "AWS Amplify Hosting",
+            "url": "https://aws.amazon.com/amplify/hosting/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "aws"]
+          }
+        ],
+        "career": [
+          {
+            "id": "cl-3-career-roadmap",
+            "name": "roadmap.sh: AWS",
+            "url": "https://roadmap.sh/aws",
+            "resourceType": "career",
+            "tags": ["career", "cloud"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cloud-serverless",
+      "title": "Serverless & Containers",
+      "order": 4,
+      "tags": ["serverless", "lambda", "containers"],
+      "sections": {
+        "learn": [
+          {
+            "id": "cl-4-learn-lambda",
+            "name": "AWS: Lambda Developer Guide",
+            "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+            "resourceType": "documentation",
+            "tags": ["lambda", "serverless"]
+          },
+          {
+            "id": "cl-4-learn-docker",
+            "name": "Docker: Get Started",
+            "url": "https://docs.docker.com/get-started/",
+            "resourceType": "documentation",
+            "tags": ["docker", "containers"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "cl-4-practice-aws-skillbuilder",
+            "name": "AWS Skill Builder: serverless labs",
+            "url": "https://skillbuilder.aws/",
+            "resourceType": "platform",
+            "tags": ["aws", "serverless"]
+          }
+        ],
+        "build": [
+          { "projectId": "serverless-api" }
+        ],
+        "use": [
+          { "toolId": "aws" },
+          { "toolId": "cloudflare-workers" },
+          { "toolId": "docker" }
+        ],
+        "deploy": [
+          {
+            "id": "cl-4-deploy-cloudflare-pages",
+            "name": "Cloudflare Pages + Workers",
+            "url": "https://pages.cloudflare.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "serverless"]
+          }
+        ],
+        "career": [
+          {
+            "id": "cl-4-career-roadmap",
+            "name": "roadmap.sh: AWS",
+            "url": "https://roadmap.sh/aws",
+            "resourceType": "career",
+            "tags": ["career", "cloud"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cloud-iac-deploy-career",
+      "title": "IaC, Deploy & Career",
+      "order": 5,
+      "tags": ["terraform", "iac", "deployment", "career"],
+      "sections": {
+        "learn": [
+          {
+            "id": "cl-5-learn-terraform-aws",
+            "name": "HashiCorp: Terraform AWS Get Started",
+            "url": "https://developer.hashicorp.com/terraform/tutorials/aws-get-started",
+            "resourceType": "course",
+            "tags": ["terraform", "iac"]
+          },
+          {
+            "id": "cl-5-learn-github-actions",
+            "name": "GitHub Actions Documentation",
+            "url": "https://docs.github.com/en/actions",
+            "resourceType": "documentation",
+            "tags": ["ci-cd", "automation"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "cl-5-practice-terraform-cloud",
+            "name": "Terraform Cloud: Get Started",
+            "url": "https://app.terraform.io/",
+            "resourceType": "platform",
+            "tags": ["terraform", "iac"]
+          }
+        ],
+        "build": [
+          { "projectId": "serverless-api" }
+        ],
+        "use": [
+          { "toolId": "terraform" },
+          { "toolId": "github-actions" }
+        ],
+        "deploy": [
+          {
+            "id": "cl-5-deploy-cloudflare-pages",
+            "name": "Cloudflare Pages",
+            "url": "https://pages.cloudflare.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "edge"]
+          },
+          {
+            "id": "cl-5-deploy-aws-amplify",
+            "name": "AWS Amplify Hosting",
+            "url": "https://aws.amazon.com/amplify/hosting/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "aws"]
+          }
+        ],
+        "career": [
+          {
+            "id": "cl-5-career-roadmap",
+            "name": "roadmap.sh: AWS",
+            "url": "https://roadmap.sh/aws",
+            "resourceType": "career",
+            "tags": ["career", "cloud"]
+          },
+          {
+            "id": "cl-5-career-interview-handbook",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["career", "interview"]
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "cloud-fundamentals", "to": "cloud-networking" },
+    { "from": "cloud-networking", "to": "cloud-compute-storage" },
+    { "from": "cloud-compute-storage", "to": "cloud-serverless" },
+    { "from": "cloud-serverless", "to": "cloud-iac-deploy-career" }
+  ]
+}

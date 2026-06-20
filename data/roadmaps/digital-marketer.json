@@ -1,0 +1,167 @@
+{
+  "id": "digital-marketer",
+  "careerPathId": "digital-marketer",
+  "nodes": [
+    {
+      "id": "dm-foundations",
+      "title": "Digital Marketing Foundations",
+      "order": 1,
+      "tags": ["marketing", "digital-marketing", "basics"],
+      "sections": {
+        "learn": [
+          { "id": "dm-1-learn-google-garage", "name": "Google Digital Garage: Fundamentals of Digital Marketing", "url": "https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing", "resourceType": "course", "tags": ["google", "marketing"] },
+          { "id": "dm-1-learn-hubspot-inbound", "name": "HubSpot: Inbound Marketing Certification", "url": "https://academy.hubspot.com/courses/inbound-marketing", "resourceType": "course", "tags": ["hubspot", "inbound"] },
+          { "id": "dm-1-learn-skillshop", "name": "Google Skillshop: Marketing Learning Paths", "url": "https://skillshop.exceedlms.com/", "resourceType": "course", "tags": ["google", "skillshop"] }
+        ],
+        "practice": [
+          { "id": "dm-1-practice-hubspot-academy", "name": "HubSpot Academy: Free Certification Courses", "url": "https://academy.hubspot.com/", "resourceType": "platform", "tags": ["hubspot", "practice"] },
+          { "id": "dm-1-practice-semrush-academy", "name": "Semrush Academy: Digital Marketing Courses", "url": "https://www.semrush.com/academy/", "resourceType": "platform", "tags": ["semrush", "practice"] }
+        ],
+        "build": [
+          { "projectId": "plan-a-content-calendar" }
+        ],
+        "use": [
+          { "toolId": "notion" },
+          { "toolId": "canva" }
+        ],
+        "deploy": [
+          { "id": "dm-1-deploy-carrd", "name": "Publish a Personal Marketing Landing Page on Carrd", "url": "https://carrd.co/", "resourceType": "deployment", "tags": ["landing-page", "publish"] }
+        ],
+        "career": [
+          { "id": "dm-1-career-linkedin", "name": "LinkedIn Jobs: Digital Marketing Roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["jobs", "linkedin"] },
+          { "id": "dm-1-career-resume", "name": "Resume.io: Build a Marketing Resume", "url": "https://www.resume.io/", "resourceType": "career", "tags": ["resume"] }
+        ]
+      }
+    },
+    {
+      "id": "dm-seo",
+      "title": "SEO & Content Strategy",
+      "order": 2,
+      "tags": ["seo", "content", "search"],
+      "sections": {
+        "learn": [
+          { "id": "dm-2-learn-hubspot-seo", "name": "HubSpot: SEO Training Certification", "url": "https://academy.hubspot.com/courses/seo-training", "resourceType": "course", "tags": ["seo", "hubspot"] },
+          { "id": "dm-2-learn-semrush", "name": "Semrush Academy: SEO Fundamentals", "url": "https://www.semrush.com/academy/courses/seo-fundamentals-course/", "resourceType": "course", "tags": ["seo", "semrush"] },
+          { "id": "dm-2-learn-moz", "name": "Moz: Beginner's Guide to SEO", "url": "https://moz.com/beginners-guide-to-seo", "resourceType": "documentation", "tags": ["seo"] },
+          { "id": "dm-2-learn-hubspot-content", "name": "HubSpot: Content Marketing Certification", "url": "https://academy.hubspot.com/courses/content-marketing", "resourceType": "course", "tags": ["content"] }
+        ],
+        "practice": [
+          { "id": "dm-2-practice-semrush", "name": "Semrush: Run Keyword & Site Audits (Free Tier)", "url": "https://www.semrush.com/", "resourceType": "platform", "tags": ["seo", "semrush", "practice"] },
+          { "id": "dm-2-practice-moz-tools", "name": "Moz: Free SEO Tools Practice", "url": "https://moz.com/free-seo-tools", "resourceType": "platform", "tags": ["seo", "practice"] }
+        ],
+        "build": [
+          { "projectId": "run-a-mock-seo-audit" }
+        ],
+        "use": [
+          { "toolId": "google-analytics" },
+          { "toolId": "notion" }
+        ],
+        "deploy": [
+          { "id": "dm-2-deploy-search-console", "name": "Set Up Google Search Console for Your Site", "url": "https://search.google.com/search-console/about", "resourceType": "deployment", "tags": ["seo", "search-console"] }
+        ],
+        "career": [
+          { "id": "dm-2-career-hubspot-cert", "name": "HubSpot Academy: SEO Certification for Your Resume", "url": "https://academy.hubspot.com/courses/seo-training", "resourceType": "career", "tags": ["certification", "seo"] },
+          { "id": "dm-2-career-linkedin", "name": "LinkedIn Jobs: SEO Specialist Roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["jobs", "linkedin"] }
+        ]
+      }
+    },
+    {
+      "id": "dm-analytics",
+      "title": "Google Analytics & Data",
+      "order": 3,
+      "tags": ["analytics", "google-analytics", "data"],
+      "sections": {
+        "learn": [
+          { "id": "dm-3-learn-ga-cert", "name": "Google Analytics Certification (Skillshop)", "url": "https://skillshop.withgoogle.com/", "resourceType": "course", "tags": ["google-analytics"] },
+          { "id": "dm-3-learn-ga-academy", "name": "Google: Analytics Academy", "url": "https://analytics.google.com/analytics/academy/", "resourceType": "course", "tags": ["google-analytics"] }
+        ],
+        "practice": [
+          { "id": "dm-3-practice-ga-demo", "name": "Google Analytics Demo Account (Live Data)", "url": "https://support.google.com/analytics/answer/6367342", "resourceType": "platform", "tags": ["google-analytics", "practice"] },
+          { "id": "dm-3-practice-skillshop", "name": "Google Skillshop: Analytics Assessments", "url": "https://skillshop.exceedlms.com/", "resourceType": "platform", "tags": ["google", "practice"] }
+        ],
+        "build": [
+          { "projectId": "build-a-marketing-analytics-dashboard" }
+        ],
+        "use": [
+          { "toolId": "google-analytics" },
+          { "toolId": "plausible" }
+        ],
+        "deploy": [
+          { "id": "dm-3-deploy-ga-property", "name": "Launch a GA4 Property on a Live Site (Vercel)", "url": "https://vercel.com/", "resourceType": "deployment", "tags": ["analytics", "publish"] }
+        ],
+        "career": [
+          { "id": "dm-3-career-resume", "name": "Resume.io: Highlight Analytics Skills", "url": "https://www.resume.io/", "resourceType": "career", "tags": ["resume"] },
+          { "id": "dm-3-career-linkedin", "name": "LinkedIn Jobs: Marketing Analyst Roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["jobs", "linkedin"] }
+        ]
+      }
+    },
+    {
+      "id": "dm-social-media",
+      "title": "Social Media Marketing",
+      "order": 4,
+      "tags": ["social-media", "facebook", "instagram"],
+      "sections": {
+        "learn": [
+          { "id": "dm-4-learn-meta-social", "name": "Meta: Social Media Marketing Certificate (Audit)", "url": "https://www.coursera.org/professional-certificates/facebook-social-media-marketing", "resourceType": "course", "tags": ["meta", "social-media"] },
+          { "id": "dm-4-learn-buffer", "name": "Buffer: Social Media Marketing Guide", "url": "https://buffer.com/library/social-media-marketing-strategy/", "resourceType": "article", "tags": ["social-media"] },
+          { "id": "dm-4-learn-meta-blueprint", "name": "Meta Blueprint: Free Marketing Courses", "url": "https://www.facebook.com/business/learn", "resourceType": "course", "tags": ["meta", "blueprint"] }
+        ],
+        "practice": [
+          { "id": "dm-4-practice-blueprint", "name": "Meta Blueprint: Hands-On Course Exercises", "url": "https://www.facebook.com/business/learn", "resourceType": "platform", "tags": ["meta", "practice"] },
+          { "id": "dm-4-practice-hootsuite", "name": "Hootsuite Academy: Social Marketing Practice", "url": "https://education.hootsuite.com/", "resourceType": "platform", "tags": ["social-media", "practice"] }
+        ],
+        "build": [
+          { "projectId": "plan-a-content-calendar" }
+        ],
+        "use": [
+          { "toolId": "canva" },
+          { "toolId": "notion" }
+        ],
+        "deploy": [
+          { "id": "dm-4-deploy-producthunt", "name": "Launch a Campaign Page on Product Hunt", "url": "https://www.producthunt.com/", "resourceType": "deployment", "tags": ["launch", "social"] }
+        ],
+        "career": [
+          { "id": "dm-4-career-linkedin", "name": "LinkedIn Jobs: Social Media Manager Roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["jobs", "linkedin"] },
+          { "id": "dm-4-career-resume", "name": "Resume.io: Social Media Marketing Resume", "url": "https://www.resume.io/", "resourceType": "career", "tags": ["resume"] }
+        ]
+      }
+    },
+    {
+      "id": "dm-email-ads",
+      "title": "Email Marketing & Paid Advertising",
+      "order": 5,
+      "tags": ["email", "ads", "google-ads", "ppc"],
+      "sections": {
+        "learn": [
+          { "id": "dm-5-learn-hubspot-email", "name": "HubSpot: Email Marketing Certification", "url": "https://academy.hubspot.com/courses/email-marketing", "resourceType": "course", "tags": ["email"] },
+          { "id": "dm-5-learn-google-ads", "name": "Google Ads Certification (Skillshop)", "url": "https://skillshop.withgoogle.com/", "resourceType": "course", "tags": ["google-ads"] },
+          { "id": "dm-5-learn-mailchimp", "name": "Mailchimp: Email Marketing Guide", "url": "https://mailchimp.com/resources/email-marketing-field-guide/", "resourceType": "documentation", "tags": ["email", "mailchimp"] }
+        ],
+        "practice": [
+          { "id": "dm-5-practice-google-ads", "name": "Google Skillshop: Google Ads Assessments", "url": "https://skillshop.exceedlms.com/", "resourceType": "platform", "tags": ["google-ads", "practice"] },
+          { "id": "dm-5-practice-hubspot-email", "name": "HubSpot Academy: Email Marketing Certification Exam", "url": "https://academy.hubspot.com/courses/email-marketing", "resourceType": "platform", "tags": ["email", "practice"] }
+        ],
+        "build": [
+          { "projectId": "build-an-email-drip-campaign" }
+        ],
+        "use": [
+          { "toolId": "sendgrid" },
+          { "toolId": "resend" }
+        ],
+        "deploy": [
+          { "id": "dm-5-deploy-vercel-landing", "name": "Publish an Ad Landing Page on Vercel", "url": "https://vercel.com/", "resourceType": "deployment", "tags": ["landing-page", "publish"] }
+        ],
+        "career": [
+          { "id": "dm-5-career-hubspot-cert", "name": "HubSpot Academy: Email & Ads Certifications", "url": "https://academy.hubspot.com/", "resourceType": "career", "tags": ["certification"] },
+          { "id": "dm-5-career-linkedin", "name": "LinkedIn Jobs: PPC & Email Marketing Roles", "url": "https://www.linkedin.com/jobs/", "resourceType": "career", "tags": ["jobs", "linkedin"] }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "dm-foundations", "to": "dm-seo" },
+    { "from": "dm-seo", "to": "dm-analytics" },
+    { "from": "dm-analytics", "to": "dm-social-media" },
+    { "from": "dm-social-media", "to": "dm-email-ads" }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "id": "devops",
+  "careerPathId": "devops",
+  "nodes": [
+    {
+      "id": "devops-linux-cli",
+      "title": "Linux & Command Line",
+      "order": 1,
+      "tags": ["linux", "cli", "bash"],
+      "sections": {
+        "learn": [
+          {
+            "id": "do-1-learn-linux-journey",
+            "name": "Linux Journey",
+            "url": "https://linuxjourney.com/",
+            "resourceType": "course",
+            "tags": ["linux", "cli"]
+          },
+          {
+            "id": "do-1-learn-bash-guide",
+            "name": "GNU Bash Reference Manual",
+            "url": "https://www.gnu.org/software/bash/manual/bash.html",
+            "resourceType": "documentation",
+            "tags": ["bash", "shell"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "do-1-practice-overthewire",
+            "name": "OverTheWire: Bandit",
+            "url": "https://overthewire.org/wargames/bandit/",
+            "resourceType": "challenge",
+            "tags": ["linux", "cli"]
+          }
+        ],
+        "build": [
+          { "projectId": "write-a-server-bootstrap-shell-script" },
+          { "projectId": "automate-log-rotation-with-cron" }
+        ],
+        "use": [
+          { "toolId": "linux" },
+          { "toolId": "git" }
+        ],
+        "deploy": [
+          {
+            "id": "do-1-deploy-fly",
+            "name": "Provision a Linux VM on Fly.io",
+            "url": "https://fly.io/docs/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "linux"]
+          }
+        ],
+        "career": [
+          {
+            "id": "do-1-career-roadmap",
+            "name": "roadmap.sh: DevOps",
+            "url": "https://roadmap.sh/devops",
+            "resourceType": "career",
+            "tags": ["career", "devops"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "devops-containers",
+      "title": "Containers with Docker",
+      "order": 2,
+      "tags": ["docker", "containers"],
+      "sections": {
+        "learn": [
+          {
+            "id": "do-2-learn-docker-docs",
+            "name": "Docker: Get started",
+            "url": "https://docs.docker.com/get-started/",
+            "resourceType": "documentation",
+            "tags": ["docker", "containers"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "do-2-practice-play-with-docker",
+            "name": "Play with Docker",
+            "url": "https://labs.play-with-docker.com/",
+            "resourceType": "platform",
+            "tags": ["docker", "lab"]
+          }
+        ],
+        "build": [
+          { "projectId": "dockerized-app" },
+          { "projectId": "containerize-and-ship-an-api" }
+        ],
+        "use": [
+          { "toolId": "docker" }
+        ],
+        "deploy": [
+          {
+            "id": "do-2-deploy-docker-hub",
+            "name": "Push an Image to Docker Hub",
+            "url": "https://hub.docker.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "containers"]
+          }
+        ],
+        "career": [
+          {
+            "id": "do-2-career-roadmap",
+            "name": "roadmap.sh: DevOps",
+            "url": "https://roadmap.sh/devops",
+            "resourceType": "career",
+            "tags": ["career", "devops"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "devops-ci-cd",
+      "title": "CI/CD Pipelines",
+      "order": 3,
+      "tags": ["ci-cd", "automation", "github-actions"],
+      "sections": {
+        "learn": [
+          {
+            "id": "do-3-learn-gh-actions",
+            "name": "GitHub Actions Documentation",
+            "url": "https://docs.github.com/en/actions",
+            "resourceType": "documentation",
+            "tags": ["ci-cd", "github-actions"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "do-3-practice-actions-lab",
+            "name": "GitHub Skills: Hello GitHub Actions",
+            "url": "https://github.com/skills/hello-github-actions",
+            "resourceType": "challenge",
+            "tags": ["ci-cd", "github-actions"]
+          }
+        ],
+        "build": [
+          { "projectId": "ci-cd-pipeline" },
+          { "projectId": "set-up-a-ci-cd-pipeline" }
+        ],
+        "use": [
+          { "toolId": "github-actions" },
+          { "toolId": "github" }
+        ],
+        "deploy": [
+          {
+            "id": "do-3-deploy-render",
+            "name": "Auto-Deploy from CI to Render",
+            "url": "https://render.com/docs/deploys",
+            "resourceType": "deployment",
+            "tags": ["deployment", "ci-cd"]
+          }
+        ],
+        "career": [
+          {
+            "id": "do-3-career-interview-handbook",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["interview", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "devops-orchestration",
+      "title": "Kubernetes & Orchestration",
+      "order": 4,
+      "tags": ["kubernetes", "orchestration", "containers"],
+      "sections": {
+        "learn": [
+          {
+            "id": "do-4-learn-k8s-docs",
+            "name": "Kubernetes: Documentation",
+            "url": "https://kubernetes.io/docs/home/",
+            "resourceType": "documentation",
+            "tags": ["kubernetes", "orchestration"]
+          },
+          {
+            "id": "do-4-learn-k8s-basics",
+            "name": "Kubernetes Basics interactive tutorial",
+            "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+            "resourceType": "course",
+            "tags": ["kubernetes", "interactive"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "do-4-practice-kodekloud",
+            "name": "KodeKloud: Kubernetes Labs",
+            "url": "https://kodekloud.com/free-labs/kubernetes",
+            "resourceType": "challenge",
+            "tags": ["kubernetes", "lab"]
+          }
+        ],
+        "build": [
+          { "projectId": "deploy-a-multi-service-app-on-kubernetes" },
+          { "projectId": "write-helm-charts-for-an-app" }
+        ],
+        "use": [
+          { "toolId": "kubernetes" }
+        ],
+        "deploy": [
+          {
+            "id": "do-4-deploy-k8s",
+            "name": "Deploy Workloads with Kubernetes",
+            "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "kubernetes"]
+          }
+        ],
+        "career": [
+          {
+            "id": "do-4-career-roadmap",
+            "name": "roadmap.sh: DevOps",
+            "url": "https://roadmap.sh/devops",
+            "resourceType": "career",
+            "tags": ["career", "devops"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "devops-iac-monitoring",
+      "title": "Infrastructure as Code & Monitoring",
+      "order": 5,
+      "tags": ["terraform", "iac", "monitoring", "observability"],
+      "sections": {
+        "learn": [
+          {
+            "id": "do-5-learn-terraform",
+            "name": "HashiCorp: Terraform Tutorials",
+            "url": "https://developer.hashicorp.com/terraform/tutorials",
+            "resourceType": "course",
+            "tags": ["terraform", "iac"]
+          },
+          {
+            "id": "do-5-learn-prometheus",
+            "name": "Prometheus: Getting started",
+            "url": "https://prometheus.io/docs/prometheus/latest/getting_started/",
+            "resourceType": "documentation",
+            "tags": ["monitoring", "prometheus"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "do-5-practice-kodekloud-terraform",
+            "name": "KodeKloud: Terraform Labs",
+            "url": "https://kodekloud.com/free-labs/terraform",
+            "resourceType": "challenge",
+            "tags": ["terraform", "lab"]
+          }
+        ],
+        "build": [
+          { "projectId": "infra-as-code-demo" },
+          { "projectId": "build-a-monitoring-stack-with-prometheus-grafana" }
+        ],
+        "use": [
+          { "toolId": "terraform" },
+          { "toolId": "prometheus" },
+          { "toolId": "grafana-cloud" }
+        ],
+        "deploy": [
+          {
+            "id": "do-5-deploy-terraform-cloud",
+            "name": "Manage Infrastructure with Terraform Cloud",
+            "url": "https://app.terraform.io/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "iac"]
+          }
+        ],
+        "career": [
+          {
+            "id": "do-5-career-roadmap",
+            "name": "roadmap.sh: DevOps",
+            "url": "https://roadmap.sh/devops",
+            "resourceType": "career",
+            "tags": ["career", "devops"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "devops-deploy-career",
+      "title": "Deploy & Career",
+      "order": 6,
+      "tags": ["deployment", "career", "cloud"],
+      "sections": {
+        "learn": [
+          {
+            "id": "do-6-learn-twelve-factor",
+            "name": "The Twelve-Factor App",
+            "url": "https://12factor.net/",
+            "resourceType": "article",
+            "tags": ["best-practices", "devops"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "do-6-practice-kodekloud-engineer",
+            "name": "KodeKloud: Free DevOps Labs",
+            "url": "https://kodekloud.com/free-labs/",
+            "resourceType": "challenge",
+            "tags": ["devops", "lab"]
+          }
+        ],
+        "build": [
+          { "projectId": "ci-cd-pipeline" }
+        ],
+        "use": [
+          { "toolId": "docker" },
+          { "toolId": "github-actions" }
+        ],
+        "deploy": [
+          {
+            "id": "do-6-deploy-fly",
+            "name": "Deploy on Fly.io",
+            "url": "https://fly.io/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "containers"]
+          },
+          {
+            "id": "do-6-deploy-railway",
+            "name": "Deploy on Railway",
+            "url": "https://railway.app/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "hosting"]
+          }
+        ],
+        "career": [
+          {
+            "id": "do-6-career-roadmap",
+            "name": "roadmap.sh: DevOps",
+            "url": "https://roadmap.sh/devops",
+            "resourceType": "career",
+            "tags": ["career", "devops"]
+          },
+          {
+            "id": "do-6-career-linkedin-jobs",
+            "name": "LinkedIn Jobs: DevOps Engineer Roles",
+            "url": "https://www.linkedin.com/jobs/",
+            "resourceType": "career",
+            "tags": ["jobs", "career"]
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "devops-linux-cli", "to": "devops-containers" },
+    { "from": "devops-containers", "to": "devops-ci-cd" },
+    { "from": "devops-ci-cd", "to": "devops-orchestration" },
+    { "from": "devops-orchestration", "to": "devops-iac-monitoring" },
+    { "from": "devops-iac-monitoring", "to": "devops-deploy-career" }
+  ]
+}

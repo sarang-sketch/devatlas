@@ -1,0 +1,330 @@
+{
+  "id": "cybersecurity",
+  "careerPathId": "cybersecurity",
+  "nodes": [
+    {
+      "id": "cyber-networking-foundations",
+      "title": "Networking & Systems Foundations",
+      "order": 1,
+      "tags": ["networking", "tcp-ip", "security"],
+      "sections": {
+        "learn": [
+          {
+            "id": "cy-1-learn-profcomms",
+            "name": "Professor Messer: Network+ Training",
+            "url": "https://www.professormesser.com/network-plus/n10-008/n10-008-training-course/",
+            "resourceType": "video",
+            "tags": ["networking", "comptia"]
+          },
+          {
+            "id": "cy-1-learn-cisco-netacad",
+            "name": "Cisco Networking Academy: Networking Basics",
+            "url": "https://www.netacad.com/courses/networking-basics",
+            "resourceType": "course",
+            "tags": ["networking", "cisco"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "cy-1-practice-overthewire",
+            "name": "OverTheWire: Bandit",
+            "url": "https://overthewire.org/wargames/bandit/",
+            "resourceType": "challenge",
+            "tags": ["linux", "security"]
+          },
+          {
+            "id": "cy-1-practice-tryhackme-precourse",
+            "name": "TryHackMe: Pre Security path",
+            "url": "https://tryhackme.com/",
+            "resourceType": "platform",
+            "tags": ["networking", "hands-on"]
+          }
+        ],
+        "build": [
+          { "projectId": "build-a-home-lab-network-with-virtual-machines" }
+        ],
+        "use": [
+          { "toolId": "wireshark" },
+          { "toolId": "linux" }
+        ],
+        "deploy": [
+          {
+            "id": "cy-1-deploy-tryhackme-vm",
+            "name": "Deploy and connect to a TryHackMe lab VM",
+            "url": "https://tryhackme.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "lab"]
+          }
+        ],
+        "career": [
+          {
+            "id": "cy-1-career-roadmap",
+            "name": "roadmap.sh: Cyber Security",
+            "url": "https://roadmap.sh/cyber-security",
+            "resourceType": "career",
+            "tags": ["career", "cybersecurity"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cyber-security-fundamentals",
+      "title": "Security Fundamentals",
+      "order": 2,
+      "tags": ["security", "cia-triad", "cryptography"],
+      "sections": {
+        "learn": [
+          {
+            "id": "cy-2-learn-profmesser-security",
+            "name": "Professor Messer: Security+ Training",
+            "url": "https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/",
+            "resourceType": "video",
+            "tags": ["security", "comptia"]
+          },
+          {
+            "id": "cy-2-learn-owasp",
+            "name": "OWASP Top Ten",
+            "url": "https://owasp.org/www-project-top-ten/",
+            "resourceType": "documentation",
+            "tags": ["owasp", "web-security"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "cy-2-practice-tryhackme",
+            "name": "TryHackMe: Cyber Security 101",
+            "url": "https://tryhackme.com/",
+            "resourceType": "platform",
+            "tags": ["security", "hands-on"]
+          }
+        ],
+        "build": [
+          { "projectId": "build-a-password-strength-and-hashing-tool" }
+        ],
+        "use": [
+          { "toolId": "kali-linux" },
+          { "toolId": "linux" }
+        ],
+        "deploy": [
+          {
+            "id": "cy-2-deploy-tryhackme-vm",
+            "name": "Deploy a TryHackMe practice machine",
+            "url": "https://tryhackme.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "lab"]
+          }
+        ],
+        "career": [
+          {
+            "id": "cy-2-career-roadmap",
+            "name": "roadmap.sh: Cyber Security",
+            "url": "https://roadmap.sh/cyber-security",
+            "resourceType": "career",
+            "tags": ["career", "cybersecurity"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cyber-web-app-security",
+      "title": "Web Application Security",
+      "order": 3,
+      "tags": ["web-security", "owasp", "xss", "sqli"],
+      "sections": {
+        "learn": [
+          {
+            "id": "cy-3-learn-portswigger",
+            "name": "PortSwigger: Web Security Academy",
+            "url": "https://portswigger.net/web-security",
+            "resourceType": "course",
+            "tags": ["web-security", "portswigger"]
+          },
+          {
+            "id": "cy-3-learn-owasp-wstg",
+            "name": "OWASP Web Security Testing Guide",
+            "url": "https://owasp.org/www-project-web-security-testing-guide/",
+            "resourceType": "documentation",
+            "tags": ["owasp", "testing"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "cy-3-practice-portswigger-labs",
+            "name": "PortSwigger: interactive labs",
+            "url": "https://portswigger.net/web-security/all-labs",
+            "resourceType": "challenge",
+            "tags": ["web-security", "labs"]
+          },
+          {
+            "id": "cy-3-practice-tryhackme",
+            "name": "TryHackMe",
+            "url": "https://tryhackme.com/",
+            "resourceType": "platform",
+            "tags": ["security", "hands-on"]
+          }
+        ],
+        "build": [
+          { "projectId": "vulnerability-scanner" }
+        ],
+        "use": [
+          { "toolId": "burp-suite" },
+          { "toolId": "owasp-zap" }
+        ],
+        "deploy": [
+          {
+            "id": "cy-3-deploy-juiceshop",
+            "name": "Deploy OWASP Juice Shop for security testing",
+            "url": "https://owasp.org/www-project-juice-shop/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "lab"]
+          }
+        ],
+        "career": [
+          {
+            "id": "cy-3-career-roadmap",
+            "name": "roadmap.sh: Cyber Security",
+            "url": "https://roadmap.sh/cyber-security",
+            "resourceType": "career",
+            "tags": ["career", "cybersecurity"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cyber-offensive-defensive",
+      "title": "Offensive & Defensive Security",
+      "order": 4,
+      "tags": ["pentesting", "blue-team", "red-team"],
+      "sections": {
+        "learn": [
+          {
+            "id": "cy-4-learn-hacktricks",
+            "name": "HackTricks",
+            "url": "https://book.hacktricks.xyz/",
+            "resourceType": "documentation",
+            "tags": ["pentesting", "reference"]
+          },
+          {
+            "id": "cy-4-learn-tryhackme-offensive",
+            "name": "TryHackMe: Jr Penetration Tester path",
+            "url": "https://tryhackme.com/paths",
+            "resourceType": "course",
+            "tags": ["pentesting", "red-team"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "cy-4-practice-hackthebox",
+            "name": "Hack The Box",
+            "url": "https://www.hackthebox.com/",
+            "resourceType": "platform",
+            "tags": ["pentesting", "labs"]
+          }
+        ],
+        "build": [
+          { "projectId": "build-a-vulnerability-scanner" }
+        ],
+        "use": [
+          { "toolId": "metasploit" },
+          { "toolId": "nmap" }
+        ],
+        "deploy": [
+          {
+            "id": "cy-4-deploy-hackthebox-machine",
+            "name": "Deploy and exploit a Hack The Box machine",
+            "url": "https://www.hackthebox.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "lab"]
+          }
+        ],
+        "career": [
+          {
+            "id": "cy-4-career-tryhackme-paths",
+            "name": "TryHackMe: Career paths",
+            "url": "https://tryhackme.com/paths",
+            "resourceType": "career",
+            "tags": ["career", "learning-path"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cyber-career",
+      "title": "Certifications & Career",
+      "order": 5,
+      "tags": ["career", "certifications", "compliance"],
+      "sections": {
+        "learn": [
+          {
+            "id": "cy-5-learn-nist",
+            "name": "NIST Cybersecurity Framework",
+            "url": "https://www.nist.gov/cyberframework",
+            "resourceType": "documentation",
+            "tags": ["compliance", "framework"]
+          },
+          {
+            "id": "cy-5-learn-tryhackme-soc",
+            "name": "TryHackMe: SOC Level 1 path",
+            "url": "https://tryhackme.com/paths",
+            "resourceType": "course",
+            "tags": ["blue-team", "soc"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "cy-5-practice-tryhackme",
+            "name": "TryHackMe: hands-on rooms",
+            "url": "https://tryhackme.com/",
+            "resourceType": "platform",
+            "tags": ["security", "hands-on"]
+          }
+        ],
+        "build": [
+          { "projectId": "build-a-security-incident-response-playbook" }
+        ],
+        "use": [
+          { "toolId": "linux" },
+          { "toolId": "wireshark" }
+        ],
+        "deploy": [
+          {
+            "id": "cy-5-deploy-tryhackme-vm",
+            "name": "Deploy a TryHackMe blue-team lab",
+            "url": "https://tryhackme.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "lab"]
+          }
+        ],
+        "career": [
+          {
+            "id": "cy-5-career-roadmap",
+            "name": "roadmap.sh: Cyber Security",
+            "url": "https://roadmap.sh/cyber-security",
+            "resourceType": "career",
+            "tags": ["career", "cybersecurity"]
+          },
+          {
+            "id": "cy-5-career-tryhackme-paths",
+            "name": "TryHackMe: Career paths",
+            "url": "https://tryhackme.com/paths",
+            "resourceType": "career",
+            "tags": ["career", "learning-path"]
+          },
+          {
+            "id": "cy-5-career-interview-handbook",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["career", "interview"]
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "cyber-networking-foundations", "to": "cyber-security-fundamentals" },
+    { "from": "cyber-security-fundamentals", "to": "cyber-web-app-security" },
+    { "from": "cyber-web-app-security", "to": "cyber-offensive-defensive" },
+    { "from": "cyber-offensive-defensive", "to": "cyber-career" }
+  ]
+}

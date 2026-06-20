@@ -1,0 +1,310 @@
+{
+  "id": "mobile",
+  "careerPathId": "mobile",
+  "nodes": [
+    {
+      "id": "mobile-foundations",
+      "title": "Mobile Development Foundations",
+      "order": 1,
+      "tags": ["mobile", "javascript", "dart"],
+      "sections": {
+        "learn": [
+          {
+            "id": "mo-1-learn-mdn-js",
+            "name": "MDN: JavaScript Guide",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+            "resourceType": "documentation",
+            "tags": ["javascript", "mdn"]
+          },
+          {
+            "id": "mo-1-learn-mobile-intro",
+            "name": "Google: Android Basics with Compose",
+            "url": "https://developer.android.com/courses/android-basics-compose/course",
+            "resourceType": "course",
+            "tags": ["android", "mobile"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "mo-1-practice-exercism",
+            "name": "Exercism: JavaScript track",
+            "url": "https://exercism.org/tracks/javascript",
+            "resourceType": "platform",
+            "tags": ["javascript", "practice"]
+          }
+        ],
+        "build": [
+          { "projectId": "build-a-mobile-todo-app" }
+        ],
+        "use": [
+          { "toolId": "vscode" },
+          { "toolId": "android-studio" },
+          { "toolId": "github" }
+        ],
+        "deploy": [
+          {
+            "id": "mo-1-deploy-eas-intro",
+            "name": "Expo EAS Build: Introduction",
+            "url": "https://docs.expo.dev/build/introduction/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "expo"]
+          }
+        ],
+        "career": [
+          {
+            "id": "mo-1-career-roadmap",
+            "name": "roadmap.sh: Android Developer",
+            "url": "https://roadmap.sh/android",
+            "resourceType": "career",
+            "tags": ["career", "mobile"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "mobile-react-native",
+      "title": "Cross-Platform with React Native",
+      "order": 2,
+      "tags": ["react-native", "mobile", "expo"],
+      "sections": {
+        "learn": [
+          {
+            "id": "mo-2-learn-rn-docs",
+            "name": "React Native: Getting Started",
+            "url": "https://reactnative.dev/docs/getting-started",
+            "resourceType": "documentation",
+            "tags": ["react-native", "mobile"]
+          },
+          {
+            "id": "mo-2-learn-expo",
+            "name": "Expo: Tutorial",
+            "url": "https://docs.expo.dev/tutorial/introduction/",
+            "resourceType": "course",
+            "tags": ["expo", "react-native"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "mo-2-practice-snack",
+            "name": "Expo Snack: try React Native in browser",
+            "url": "https://snack.expo.dev/",
+            "resourceType": "platform",
+            "tags": ["react-native", "playground"]
+          }
+        ],
+        "build": [
+          { "projectId": "expense-tracker-mobile" }
+        ],
+        "use": [
+          { "toolId": "expo" },
+          { "toolId": "react-native" }
+        ],
+        "deploy": [
+          {
+            "id": "mo-2-deploy-eas-build",
+            "name": "Build your first app with EAS",
+            "url": "https://docs.expo.dev/build/introduction/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "expo"]
+          }
+        ],
+        "career": [
+          {
+            "id": "mo-2-career-roadmap",
+            "name": "roadmap.sh: React Native",
+            "url": "https://roadmap.sh/react-native",
+            "resourceType": "career",
+            "tags": ["career", "react-native"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "mobile-native-apis",
+      "title": "Native APIs & Device Features",
+      "order": 3,
+      "tags": ["native", "apis", "camera", "storage"],
+      "sections": {
+        "learn": [
+          {
+            "id": "mo-3-learn-expo-sdk",
+            "name": "Expo SDK API Reference",
+            "url": "https://docs.expo.dev/versions/latest/",
+            "resourceType": "documentation",
+            "tags": ["expo", "native"]
+          },
+          {
+            "id": "mo-3-learn-rn-camera",
+            "name": "Expo Camera: documentation",
+            "url": "https://docs.expo.dev/versions/latest/sdk/camera/",
+            "resourceType": "documentation",
+            "tags": ["camera", "native"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "mo-3-practice-snack",
+            "name": "Expo Snack: experiment with device APIs",
+            "url": "https://snack.expo.dev/",
+            "resourceType": "platform",
+            "tags": ["expo", "playground"]
+          }
+        ],
+        "build": [
+          { "projectId": "photo-gallery-app" }
+        ],
+        "use": [
+          { "toolId": "expo" },
+          { "toolId": "firebase" }
+        ],
+        "deploy": [
+          {
+            "id": "mo-3-deploy-eas",
+            "name": "Submit native builds with EAS",
+            "url": "https://docs.expo.dev/build/introduction/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "expo"]
+          }
+        ],
+        "career": [
+          {
+            "id": "mo-3-career-handbook",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["interview", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "mobile-state-data",
+      "title": "State Management & Data",
+      "order": 4,
+      "tags": ["state", "data", "offline"],
+      "sections": {
+        "learn": [
+          {
+            "id": "mo-4-learn-redux",
+            "name": "Redux Toolkit: Quick Start",
+            "url": "https://redux-toolkit.js.org/tutorials/quick-start",
+            "resourceType": "documentation",
+            "tags": ["state", "redux"]
+          },
+          {
+            "id": "mo-4-learn-rn-data",
+            "name": "React Native: Networking",
+            "url": "https://reactnative.dev/docs/network",
+            "resourceType": "article",
+            "tags": ["data", "networking"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "mo-4-practice-snack",
+            "name": "Expo Snack: prototype data flows",
+            "url": "https://snack.expo.dev/",
+            "resourceType": "platform",
+            "tags": ["state", "playground"]
+          }
+        ],
+        "build": [
+          { "projectId": "expense-tracker-mobile" }
+        ],
+        "use": [
+          { "toolId": "firebase" },
+          { "toolId": "supabase" }
+        ],
+        "deploy": [
+          {
+            "id": "mo-4-deploy-supabase",
+            "name": "Deploy a Supabase backend",
+            "url": "https://supabase.com/docs/guides/getting-started",
+            "resourceType": "deployment",
+            "tags": ["deployment", "supabase"]
+          }
+        ],
+        "career": [
+          {
+            "id": "mo-4-career-linkedin",
+            "name": "LinkedIn Jobs: Mobile Developer",
+            "url": "https://www.linkedin.com/jobs/",
+            "resourceType": "career",
+            "tags": ["jobs", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "mobile-deploy-career",
+      "title": "Publish & Career",
+      "order": 5,
+      "tags": ["deployment", "app-store", "career"],
+      "sections": {
+        "learn": [
+          {
+            "id": "mo-5-learn-eas",
+            "name": "Expo Application Services (EAS) Build",
+            "url": "https://docs.expo.dev/build/introduction/",
+            "resourceType": "documentation",
+            "tags": ["deployment", "expo"]
+          },
+          {
+            "id": "mo-5-learn-play-launch",
+            "name": "Android: Launch checklist",
+            "url": "https://developer.android.com/distribute/best-practices/launch",
+            "resourceType": "article",
+            "tags": ["android", "store"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "mo-5-practice-eas-tutorial",
+            "name": "Expo: EAS Build tutorial",
+            "url": "https://docs.expo.dev/tutorial/eas/introduction/",
+            "resourceType": "challenge",
+            "tags": ["deployment", "expo"]
+          }
+        ],
+        "build": [
+          { "projectId": "photo-gallery-app" }
+        ],
+        "use": [
+          { "toolId": "expo" },
+          { "toolId": "firebase" }
+        ],
+        "deploy": [
+          {
+            "id": "mo-5-deploy-eas",
+            "name": "Build & submit with EAS",
+            "url": "https://expo.dev/eas",
+            "resourceType": "deployment",
+            "tags": ["deployment", "mobile"]
+          },
+          {
+            "id": "mo-5-deploy-play-console",
+            "name": "Google Play Console",
+            "url": "https://play.google.com/console/about/",
+            "resourceType": "deployment",
+            "tags": ["android", "store"]
+          }
+        ],
+        "career": [
+          {
+            "id": "mo-5-career-handbook",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["interview", "career"]
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "mobile-foundations", "to": "mobile-react-native" },
+    { "from": "mobile-react-native", "to": "mobile-native-apis" },
+    { "from": "mobile-native-apis", "to": "mobile-state-data" },
+    { "from": "mobile-state-data", "to": "mobile-deploy-career" }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "id": "fullstack",
+  "careerPathId": "fullstack",
+  "nodes": [
+    {
+      "id": "fullstack-frontend-foundations",
+      "title": "Frontend Foundations",
+      "order": 1,
+      "tags": ["html", "css", "javascript", "frontend"],
+      "sections": {
+        "learn": [
+          {
+            "id": "fs-1-learn-mdn-frontend",
+            "name": "MDN: Front-end web developer learning path",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn",
+            "resourceType": "documentation",
+            "tags": ["frontend", "mdn"]
+          },
+          {
+            "id": "fs-1-learn-fcc-rwd",
+            "name": "freeCodeCamp: Responsive Web Design",
+            "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+            "resourceType": "course",
+            "tags": ["css", "html"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "fs-1-practice-frontend-mentor",
+            "name": "Frontend Mentor",
+            "url": "https://www.frontendmentor.io/challenges",
+            "resourceType": "challenge",
+            "tags": ["css", "ui"]
+          }
+        ],
+        "build": [
+          { "projectId": "personal-portfolio-page" }
+        ],
+        "use": [
+          { "toolId": "vscode" },
+          { "toolId": "vite" }
+        ],
+        "deploy": [
+          {
+            "id": "fs-1-deploy-vercel",
+            "name": "Deploy a frontend on Vercel",
+            "url": "https://vercel.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "frontend"]
+          },
+          {
+            "id": "fs-1-deploy-gh-pages",
+            "name": "GitHub Pages: host static sites",
+            "url": "https://pages.github.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "static"]
+          }
+        ],
+        "career": [
+          {
+            "id": "fs-1-career-roadmap",
+            "name": "Full Stack Developer Roadmap",
+            "url": "https://roadmap.sh/full-stack",
+            "resourceType": "career",
+            "tags": ["career", "roadmap"]
+          },
+          {
+            "id": "fs-1-career-linkedin",
+            "name": "LinkedIn Jobs: full stack developer",
+            "url": "https://www.linkedin.com/jobs/",
+            "resourceType": "career",
+            "tags": ["jobs", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fullstack-backend-apis",
+      "title": "Backend & APIs",
+      "order": 2,
+      "tags": ["backend", "api", "node", "express"],
+      "sections": {
+        "learn": [
+          {
+            "id": "fs-2-learn-fcc-backend",
+            "name": "freeCodeCamp: Back End Development and APIs",
+            "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+            "resourceType": "course",
+            "tags": ["node", "api"]
+          },
+          {
+            "id": "fs-2-learn-express",
+            "name": "Express: Getting Started",
+            "url": "https://expressjs.com/en/starter/installing.html",
+            "resourceType": "documentation",
+            "tags": ["express", "node"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "fs-2-practice-postman",
+            "name": "Postman Learning Center",
+            "url": "https://learning.postman.com/",
+            "resourceType": "platform",
+            "tags": ["api", "testing"]
+          }
+        ],
+        "build": [
+          { "projectId": "rest-api-starter" }
+        ],
+        "use": [
+          { "toolId": "nodejs" },
+          { "toolId": "express" }
+        ],
+        "deploy": [
+          {
+            "id": "fs-2-deploy-railway",
+            "name": "Railway: deploy a Node.js API",
+            "url": "https://railway.app/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "api"]
+          },
+          {
+            "id": "fs-2-deploy-render",
+            "name": "Render: deploy a web service",
+            "url": "https://render.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "hosting"]
+          }
+        ],
+        "career": [
+          {
+            "id": "fs-2-career-system-design",
+            "name": "System Design Primer",
+            "url": "https://github.com/donnemartin/system-design-primer",
+            "resourceType": "career",
+            "tags": ["interview", "system-design"]
+          },
+          {
+            "id": "fs-2-career-remoteok",
+            "name": "RemoteOK: full stack jobs",
+            "url": "https://remoteok.com/",
+            "resourceType": "career",
+            "tags": ["jobs", "remote"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fullstack-databases",
+      "title": "Databases & ORMs",
+      "order": 3,
+      "tags": ["databases", "sql", "postgres", "orm"],
+      "sections": {
+        "learn": [
+          {
+            "id": "fs-3-learn-prisma",
+            "name": "Prisma: Getting Started",
+            "url": "https://www.prisma.io/docs/getting-started",
+            "resourceType": "documentation",
+            "tags": ["prisma", "orm"]
+          },
+          {
+            "id": "fs-3-learn-sqlbolt",
+            "name": "SQLBolt",
+            "url": "https://sqlbolt.com/",
+            "resourceType": "course",
+            "tags": ["sql", "interactive"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "fs-3-practice-pgexercises",
+            "name": "PostgreSQL Exercises",
+            "url": "https://pgexercises.com/",
+            "resourceType": "challenge",
+            "tags": ["sql", "postgres"]
+          },
+          {
+            "id": "fs-3-practice-sqlzoo",
+            "name": "SQLZoo: interactive SQL tutorials",
+            "url": "https://sqlzoo.net/",
+            "resourceType": "platform",
+            "tags": ["sql", "practice"]
+          }
+        ],
+        "build": [
+          { "projectId": "blog-backend" }
+        ],
+        "use": [
+          { "toolId": "supabase" },
+          { "toolId": "postgresql" }
+        ],
+        "deploy": [
+          {
+            "id": "fs-3-deploy-neon",
+            "name": "Neon: serverless Postgres hosting",
+            "url": "https://neon.tech/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "postgres"]
+          },
+          {
+            "id": "fs-3-deploy-supabase",
+            "name": "Supabase: hosted Postgres database",
+            "url": "https://supabase.com/database",
+            "resourceType": "deployment",
+            "tags": ["deployment", "database"]
+          }
+        ],
+        "career": [
+          {
+            "id": "fs-3-career-tech-interview",
+            "name": "Tech Interview Handbook: databases",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["interview", "databases"]
+          },
+          {
+            "id": "fs-3-career-resume",
+            "name": "Reactive Resume: free resume builder",
+            "url": "https://rxresu.me/",
+            "resourceType": "career",
+            "tags": ["resume", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fullstack-framework",
+      "title": "Full Stack Frameworks (Next.js)",
+      "order": 4,
+      "tags": ["nextjs", "react", "fullstack", "ssr"],
+      "sections": {
+        "learn": [
+          {
+            "id": "fs-4-learn-nextjs",
+            "name": "Next.js: Learn Next.js",
+            "url": "https://nextjs.org/learn",
+            "resourceType": "course",
+            "tags": ["nextjs", "react"]
+          },
+          {
+            "id": "fs-4-learn-react-dev",
+            "name": "React: Learn React",
+            "url": "https://react.dev/learn",
+            "resourceType": "documentation",
+            "tags": ["react", "official"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "fs-4-practice-app-router",
+            "name": "Next.js App Router playground",
+            "url": "https://nextjs.org/learn/dashboard-app",
+            "resourceType": "challenge",
+            "tags": ["nextjs", "fullstack"]
+          }
+        ],
+        "build": [
+          { "projectId": "ecommerce-storefront" },
+          { "projectId": "saas-dashboard" }
+        ],
+        "use": [
+          { "toolId": "nextjs" },
+          { "toolId": "tailwind" }
+        ],
+        "deploy": [
+          {
+            "id": "fs-4-deploy-vercel",
+            "name": "Deploy Next.js on Vercel",
+            "url": "https://vercel.com/docs/frameworks/nextjs",
+            "resourceType": "deployment",
+            "tags": ["deployment", "nextjs"]
+          },
+          {
+            "id": "fs-4-deploy-netlify",
+            "name": "Deploy Next.js on Netlify",
+            "url": "https://docs.netlify.com/frameworks/next-js/overview/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "nextjs"]
+          }
+        ],
+        "career": [
+          {
+            "id": "fs-4-career-frontend-handbook",
+            "name": "Front End Interview Handbook",
+            "url": "https://www.frontendinterviewhandbook.com/",
+            "resourceType": "career",
+            "tags": ["interview", "frontend"]
+          },
+          {
+            "id": "fs-4-career-wellfound",
+            "name": "Wellfound: startup full stack jobs",
+            "url": "https://wellfound.com/",
+            "resourceType": "career",
+            "tags": ["jobs", "startups"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fullstack-auth-state",
+      "title": "Auth & State Management",
+      "order": 5,
+      "tags": ["auth", "state", "session"],
+      "sections": {
+        "learn": [
+          {
+            "id": "fs-5-learn-authjs",
+            "name": "Auth.js (NextAuth) Documentation",
+            "url": "https://authjs.dev/getting-started",
+            "resourceType": "documentation",
+            "tags": ["auth", "nextjs"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "fs-5-practice-nextauth-tutorial",
+            "name": "Auth.js: add authentication to Next.js",
+            "url": "https://authjs.dev/getting-started/installation",
+            "resourceType": "challenge",
+            "tags": ["auth", "nextjs"]
+          },
+          {
+            "id": "fs-5-practice-clerk-quickstart",
+            "name": "Clerk: Next.js quickstart",
+            "url": "https://clerk.com/docs/quickstarts/nextjs",
+            "resourceType": "platform",
+            "tags": ["auth", "clerk"]
+          }
+        ],
+        "build": [
+          { "projectId": "auth-service" }
+        ],
+        "use": [
+          { "toolId": "clerk" },
+          { "toolId": "supabase" }
+        ],
+        "deploy": [
+          {
+            "id": "fs-5-deploy-clerk",
+            "name": "Clerk: production deployment guide",
+            "url": "https://clerk.com/docs/deployments/overview",
+            "resourceType": "deployment",
+            "tags": ["auth", "deployment"]
+          },
+          {
+            "id": "fs-5-deploy-vercel",
+            "name": "Deploy on Vercel with environment secrets",
+            "url": "https://vercel.com/docs/projects/environment-variables",
+            "resourceType": "deployment",
+            "tags": ["deployment", "secrets"]
+          }
+        ],
+        "career": [
+          {
+            "id": "fs-5-career-system-design",
+            "name": "System Design Primer: auth & sessions",
+            "url": "https://github.com/donnemartin/system-design-primer",
+            "resourceType": "career",
+            "tags": ["interview", "system-design"]
+          },
+          {
+            "id": "fs-5-career-linkedin",
+            "name": "LinkedIn Jobs: full stack developer",
+            "url": "https://www.linkedin.com/jobs/",
+            "resourceType": "career",
+            "tags": ["jobs", "career"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "fullstack-deploy-career",
+      "title": "Deploy & Career",
+      "order": 6,
+      "tags": ["deployment", "career"],
+      "sections": {
+        "learn": [
+          {
+            "id": "fs-6-learn-vercel",
+            "name": "Vercel: Deploy Next.js",
+            "url": "https://vercel.com/docs/frameworks/nextjs",
+            "resourceType": "documentation",
+            "tags": ["deployment", "nextjs"]
+          }
+        ],
+        "practice": [
+          {
+            "id": "fs-6-practice-leetcode",
+            "name": "LeetCode: coding interview practice",
+            "url": "https://leetcode.com/",
+            "resourceType": "platform",
+            "tags": ["interview", "algorithms"]
+          },
+          {
+            "id": "fs-6-practice-frontend-mentor",
+            "name": "Frontend Mentor: ship full projects",
+            "url": "https://www.frontendmentor.io/challenges",
+            "resourceType": "challenge",
+            "tags": ["portfolio", "fullstack"]
+          }
+        ],
+        "build": [
+          { "projectId": "saas-dashboard" }
+        ],
+        "use": [
+          { "toolId": "vercel" },
+          { "toolId": "github" }
+        ],
+        "deploy": [
+          {
+            "id": "fs-6-deploy-vercel",
+            "name": "Deploy on Vercel",
+            "url": "https://vercel.com/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "hosting"]
+          },
+          {
+            "id": "fs-6-deploy-railway",
+            "name": "Deploy on Railway",
+            "url": "https://railway.app/",
+            "resourceType": "deployment",
+            "tags": ["deployment", "hosting"]
+          }
+        ],
+        "career": [
+          {
+            "id": "fs-6-career-handbook",
+            "name": "Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/",
+            "resourceType": "career",
+            "tags": ["interview", "career"]
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    { "from": "fullstack-frontend-foundations", "to": "fullstack-backend-apis" },
+    { "from": "fullstack-backend-apis", "to": "fullstack-databases" },
+    { "from": "fullstack-databases", "to": "fullstack-framework" },
+    { "from": "fullstack-framework", "to": "fullstack-auth-state" },
+    { "from": "fullstack-auth-state", "to": "fullstack-deploy-career" }
+  ]
+}
