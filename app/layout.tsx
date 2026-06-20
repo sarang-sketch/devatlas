@@ -34,7 +34,11 @@ const jetbrainsMono = JetBrains_Mono({
 /**
  * Default SEO metadata applied to all routes unless overridden (Req 14.5).
  */
-export const metadata: Metadata = buildMetadata({});
+export const metadata: Metadata = {
+  ...buildMetadata({}),
+  applicationName: "DevAtlas",
+  manifest: "/manifest.webmanifest",
+};
 
 export default function RootLayout({
   children,
