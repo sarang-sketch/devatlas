@@ -17,13 +17,14 @@ const csp = [
   "default-src 'self'",
   // Next.js injects a small inline bootstrap script; 'unsafe-inline' keeps
   // hydration working without a nonce pipeline. 'unsafe-eval' only in dev.
-  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}`,
+  // Clarity requires its script host (www.clarity.ms) in production.
+  `script-src 'self' 'unsafe-inline' https://www.clarity.ms${isDev ? " 'unsafe-eval'" : ""}`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob: https:",
   "font-src 'self' data:",
   // External links navigate away (allowed); the page itself only talks to its
-  // own origin. Allow ws/wss in dev for HMR.
-  `connect-src 'self'${isDev ? " ws: wss:" : ""}`,
+  // own origin. Clarity sends data to its collection endpoint. Allow ws/wss in dev for HMR.
+  `connect-src 'self' https://www.clarity.ms${isDev ? " ws: wss:" : ""}`,
   "object-src 'none'",
   "base-uri 'self'",
   "form-action 'self'",
