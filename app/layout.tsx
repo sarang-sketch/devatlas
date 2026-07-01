@@ -101,6 +101,8 @@ export default function RootLayout({
       <head>
         {/* Google Search Console Verification */}
         <meta name="google-site-verification" content="SzQ3sLC7UVHNiRLHiWGzLdctWSKiqjAq7YxkOosjDxk" />
+        {/* Google AdSense account verification */}
+        <meta name="google-adsense-account" content="ca-pub-8613769205254730" />
         {/* Organization + WebSite structured data (schema.org) for rich results */}
         <JsonLd data={[organizationSchema(), websiteSchema()]} />
         {/* Google AdSense */}
