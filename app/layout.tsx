@@ -4,6 +4,8 @@ import { Inter, Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
 import { buildMetadata } from "@/lib/seo/metadata";
+import { organizationSchema, websiteSchema } from "@/lib/seo/structured-data";
+import { JsonLd } from "@/components/json-ld";
 import { SITE_URL } from "./sitemap";
 import { ThemeProvider } from "@/components/theme-provider";
 import { AccountProvider } from "@/components/account-provider";
@@ -99,6 +101,8 @@ export default function RootLayout({
       <head>
         {/* Google Search Console Verification */}
         <meta name="google-site-verification" content="SzQ3sLC7UVHNiRLHiWGzLdctWSKiqjAq7YxkOosjDxk" />
+        {/* Organization + WebSite structured data (schema.org) for rich results */}
+        <JsonLd data={[organizationSchema(), websiteSchema()]} />
         {/* Google AdSense */}
         <Script
           id="google-adsense"

@@ -58,6 +58,10 @@ export const DEFAULT_DESCRIPTION =
 /** A route-like value that carries optional authored metadata. */
 export interface MetadataInput {
   metadata?: RouteMetadata;
+  /** Concrete URL path for this route (e.g. `/roadmaps/frontend`). */
+  path?: string;
+  /** Registry pattern (e.g. `/roadmaps` or `/roadmaps/[slug]`). */
+  pattern?: string;
 }
 
 /** The fully resolved, valid SEO metadata for a route. */
@@ -91,12 +95,54 @@ export function resolveMetadata(route: MetadataInput): ResolvedMetadata {
 }
 
 /**
+ * Resolves the canonical URL path for a route. Returns the concrete `path`
+ * when present, otherwise the `pattern` when it is a concrete (non-dynamic)
+ * route. Dynamic patterns (containing `[param]`) and route-less inputs return
+ * `undefined` so no canonical is emitted for them.
+ */
+function resolveCanonicalPath(route: MetadataInput): string | undefined {
+  const raw = route.path ?? route.pattern;
+  if (!raw || raw.includes("[")) {
+    return undefined;
+  }
+  return raw;
+}
+
+/**
  * Builds a Next.js `Metadata` object for a route, suitable for returning from
  * a route segment's `metadata` export or `generateMetadata`.
+ *
+ * When the route resolves to a concrete canonical path, a per-page canonical
+ * URL, OpenGraph, and Twitter card are attached so each page is indexed on its
+ * own URL (rather than inheriting the site-wide homepage canonical) and shares
+ * rich social previews. Route-less inputs keep the minimal `{ title,
+ * description }` shape for backward compatibility.
  */
 export function buildMetadata(route: MetadataInput): Metadata {
   const { title, description } = resolveMetadata(route);
-  return { title, description };
+  const canonicalPath = resolveCanonicalPath(route);
+
+  if (!canonicalPath) {
+    return { title, description };
+  }
+
+  return {
+    title,
+    description,
+    alternates: { canonical: canonicalPath },
+    openGraph: {
+      type: "website",
+      siteName: BRAND,
+      title,
+      description,
+      url: canonicalPath,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
+  };
 }
 
 /**

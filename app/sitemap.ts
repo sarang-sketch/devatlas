@@ -38,9 +38,30 @@ function toAbsoluteUrl(baseUrl: string, path: string): string {
 }
 
 /**
+ * Assigns a crawl priority and change frequency based on route depth. The
+ * homepage is the most important (1.0), top-level hubs rank high (0.8), and
+ * deeper detail pages slightly lower (0.6). These are advisory signals that
+ * help crawlers budget their attention across the site.
+ */
+function crawlHints(path: string): {
+  priority: number;
+  changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"];
+} {
+  if (path === "/") {
+    return { priority: 1.0, changeFrequency: "daily" };
+  }
+  const depth = path.split("/").filter(Boolean).length;
+  if (depth <= 1) {
+    return { priority: 0.8, changeFrequency: "weekly" };
+  }
+  return { priority: 0.6, changeFrequency: "monthly" };
+}
+
+/**
  * Pure, testable sitemap builder. Maps a list of concrete routes to sitemap
  * entries, including only public routes (Req 14.4). Each entry is an absolute
- * URL under `baseUrl` with the supplied `lastModified` timestamp.
+ * URL under `baseUrl` with the supplied `lastModified` timestamp plus advisory
+ * `priority`/`changeFrequency` crawl hints derived from the route depth.
  *
  * @param routes        The concrete routes to consider (public and non-public).
  * @param baseUrl       The site origin used to build absolute URLs.
@@ -53,10 +74,15 @@ export function buildSitemap(
 ): MetadataRoute.Sitemap {
   return routes
     .filter((route) => route.isPublic)
-    .map((route) => ({
-      url: toAbsoluteUrl(baseUrl, route.path),
-      lastModified,
-    }));
+    .map((route) => {
+      const { priority, changeFrequency } = crawlHints(route.path);
+      return {
+        url: toAbsoluteUrl(baseUrl, route.path),
+        lastModified,
+        changeFrequency,
+        priority,
+      };
+    });
 }
 
 /**

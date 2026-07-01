@@ -6,6 +6,8 @@ import { loadProjects } from "@/lib/content/loaders";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { ROUTE_REGISTRY } from "@/lib/seo/routes";
 import { expandRoute } from "@/lib/seo/routes";
+import { JsonLd } from "@/components/json-ld";
+import { breadcrumbSchema, absoluteUrl } from "@/lib/seo/structured-data";
 
 // ---------------------------------------------------------------------------
 // Static params (SSG for every project id — Req 14.3)
@@ -76,6 +78,31 @@ export default async function ProjectDetailPage({ params }: PageProps) {
 
   return (
     <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col px-4 py-8 sm:px-6">
+      <JsonLd
+        data={[
+          {
+            "@context": "https://schema.org",
+            "@type": "LearningResource",
+            name: project.name,
+            description: project.description,
+            url: absoluteUrl(`/projects/${project.id}`),
+            learningResourceType: "Project",
+            educationalLevel: project.skillLevel,
+            teaches: project.learningOutcomes,
+            timeRequired: project.estimatedTime,
+            isAccessibleForFree: true,
+            provider: {
+              "@type": "Organization",
+              name: "DevAtlas",
+            },
+          },
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Projects", path: "/projects" },
+            { name: project.name, path: `/projects/${project.id}` },
+          ]),
+        ]}
+      />
       {/* Back link */}
       <Link
         href="/projects"

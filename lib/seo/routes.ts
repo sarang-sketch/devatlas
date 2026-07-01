@@ -182,9 +182,9 @@ export const ROUTE_REGISTRY: RouteDefinition[] = [
     isPublic: true,
     isDynamic: false,
     metadata: {
-      title: "Company Demand — Who's Hiring?",
+      title: "Company Hiring & Interview Prep Roadmaps",
       description:
-        "Explore which top companies are hiring developers. See roles, requirements, salaries, and get a complete learning roadmap for each position.",
+        "See which top companies are hiring — Google, Microsoft, Amazon, TCS, Infosys, and more — with roles, salaries, and free learning roadmaps.",
     },
   },
   {
@@ -192,9 +192,9 @@ export const ROUTE_REGISTRY: RouteDefinition[] = [
     isPublic: true,
     isDynamic: false,
     metadata: {
-      title: "Free Certificates for Developers",
+      title: "Free Certificates from Google, AWS & Microsoft",
       description:
-        "Discover 100+ verified free certificates from Google, Microsoft, IBM, AWS, Meta, Cisco, and top learning platforms across 11 tech fields.",
+        "Discover 100+ verified free certificates from Google, AWS, Microsoft, IBM, Meta, and Cisco across cloud, AI, cybersecurity, and data engineering.",
     },
   },
   {

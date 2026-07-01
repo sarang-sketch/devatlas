@@ -2,10 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { loadRoadmap } from "@/lib/content/loaders";
+import { loadCareerPaths } from "@/lib/content/loaders";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { ROUTE_REGISTRY, expandRoute } from "@/lib/seo/routes";
 import { RoadmapRenderer } from "@/components/roadmap-renderer";
 import { RecommendationsSection } from "@/components/recommendations-section";
+import { JsonLd } from "@/components/json-ld";
+import { breadcrumbSchema, courseSchema } from "@/lib/seo/structured-data";
 
 // ---------------------------------------------------------------------------
 // Static Generation (Req 14.3)
@@ -66,8 +69,7 @@ export default async function RoadmapPage({ params }: PageProps) {
   const result = loadRoadmap(slug);
 
   // On failure show an error message and keep the page navigable (Req 4.4)
-  if (!result.ok) {
-    return (
+  if (!result.ok) {    return (
       <div className="mx-auto flex max-w-4xl flex-col items-center gap-6 px-6 py-20 text-center">
         <h1 className="text-2xl font-bold text-foreground">
           Roadmap Unavailable
@@ -85,9 +87,49 @@ export default async function RoadmapPage({ params }: PageProps) {
 
   return (
     <div className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 py-10">
+      <RoadmapStructuredData
+        careerPathId={result.data.careerPathId}
+        slug={slug}
+      />
       <RoadmapRenderer roadmap={result.data} />
 
       <RecommendationsSection careerPathId={result.data.careerPathId} />
     </div>
+  );
+}
+
+/**
+ * Emits Course + BreadcrumbList JSON-LD for a roadmap. The roadmap's display
+ * name and description come from the matching career path so the structured
+ * data mirrors what users and crawlers see.
+ */
+function RoadmapStructuredData({
+  careerPathId,
+  slug,
+}: {
+  careerPathId: string;
+  slug: string;
+}) {
+  const careerPaths = loadCareerPaths();
+  const careerPath = careerPaths.ok
+    ? careerPaths.data.find((cp) => cp.id === careerPathId)
+    : undefined;
+
+  const name = careerPath ? `${careerPath.name} Roadmap` : "Developer Roadmap";
+  const description =
+    careerPath?.description ??
+    "A step-by-step developer learning roadmap with free tools, projects, and resources.";
+
+  return (
+    <JsonLd
+      data={[
+        courseSchema({ name, description, path: `/roadmaps/${slug}` }),
+        breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Roadmaps", path: "/roadmaps" },
+          { name, path: `/roadmaps/${slug}` },
+        ]),
+      ]}
+    />
   );
 }

@@ -4,6 +4,8 @@ import { ProjectsHub } from "@/components/projects-hub";
 import { loadProjects } from "@/lib/content/loaders";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { ROUTE_REGISTRY } from "@/lib/seo/routes";
+import { JsonLd } from "@/components/json-ld";
+import { breadcrumbSchema, itemListSchema } from "@/lib/seo/structured-data";
 
 // Per-page SEO metadata for "/projects" (Req 14.2, 14.5).
 const projectsRoute = ROUTE_REGISTRY.find((r) => r.pattern === "/projects");
@@ -28,6 +30,24 @@ export default function ProjectsPage() {
 
   return (
     <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
+      <JsonLd
+        data={[
+          itemListSchema({
+            name: "Developer Practice Projects",
+            description:
+              "Hands-on practice projects from beginner to production-grade, each with goals and a tech stack.",
+            path: "/projects",
+            items: result.data.map((project) => ({
+              name: project.name,
+              path: `/projects/${project.id}`,
+            })),
+          }),
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Projects", path: "/projects" },
+          ]),
+        ]}
+      />
       <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
         Practice Projects
       </h1>

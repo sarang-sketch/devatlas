@@ -5,6 +5,11 @@ import { ExternalLink } from "@/components/external-link";
 import { loadTools } from "@/lib/content/loaders";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { ROUTE_REGISTRY, expandRoute } from "@/lib/seo/routes";
+import { JsonLd } from "@/components/json-ld";
+import {
+  breadcrumbSchema,
+  softwareApplicationSchema,
+} from "@/lib/seo/structured-data";
 
 // ---------------------------------------------------------------------------
 // Static Generation (Req 14.3)
@@ -85,6 +90,21 @@ export default async function ToolDetailPage({ params }: PageProps) {
 
   return (
     <div className="mx-auto flex w-full max-w-4xl flex-col gap-8 px-6 py-10">
+      <JsonLd
+        data={[
+          softwareApplicationSchema({
+            name: tool.name,
+            description: tool.description,
+            path: `/tools/${tool.id}`,
+            category: tool.category,
+          }),
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Free Tools", path: "/tools" },
+            { name: tool.name, path: `/tools/${tool.id}` },
+          ]),
+        ]}
+      />
       {/* Header */}
       <div className="flex flex-col gap-4">
         <div className="flex flex-wrap items-center gap-3">

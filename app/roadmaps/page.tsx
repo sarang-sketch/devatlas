@@ -4,6 +4,8 @@ import Link from "next/link";
 import { loadCareerPaths } from "@/lib/content/loaders";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { ROUTE_REGISTRY } from "@/lib/seo/routes";
+import { JsonLd } from "@/components/json-ld";
+import { breadcrumbSchema, itemListSchema } from "@/lib/seo/structured-data";
 
 // Per-page SEO metadata for "/roadmaps" sourced from the shared route registry
 // (Req 14.2, 14.5).
@@ -38,6 +40,24 @@ export default function RoadmapsCatalogPage() {
 
   return (
     <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
+      <JsonLd
+        data={[
+          itemListSchema({
+            name: "Developer Career Roadmaps",
+            description:
+              "Step-by-step developer career roadmaps with free tools, projects, and resources.",
+            path: "/roadmaps",
+            items: careerPaths.map((path) => ({
+              name: `${path.name} Roadmap`,
+              path: `/roadmaps/${path.id}`,
+            })),
+          }),
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Roadmaps", path: "/roadmaps" },
+          ]),
+        ]}
+      />
       <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
         Developer Career Roadmaps
       </h1>
