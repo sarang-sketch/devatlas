@@ -97,6 +97,8 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
+        {/* Google Search Console Verification */}
+        <meta name="google-site-verification" content="SzQ3sLC7UVHNiRLHiWGzLdctWSKiqjAq7YxkOosjDxk" />
         {/* Google AdSense */}
         <Script
           id="google-adsense"
