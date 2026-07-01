@@ -17,14 +17,16 @@ const csp = [
   "default-src 'self'",
   // Next.js injects a small inline bootstrap script; 'unsafe-inline' keeps
   // hydration working without a nonce pipeline. 'unsafe-eval' only in dev.
-  // Clarity requires its script host (www.clarity.ms) in production.
-  `script-src 'self' 'unsafe-inline' https://www.clarity.ms${isDev ? " 'unsafe-eval'" : ""}`,
+  // Clarity + Google AdSense require their script hosts in production.
+  `script-src 'self' 'unsafe-inline' https://www.clarity.ms https://pagead2.googlesyndication.com https://partner.googleadservices.com https://tpc.googlesyndication.com https://www.googletagservices.com https://adservice.google.com${isDev ? " 'unsafe-eval'" : ""}`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob: https:",
   "font-src 'self' data:",
   // External links navigate away (allowed); the page itself only talks to its
-  // own origin. Clarity sends data to its collection endpoint. Allow ws/wss in dev for HMR.
-  `connect-src 'self' https://www.clarity.ms${isDev ? " ws: wss:" : ""}`,
+  // own origin. Clarity + AdSense send data to their endpoints. Allow ws/wss in dev for HMR.
+  `connect-src 'self' https://www.clarity.ms https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://adservice.google.com${isDev ? " ws: wss:" : ""}`,
+  // AdSense renders ads inside iframes from Google ad domains.
+  "frame-src https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://www.google.com",
   "object-src 'none'",
   "base-uri 'self'",
   "form-action 'self'",

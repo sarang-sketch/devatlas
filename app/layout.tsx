@@ -52,6 +52,14 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
+        {/* Google AdSense */}
+        <Script
+          id="google-adsense"
+          async
+          strategy="afterInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8613769205254730"
+          crossOrigin="anonymous"
+        />
         {/* Microsoft Clarity Analytics */}
         <Script
           id="clarity-analytics"
