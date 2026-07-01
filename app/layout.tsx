@@ -4,6 +4,7 @@ import { Inter, Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
 import { buildMetadata } from "@/lib/seo/metadata";
+import { SITE_URL } from "./sitemap";
 import { ThemeProvider } from "@/components/theme-provider";
 import { AccountProvider } from "@/components/account-provider";
 import { NavigationBar } from "@/components/navigation-bar";
@@ -36,8 +37,52 @@ const jetbrainsMono = JetBrains_Mono({
  */
 export const metadata: Metadata = {
   ...buildMetadata({}),
+  metadataBase: new URL(SITE_URL),
   applicationName: "DevAtlas",
   manifest: "/manifest.webmanifest",
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  keywords: [
+    "developer roadmaps",
+    "free developer tools",
+    "learn to code",
+    "coding roadmap",
+    "free certifications",
+    "programming projects",
+    "frontend roadmap",
+    "backend roadmap",
+    "web development",
+    "software engineering career",
+  ],
+  authors: [{ name: "Sarang Kadam" }],
+  creator: "Sarang Kadam",
+  openGraph: {
+    type: "website",
+    siteName: "DevAtlas",
+    title: "DevAtlas — Master Any Developer Path",
+    description:
+      "Free developer roadmaps, curated free tools, hands-on projects, free certifications, and learning resources — all in one place.",
+    url: SITE_URL,
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "DevAtlas — Master Any Developer Path",
+    description:
+      "Free developer roadmaps, free tools, projects, and certifications. Build more. Search less. Grow faster.",
+  },
 };
 
 export default function RootLayout({

@@ -27,7 +27,7 @@ export const dynamic = "force-static";
  * falls back to a stable placeholder origin for local builds and tests.
  */
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://devatlas.example";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://dev-atlas.app";
 
 /** Joins the site origin with a route path, avoiding duplicate slashes. */
 function toAbsoluteUrl(baseUrl: string, path: string): string {
